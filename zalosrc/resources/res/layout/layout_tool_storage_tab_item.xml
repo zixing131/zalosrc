@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_btn_follow"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <com.zing.zalo.p077ui.widget.RobotoTextViewStateAware
+        android:textColor="@drawable/name_subtab_text"
+        android:id="@+id/tab_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_title_media"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        style="@style/Roboto.f13"/>
+    <ImageView
+        android:id="@+id/tab_bottom_line"
+        android:background="?attr/TabSelectedColor"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tab_title"
+        android:layout_alignEnd="@+id/tab_title"/>
+    <ImageView
+        android:id="@+id/tab_red_dot"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:src="@drawable/stencils_bg_number_notif"
+        android:layout_toRightOf="@+id/tab_title"
+        android:layout_alignTop="@+id/tab_title"/>
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/background_outsite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.uicomponents.framelayout.DragToCloseLayout
+        android:id="@+id/drag_close_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zing.zalo.uicontrol.recyclerview.ZRecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/white"
+            android:id="@+id/btn_close"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/close"
+            android:textAllCaps="true"
+            style="@style/Roboto.f0"/>
+    </com.zing.zalo.uicomponents.framelayout.DragToCloseLayout>
+    <View
+        android:id="@+id/top_fake_view"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <View
+        android:id="@+id/bottom_fake_view"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

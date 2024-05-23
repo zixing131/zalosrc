@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_comment_item_header_template"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.zing.zalo.stickers.FeedStickerView
+            android:id="@+id/feed_sticker"
+            android:layout_width="@dimen/sticker_size_timeline"
+            android:layout_height="@dimen/sticker_size_timeline"
+            android:layout_marginLeft="@dimen/comment_content_padding_left"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/icon_download"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/ic_download_line_circle_24"/>
+    </LinearLayout>
+    <include layout="@layout/layout_comment_item_footer_template"/>
+</merge>

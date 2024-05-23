@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="start|center_vertical"
+    android:orientation="horizontal"
+    android:background="?attr/ui_background_selected"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+    <com.androidquery.util.RecyclingImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:scaleType="fitCenter"
+        android:tint="?attr/text_02"
+        app:srcCompatEx="@drawable/zds_ic_lock_solid_24"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f13"
+        android:textColor="?attr/text_02"
+        android:gravity="start|center_vertical"
+        android:id="@+id/story_archive_privacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:text="@string/str_story_archive_view_privacy"/>
+</LinearLayout>

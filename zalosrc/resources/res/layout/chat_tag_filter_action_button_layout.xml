@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/button_container"
+    android:background="?attr/bottom_sheet_container"
+    android:paddingLeft="24dp"
+    android:paddingTop="16dp"
+    android:paddingRight="24dp"
+    android:paddingBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.zdesign.component.Button
+        android:id="@+id/btn_clear_all_selected"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/str_btn_clear_all_selected"
+        android:layout_weight="1"
+        style="@style/ButtonMedium.SecondaryNeutral"/>
+    <com.zing.zalo.zdesign.component.Button
+        android:id="@+id/btn_apply_selected"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/str_apply_selected"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp"
+        style="@style/ButtonMedium.Primary"/>
+</LinearLayout>

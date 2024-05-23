@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.feed.components.FeedItemMemoryEntry xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/feedItemMemoryEntry"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.zinstant.ZaloZinstantLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/zinstant_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/memory_feed_skeleton_height"/>
+    <include layout="@layout/memory_feed_error_view"/>
+</com.zing.zalo.feed.components.FeedItemMemoryEntry>

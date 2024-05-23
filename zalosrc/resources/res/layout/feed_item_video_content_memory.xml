@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/feed_item_header_template"/>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:id="@+id/layoutLinkBig"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="@dimen/feed_padding_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTranslation">
+        <com.zing.zalo.zmedia.view.ZVideoView
+            android:id="@+id/zaloVideoViewBig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:controller_style="inline"/>
+    </RelativeLayout>
+</merge>

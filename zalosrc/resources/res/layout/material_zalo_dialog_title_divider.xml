@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topPanel_divider"
+    android:background="?attr/ItemSeparatorColor"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dialog_title_divider_height"
+    android:layout_marginBottom="@dimen/dialog_title_divider_bottom_margin"/>

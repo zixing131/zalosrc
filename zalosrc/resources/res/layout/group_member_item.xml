@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="?attr/selectableItemBackground"
+    android:paddingTop="8dp"
+    android:paddingBottom="12dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.AvatarImageView
+        android:id="@+id/participant_avatar"
+        android:layout_width="@dimen/avt_image_size_default"
+        android:layout_height="@dimen/avt_image_size_default"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/participant_group_owner"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="0x7f080b57"
+        android:layout_alignRight="@+id/participant_avatar"
+        android:layout_alignBottom="@+id/participant_avatar"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/SmallTextSize"
+        android:textColor="?attr/TextColor1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/participant_display_name"
+        android:paddingLeft="@dimen/standard_spacing"
+        android:paddingRight="@dimen/standard_spacing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_spacing"
+        android:singleLine="true"
+        android:layout_below="@+id/participant_avatar"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="120dp"
+    android:width="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <path
+        android:fillColor="#cce6ff"
+        android:pathData="M120,60c0,33.137 -26.863,60 -60,60S0,93.137 0,60 26.863,0 60,0s60,26.863 60,60"
+        android:fillAlpha="0.2"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/res_0x7f08026b_icon_profile_empty_video_album_detail__0"
+        android:pathData="M100.072,51.285L67.677,34.77C66.867,34.358 65.854,34.709 65.425,35.551l-17.156,33.687c-0.429,0.842 -0.117,1.869 0.693,2.281l32.395,16.514c0.811,0.413 1.824,0.062 2.253,-0.78l17.156,-33.687c0.429,-0.842 0.117,-1.869 -0.693,-2.281z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/res_0x7f08026c_icon_profile_empty_video_album_detail__1"
+        android:pathData="M67.763,38.897L97.261,53.927A0.723,0.723 72,0 1,97.577 54.9L85.709,78.193A0.723,0.723 72,0 1,84.736 78.508L55.238,63.478A0.723,0.723 72,0 1,54.922 62.506L66.79,39.213A0.723,0.723 72,0 1,67.763 38.897z"
+        android:fillType="evenOdd"/>
+    <group>
+        <clip-path android:pathData="M67.763,38.897L97.261,53.927A0.723,0.723 72,0 1,97.577 54.9L85.709,78.193A0.723,0.723 72,0 1,84.736 78.508L55.238,63.478A0.723,0.723 72,0 1,54.922 62.506L66.79,39.213A0.723,0.723 72,0 1,67.763 38.897z"/>
+        <path
+            android:fillColor="#fff"
+            android:pathData="M65.68,53.855a9.067,9.037 117.001,1 0,16.104 8.205a9.067,9.037 117.001,1 0,-16.104 -8.205z"
+            android:strokeAlpha="0.167"
+            android:fillAlpha="0.167"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080277_icon_profile_empty_video_album_detail__2"
+            android:pathData="M71.043,53.558a4.8,4.784 117.001,1 0,8.525 4.344a4.8,4.784 117.001,1 0,-8.525 -4.344z"
+            android:strokeAlpha="0.598"
+            android:fillAlpha="0.598"
+            android:fillType="evenOdd"/>
+    </group>
+    <group>
+        <clip-path android:pathData="M67.763,38.897L97.261,53.927A0.723,0.723 72,0 1,97.577 54.9L85.709,78.193A0.723,0.723 72,0 1,84.736 78.508L55.238,63.478A0.723,0.723 72,0 1,54.922 62.506L66.79,39.213A0.723,0.723 72,0 1,67.763 38.897z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080280_icon_profile_empty_video_album_detail__3"
+            android:pathData="M53.11,66.267c7.331,-4.645 11.779,-6.568 13.344,-5.771 2.348,1.196 6.678,15.973 6.441,15.852L53.11,66.267z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080281_icon_profile_empty_video_album_detail__4"
+            android:pathData="M61.883,70.737C72.555,64.602 78.958,62.077 81.088,63.162c2.132,1.086 4.753,9.533 4.874,14.739 -1.107,2.173 -1.953,4.109 -2.065,4.052L61.883,70.737z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080282_icon_profile_empty_video_album_detail__5"
+            android:pathData="M53.11,66.267L54.279,63.973C60.745,61.084 64.544,59.843 66.175,60.353c-2.972,7.943 -2.863,11.112 -1.913,11.596L53.11,66.267z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080283_icon_profile_empty_video_album_detail__6"
+            android:pathData="M61.883,70.737C72.717,64.285 79.119,61.761 81.088,63.162c1.8,13.175 -5.102,14.76 -3.789,15.43L61.883,70.737z"
+            android:fillType="evenOdd"/>
+    </group>
+    <group>
+        <clip-path android:pathData="M67.763,38.897L97.261,53.927A0.723,0.723 72,0 1,97.577 54.9L85.709,78.193A0.723,0.723 72,0 1,84.736 78.508L55.238,63.478A0.723,0.723 72,0 1,54.922 62.506L66.79,39.213A0.723,0.723 72,0 1,67.763 38.897z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080284_icon_profile_empty_video_album_detail__7"
+            android:pathData="M61.883,70.737C72.717,64.284 79.119,61.76 81.087,63.161c1.8,13.174 -5.102,14.76 -3.79,15.429L61.883,70.736z"
+            android:fillType="evenOdd"/>
+    </group>
+    <path
+        android:fillColor="@drawable/res_0x7f080285_icon_profile_empty_video_album_detail__8"
+        android:pathData="M55.552,35.371L21.607,48.333c-0.849,0.324 -1.264,1.31 -0.924,2.194l13.619,35.292c0.341,0.882 1.314,1.338 2.162,1.015l33.947,-12.961c0.848,-0.324 1.264,-1.311 0.923,-2.194l-13.62,-35.293c-0.34,-0.882 -1.313,-1.338 -2.162,-1.015z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/res_0x7f080286_icon_profile_empty_video_album_detail__9"
+        android:pathData="M54.593,40.293L25.853,50.754A1.385,1.385 115,0 0,25.025 52.529L33.169,74.906A1.385,1.385 115,0 0,34.944 75.734L63.685,65.273A1.385,1.385 115,0 0,64.513 63.498L56.368,41.121A1.385,1.385 115,0 0,54.593 40.293z"
+        android:fillType="evenOdd"/>
+    <group>
+        <clip-path android:pathData="M54.593,40.293L25.853,50.754A1.385,1.385 115,0 0,25.025 52.529L33.169,74.906A1.385,1.385 115,0 0,34.944 75.734L63.685,65.273A1.385,1.385 115,0 0,64.513 63.498L56.368,41.121A1.385,1.385 115,0 0,54.593 40.293z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f08026d_icon_profile_empty_video_album_detail__10"
+            android:pathData="M63.264,62.366c-2.22,-0.129 -4.694,-0.082 -7.422,0.138 -2.695,0.218 -4.825,2.735 -8.174,5.772 -4.516,-0.173 -7.767,-0.733 -9.972,0.833 -2.232,1.585 -4.157,3.14 -5.776,4.666l1.898,5.215L65.162,67.581l-1.898,-5.215z"
+            android:fillType="evenOdd"/>
+    </group>
+    <group>
+        <clip-path android:pathData="M54.593,40.293L25.853,50.754A1.385,1.385 115,0 0,25.025 52.529L33.169,74.906A1.385,1.385 115,0 0,34.944 75.734L63.685,65.273A1.385,1.385 115,0 0,64.513 63.498L56.368,41.121A1.385,1.385 115,0 0,54.593 40.293z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f08026e_icon_profile_empty_video_album_detail__11"
+            android:pathData="M37.192,60.472L46.592,57.051c1.187,-0.432 2.492,0.161 2.916,1.326l1.535,4.216c0.424,1.165 -0.195,2.459 -1.382,2.891L39.187,69.295c-1.187,0.432 -2.493,-0.162 -2.917,-1.326L35.12,64.807c-0.636,-1.747 0.292,-3.687 2.072,-4.335z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/res_0x7f08026f_icon_profile_empty_video_album_detail__12"
+            android:pathData="M35.695,66.388l0.538,-0.196c0.297,-0.108 0.623,0.039 0.729,0.331 0.106,0.291 -0.049,0.615 -0.346,0.723L36.079,67.442L35.695,66.388z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080270_icon_profile_empty_video_album_detail__13"
+            android:pathData="M40.614,60.718L42.786,59.928A0.559,0.559 115,0 1,43.503 60.262L43.888,61.319A0.559,0.559 115,0 1,43.553 62.035L41.381,62.826A0.559,0.559 115,0 1,40.664 62.492L40.28,61.435A0.559,0.559 115,0 1,40.614 60.718z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080271_icon_profile_empty_video_album_detail__14"
+            android:pathData="M45.18,59.056L47.352,58.266A0.559,0.559 115,0 1,48.069 58.6L48.453,59.657A0.559,0.559 115,0 1,48.119 60.373L45.947,61.164A0.559,0.559 115,0 1,45.23 60.83L44.846,59.773A0.559,0.559 115,0 1,45.18 59.056z"
+            android:fillType="nonZero"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080272_icon_profile_empty_video_album_detail__15"
+            android:pathData="M39.725,69.1a1.122,1.143 70,1 0,2.148 -0.782a1.122,1.143 70,1 0,-2.148 0.782z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080273_icon_profile_empty_video_album_detail__16"
+            android:pathData="M47.244,66.363a1.122,1.143 70,1 0,2.148 -0.782a1.122,1.143 70,1 0,-2.148 0.782z"
+            android:fillType="nonZero"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080274_icon_profile_empty_video_album_detail__17"
+            android:pathData="M39.59,62.882L39.206,61.828c-0.106,-0.291 -0.432,-0.44 -0.728,-0.332L35.058,62.74c-0.202,0.68 -0.18,1.404 0.062,2.067l0.096,0.263l4.029,-1.467c0.296,-0.108 0.451,-0.43 0.345,-0.722z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080275_icon_profile_empty_video_album_detail__18"
+            android:pathData="M42.162,54.907l2.687,-0.978c0.593,-0.216 1.246,0.081 1.458,0.663l0.192,0.526L41.663,56.879l-0.192,-0.526c-0.212,-0.583 0.097,-1.229 0.691,-1.446z"
+            android:fillType="nonZero"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080276_icon_profile_empty_video_album_detail__19"
+            android:pathData="M37.999,54.333L39.611,53.747c0.445,-0.162 0.934,0.061 1.093,0.497l0.959,2.636l-3.223,1.173L37.48,55.416c-0.159,-0.436 0.074,-0.922 0.519,-1.084z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="#f8f8f8"
+            android:pathData="M39.477,55.885m-0.94,0.342a1,1 49.373,1 1,1.879 -0.684a1,1 49.373,1 1,-1.879 0.684"
+            android:strokeAlpha="0.3"
+            android:fillAlpha="0.3"
+            android:fillType="nonZero"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080278_icon_profile_empty_video_album_detail__20"
+            android:pathData="M35.793,56.628l1.879,-0.684l0.767,2.109L35.219,59.225l-0.288,-0.791c-0.265,-0.727 0.122,-1.536 0.864,-1.807z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080279_icon_profile_empty_video_album_detail__21"
+            android:pathData="M36.183,68.598L37.818,68.003A0.559,0.559 115,0 1,38.534 68.337L38.535,68.341A0.559,0.559 115,0 1,38.201 69.057L36.566,69.652A0.559,0.559 115,0 1,35.85 69.318L35.848,69.315A0.559,0.559 115,0 1,36.183 68.598z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/res_0x7f08027a_icon_profile_empty_video_album_detail__22"
+            android:pathData="M48.318,65.972m-0.94,0.342a1,1 68.511,1 1,1.879 -0.684a1,1 68.511,1 1,-1.879 0.684"
+            android:fillType="nonZero"/>
+        <path
+            android:fillColor="@drawable/res_0x7f08027b_icon_profile_empty_video_album_detail__23"
+            android:pathData="M40.799,68.709m-0.94,0.342a1,1 102.835,1 1,1.879 -0.684a1,1 102.835,1 1,-1.879 0.684"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/res_0x7f08027c_icon_profile_empty_video_album_detail__24"
+            android:pathData="M40.472,66.142L39.936,66.337c-0.148,0.054 -0.312,-0.021 -0.365,-0.165 -0.053,-0.147 0.024,-0.308 0.173,-0.362l0.537,-0.195c0.148,-0.054 0.312,0.02 0.365,0.165 0.053,0.146 -0.025,0.307 -0.173,0.361z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/res_0x7f08027d_icon_profile_empty_video_album_detail__25"
+            android:pathData="M42.621,65.36l-0.538,0.196c-0.148,0.054 -0.312,-0.021 -0.365,-0.165 -0.053,-0.147 0.024,-0.308 0.173,-0.362l0.538,-0.196c0.148,-0.054 0.312,0.02 0.365,0.165 0.053,0.146 -0.025,0.307 -0.173,0.361z"
+            android:fillType="nonZero"/>
+        <path
+            android:fillColor="@drawable/res_0x7f08027e_icon_profile_empty_video_album_detail__26"
+            android:pathData="M33.07,60.008l15.04,-5.474c0.212,0.583 -0.098,1.229 -0.691,1.444L34.526,60.67c-0.592,0.215 -1.245,-0.081 -1.457,-0.663z"
+            android:fillType="evenOdd"/>
+    </group>
+    <path
+        android:fillColor="#000"
+        android:pathData="M80.135,31h-39C40.162,31 39.363,31.83 39.363,32.843v40.54c0,1.013 0.798,1.842 1.773,1.842h38.999c0.975,0 1.772,-0.829 1.772,-1.842L81.907,32.843C81.907,31.829 81.11,31 80.135,31z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#fff"
+        android:pathData="M80.135,31h-39C40.162,31 39.363,31.83 39.363,32.843v40.54c0,1.013 0.798,1.842 1.773,1.842h38.999c0.975,0 1.772,-0.829 1.772,-1.842L81.907,32.843C81.907,31.829 81.11,31 80.135,31z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/res_0x7f08027f_icon_profile_empty_video_album_detail__27"
+        android:pathData="M43.898,33.929L77.734,33.929A2,2 0,0 1,79.734 35.929L79.734,62.217A2,2 0,0 1,77.734 64.217L43.898,64.217A2,2 0,0 1,41.898 62.217L41.898,35.929A2,2 0,0 1,43.898 33.929z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#fff"
+        android:pathData="M66.327,47.807c0.761,0.499 0.761,1.746 0,2.244l-4.357,2.852 -4.357,2.85c-0.762,0.5 -1.715,-0.124 -1.715,-1.121L55.898,43.226c0,-0.997 0.953,-1.62 1.715,-1.122l4.357,2.852 4.357,2.851z"
+        android:fillType="evenOdd"/>
+</vector>

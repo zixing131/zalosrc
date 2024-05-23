@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:descendantFocusability="beforeDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.ZAppCompatImageView
+        android:id="@+id/image_error"
+        android:layout_width="169dp"
+        android:layout_height="164dp"
+        android:layout_marginTop="66dp"
+        android:contentDescription="Image"
+        app:srcCompatEx="@drawable/im_connect"/>
+    <TextView
+        android:textSize="16dp"
+        android:textStyle="normal"
+        android:textColor="#3e444b"
+        android:id="@+id/error_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/unknown_error"/>
+    <Button
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/btn_refresh"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="21dp"
+        android:minWidth="80dp"
+        android:text="@string/tap_to_retry"/>
+</LinearLayout>

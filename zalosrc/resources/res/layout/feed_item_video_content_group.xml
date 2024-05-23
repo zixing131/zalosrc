@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tf="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/feed_item_header_group_template"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="13dp"
+        android:textColor="?attr/TextColor2"
+        android:ellipsize="end"
+        android:gravity="top"
+        android:id="@+id/tvTagString"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/feed_content_padding"
+        android:layout_marginRight="@dimen/feed_content_padding"
+        android:layout_above="@+id/imvMediaThumb"
+        android:layout_below="@+id/bg_feed_view"
+        android:layout_alignParentLeft="true"/>
+    <com.zing.zalo.videoplayer.VideoThumbnailView
+        android:layout_gravity="left"
+        android:id="@+id/imvMediaThumb"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="@dimen/feed_content_padding"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="@dimen/feed_content_padding"
+        android:scaleType="centerCrop"
+        android:layout_above="@+id/feedItemFooterActionBar"
+        tf:video_play_icon="0x7f080d9e"/>
+    <include layout="@layout/feed_item_footer_content"/>
+</merge>

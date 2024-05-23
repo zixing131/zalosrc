@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.zdesign.component.TrackingFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bt_post_feed_container"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.zdesign.component.Button
+        android:layout_gravity="center"
+        android:id="@+id/bt_post_feed"
+        android:background="@color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_post"
+        style="@style/ButtonMedium.Tertiary"/>
+</com.zing.zalo.zdesign.component.TrackingFrameLayout>

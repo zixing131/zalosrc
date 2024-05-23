@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ProgressBar
+        android:theme="@style/CircularProgress"
+        android:id="@+id/holoCircularProgressBar"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:indeterminate="true"
+        android:indeterminateDuration="1500"
+        android:indeterminateBehavior="repeat"
+        android:layout_centerInParent="true"
+        style="@style/ProgressBarCircleNormal"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="16dp"
+        android:textColor="?attr/TextColor1"
+        android:id="@+id/progress_text"
+        android:paddingTop="5dp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading"
+        android:layout_below="@+id/holoCircularProgressBar"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

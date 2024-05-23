@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_action_bar"/>
+    <com.zing.p058v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/zalo_action_bar">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_product_manage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.zing.p058v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

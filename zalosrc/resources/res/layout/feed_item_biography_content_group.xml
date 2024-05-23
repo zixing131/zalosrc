@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/feed_item_header_group_template"/>
+    <com.zing.zalo.p077ui.widget.AspectRatioImageView
+        android:id="@+id/imv_photo"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_spacing"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_above="@+id/layoutFeedItemFooter"
+        android:layout_below="@+id/bg_feed_view"/>
+    <com.zing.zalo.p077ui.widget.AspectRatioImageView
+        android:id="@+id/overlay_bio"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_alignLeft="@+id/imv_photo"
+        android:layout_alignTop="@+id/imv_photo"
+        android:layout_alignRight="@+id/imv_photo"
+        android:layout_alignBottom="@+id/imv_photo"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f9s"
+        android:textColor="@color/white"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/tv_bio"
+        android:paddingLeft="@dimen/feed_padding_left"
+        android:paddingRight="@dimen/feed_padding_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="5"
+        android:layout_alignLeft="@+id/imv_photo"
+        android:layout_alignTop="@+id/imv_photo"
+        android:layout_alignRight="@+id/imv_photo"
+        android:layout_alignBottom="@+id/imv_photo"/>
+    <include layout="@layout/feed_item_footer_content"/>
+</merge>

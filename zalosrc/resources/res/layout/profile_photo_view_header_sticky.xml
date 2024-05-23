@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sticky_header_background"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:paddingLeft="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/TextColor1"
+        android:id="@+id/tv_sticky_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tháng 7, 2020"
+        android:maxLines="1"
+        android:layout_centerVertical="true"
+        style="@style/Roboto.f13b"/>
+</RelativeLayout>

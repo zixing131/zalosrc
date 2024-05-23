@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/stencils_bg_white_with_press_state"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f13"
+        android:textColor="@color/gray_color1"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/msg_item_padding_l_r"
+        android:paddingTop="8dp"
+        android:paddingRight="@dimen/msg_item_padding_l_r"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/btn_see_more"
+        android:drawableRight="@drawable/ic_head_next"
+        android:layout_below="@+id/separate_line"
+        app:fstyle="medium"/>
+</RelativeLayout>

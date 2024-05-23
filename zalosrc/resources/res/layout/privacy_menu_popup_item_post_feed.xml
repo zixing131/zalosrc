@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.moduleview.privacy.PrivacyRowModuleView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chat_info_setting_item_row"
+    android:background="@drawable/stencils_contact_bg"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="56dp"/>

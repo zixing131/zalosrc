@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/app_name"
+    android:icon="0x7f080f7c"
+    android:accountType="com.zing.zalo"
+    android:smallIcon="0x7f080f7c"/>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="64dp"
+    android:width="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <path
+        android:fillColor="@drawable/res_0x7f080231_icn_toolbar_more_calendar__0"
+        android:pathData="M32,32m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M22.5,18L22.5,21C22.5,22.3807 23.6193,23.5 25,23.5C26.3807,23.5 27.5,22.3807 27.5,21L27.5,21L27.5,18L36.499,18L36.5,21C36.5,22.3255 37.5315,23.41 38.8356,23.4947L39,23.5C40.3807,23.5 41.5,22.3807 41.5,21L41.5,21L41.499,18L43,18C44.6569,18 46,19.3431 46,21L46,43C46,44.6569 44.6569,46 43,46L21,46C19.3431,46 18,44.6569 18,43L18,21C18,19.3431 19.3431,18 21,18L22.5,18ZM44,26L20,26L20,43C20,43.5128 20.386,43.9355 20.8834,43.9933L21,44L43,44C43.5128,44 43.9355,43.614 43.9933,43.1166L44,43L44,26Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M25,16L25,16A1,1 0,0 1,26 17L26,21A1,1 0,0 1,25 22L25,22A1,1 0,0 1,24 21L24,17A1,1 0,0 1,25 16z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M39,16L39,16A1,1 0,0 1,40 17L40,21A1,1 0,0 1,39 22L39,22A1,1 0,0 1,38 21L38,17A1,1 0,0 1,39 16z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M35,35h6v6h-6z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

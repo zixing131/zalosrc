@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/container_landing_page"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_action_bar"/>
+    <com.zing.zalo.social.widget.CustomScrollView
+        android:id="@+id/photo_scroll_view"
+        android:fadingEdgeLength="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_below="@+id/zalo_action_bar">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/preview_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.zing.zalo.feed.uicontrols.FeedGridModulesView
+                android:id="@+id/photo_preview_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.zing.zalo.zdesign.component.Button
+                android:id="@+id/btn_photo_grid_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/str_fpf_add_photo"
+                app:btnSupportiveIcon="@drawable/zds_ic_plus_line_16"
+                app:btnSupportiveIconPosition="leading"
+                style="@style/ButtonSmall.SecondaryNeutral"/>
+        </LinearLayout>
+    </com.zing.zalo.social.widget.CustomScrollView>
+    <com.zing.zalo.p077ui.widget.layout.FixUsableHeightFrameLayout
+        android:id="@+id/quick_picker_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:package="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/zch_bg_ripple_rectangle"
+    android:paddingLeft="16dp"
+    android:paddingTop="12dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="12dp">
+    <ImageView
+        android:id="@+id/icoSearch"
+        android:layout_width="24dp"
+        android:layout_height="24dp"/>
+    <com.zing.zalo.shortvideo.p072ui.widget.tv.EllipsizedTextView
+        android:textSize="15dp"
+        android:textColor="@color/zch_text_primary"
+        android:ellipsize="end"
+        android:id="@+id/txtCompletion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:maxLines="1"
+        android:includeFontPadding="false"
+        android:layout_weight="1"
+        package:zchFontStyle="medium"/>
+</LinearLayout>

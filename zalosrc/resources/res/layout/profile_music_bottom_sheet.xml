@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.uicontrol.ProfileMusicPlayerView
+        android:id="@+id/player_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.zing.zalo.p077ui.zviews.multistate.MultiStateView
+        android:id="@+id/multi_state"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/profile_music_popup_h"
+        app:msvErrorLayout="@layout/profile_music_popup_error_view"/>
+</FrameLayout>

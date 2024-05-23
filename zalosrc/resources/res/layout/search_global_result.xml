@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/layout_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.p077ui.searchglobal.widget.SearchGlobalTabLayout
+        android:id="@+id/tab_section"
+        android:background="?attr/PrimaryBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_tab_all_result_search"/>
+    <com.zing.zalo.p077ui.widget.viewpager.SmoothScrollerViewPager
+        android:id="@+id/search_view_pager"
+        android:background="?attr/SecondaryBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</merge>

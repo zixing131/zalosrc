@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f0"
+        android:textColor="?attr/TextColor1"
+        android:gravity="center"
+        android:id="@+id/bubble_date"
+        android:background="@drawable/fast_scroll_bubble"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="10dp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="51dp"
+        android:text=""
+        android:layout_alignParentRight="true"
+        android:elevation="5dp"
+        style="@style/Roboto.f13b"/>
+</merge>

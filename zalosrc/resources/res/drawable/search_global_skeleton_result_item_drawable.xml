@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="72dp"
+    android:width="290dp"
+    android:viewportWidth="290"
+    android:viewportHeight="72">
+    <path
+        android:name="progressThumb"
+        android:fillColor="?attr/ImagePlaceHolderColor"
+        android:pathData="M86,18.802L269,18.802A6,6 0,0 1,275 24.802L275,26.802A6,6 0,0 1,269 32.802L86,32.802A6,6 0,0 1,80 26.802L80,24.802A6,6 0,0 1,86 18.802z"
+        android:strokeWidth="0"/>
+    <path
+        android:name="progressName"
+        android:fillColor="?attr/ImagePlaceHolderColor"
+        android:pathData="M87.349,39L215.349,39A6,6 0,0 1,221.349 45L221.349,47A6,6 0,0 1,215.349 53L87.349,53A6,6 0,0 1,81.349 47L81.349,45A6,6 0,0 1,87.349 39z"
+        android:strokeWidth="0"/>
+    <path
+        android:name="progressSubName"
+        android:fillColor="?attr/ImagePlaceHolderColor"
+        android:pathData="M16,36a24,24 0,1 0,48 0a24,24 0,1 0,-48 0z"
+        android:strokeWidth="0"/>
+</vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.widget.recyclerview.SlidingTabRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_indicator"
+    android:background="?attr/ui_background"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/sticker_panel_indicator_height"/>

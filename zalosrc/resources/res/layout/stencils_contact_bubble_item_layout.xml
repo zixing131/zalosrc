@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.bubbleview.LayoutBubbleView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="36dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="14dp"
+            android:textColor="@color/chip_itemtext_colorstate"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@+id/tvdpn"
+            android:background="@drawable/stencils_bubble_background"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="3dp"
+            android:maxWidth="200dp"
+            android:minWidth="48dp"
+            android:maxLines="1"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgClose"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-6dp"
+            android:layout_marginRight="-3dp"
+            android:src="@drawable/icn_remove"
+            android:layout_alignTop="@+id/tvdpn"
+            android:layout_alignRight="@+id/tvdpn"
+            android:elevation="3dp"/>
+    </RelativeLayout>
+</com.zing.zalo.bubbleview.LayoutBubbleView>

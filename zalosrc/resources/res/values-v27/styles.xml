@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeDefault.MP.Dark" parent="@style/ThemeDefault.Dark">
+        <item name="android:windowBackground">@drawable/mini_app_splash_bg_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:colorPrimaryDark">#00000000</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="PopupBackgroundColor">@color/Light_PopupBackgroundColor</item>
+    </style>
+    <style name="ThemeDefault.MP.Light" parent="@style/ThemeDefault.Light">
+        <item name="android:windowBackground">@drawable/mini_app_splash_bg_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:colorPrimaryDark">#00000000</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="PopupBackgroundColor">@color/Light_PopupBackgroundColor</item>
+    </style>
+</resources>

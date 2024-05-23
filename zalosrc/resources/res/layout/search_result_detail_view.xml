@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/root_backgroundmain"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:selectAllOnFocus="false">
+    <include layout="@layout/layout_action_bar"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lv_search"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <com.zing.zalo.p077ui.zviews.multistate.MultiStateView
+        android:id="@+id/multi_state"
+        android:background="?attr/PrimaryBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:msvEmptyLayout="@layout/layout_empty_state"
+        app:msvErrorLayout="@layout/layout_error_state"/>
+</LinearLayout>

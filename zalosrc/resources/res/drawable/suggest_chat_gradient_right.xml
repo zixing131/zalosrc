@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:startColor="?attr/suggest_sticker_gradient_begin_color"
+        android:endColor="?attr/suggest_sticker_gradient_end_color"
+        android:angle="180"
+        android:centerX="0.337"
+        android:centerColor="?attr/suggest_sticker_gradient_center_color"/>
+</shape>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="?attr/selectableItemBackground"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/manage_group_link_function_btn_img"
+        android:layout_width="36dp"
+        android:layout_height="36dp"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="13dp"
+        android:textColor="?attr/TextColor1"
+        android:gravity="center_horizontal"
+        android:id="@+id/manage_group_link_function_btn_text"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

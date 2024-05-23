@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/text_header_list_margin_l"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="56dp">
+        <CheckBox
+            android:layout_gravity="center_vertical"
+            android:id="@+id/checkbox"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/mat_btn_radio_circle"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="@dimen/f5"
+            android:textColor="?attr/TextColor1"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_header_list_margin_l"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/separate"
+        android:background="?attr/ItemSeparatorColor"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+</LinearLayout>

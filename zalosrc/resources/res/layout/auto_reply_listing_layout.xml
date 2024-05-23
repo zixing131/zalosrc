@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/page_background_01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.zdesign.component.header.ZdsActionBar
+        android:id="@+id/zds_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:idTrailingButton="plus_button"
+        app:leadingType="back"
+        app:middleTitleText="@string/str_auto_reply_listing_title"
+        app:middleType="title"
+        app:trailingIconButton="@drawable/ic_plus_line_24"
+        app:trailingType="icon"
+        style="@style/BlueZdsActionBar.AppType"/>
+    <com.zing.zalo.uicontrol.SwipeRefreshListView
+        android:id="@+id/rv_auto_reply_list"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/zds_action_bar"
+        app:modeContent="recycleview"/>
+</RelativeLayout>

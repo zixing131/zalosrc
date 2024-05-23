@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zing.zalo.p077ui.settings.widget.ListItemSetting
+        android:id="@+id/itemUpdateContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/str_setting_update_phonebook"/>
+    <com.zing.zalo.p077ui.settings.widget.ListItemSetting
+        android:id="@+id/itemShowContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/str_setting_show_activefriend"/>
+    <View
+        android:background="?attr/SecondaryBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/section_label"
+        android:background="@drawable/bg_list_item_normal"
+        android:paddingLeft="16dp"
+        android:paddingTop="12dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_section_friend_request_src"
+        style="@style/t_small_m"/>
+    <com.zing.zalo.p077ui.settings.widget.ListItemSetting
+        android:id="@+id/itemAutoFriend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:subtitle="@string/setting_privacy_auto_add_friend_description"
+        app:title="@string/setting_privacy_auto_add_friend_from_native_phone_book"/>
+    <com.zing.zalo.p077ui.settings.widget.ListItemSetting
+        android:id="@+id/itemSourceFriend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/setting_privacy_manage_friend_request_src"/>
+    <View
+        android:background="?attr/SecondaryBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"/>
+</merge>

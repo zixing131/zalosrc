@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="?attr/TextColor1"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/str_calendar_tip_dialog_title"
+        android:includeFontPadding="false"
+        android:textAlignment="center"
+        app:fstyle="medium"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="16dp"
+        android:textColor="?attr/TextColor1"
+        android:gravity="center_vertical"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/str_calendar_tip_dialog_msg"
+        android:includeFontPadding="false"
+        android:textAlignment="center"
+        android:paddingHorizontal="18dp"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:srcCompat="?attr/decor_calendar_tip"/>
+</LinearLayout>

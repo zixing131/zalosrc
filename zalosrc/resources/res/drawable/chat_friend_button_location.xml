@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="54dp"
+    android:width="54dp"
+    android:viewportWidth="54"
+    android:viewportHeight="54">
+    <path
+        android:fillColor="@drawable/res_0x7f080028_chat_friend_button_location__0"
+        android:pathData="M27,27m-27,0a27,27 0,1 1,54 0a27,27 0,1 1,-54 0"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M27,13C33.0754,13 38,18.0732 38,24.3319C38,30.9973 27.7217,40.3183 27.7217,40.3183C27.3231,40.6948 26.6708,40.6934 26.2783,40.3185C26.2783,40.3185 16,31.0015 16,24.3319C16,18.0732 20.9246,13 27,13ZM26.9998,25C24.7926,25 23.1606,26.0643 22.104,28.1928C22.0182,28.3657 21.9735,28.556 21.9735,28.749C21.9735,29.4399 22.5336,30 23.2245,30L23.2245,30L30.7752,30C30.9682,30 31.1585,29.9553 31.3314,29.8695C31.9502,29.5624 32.2029,28.8117 31.8957,28.1928C30.8391,26.0643 29.2071,25 26.9998,25ZM27,19C25.6193,19 24.5,20.1193 24.5,21.5C24.5,22.8807 25.6193,24 27,24C28.3807,24 29.5,22.8807 29.5,21.5C29.5,20.1193 28.3807,19 27,19Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

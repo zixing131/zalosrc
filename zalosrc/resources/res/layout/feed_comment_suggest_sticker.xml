@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sticker_container"
+    android:clickable="true"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true">
+    <com.zing.zalo.stickers.FeedStickerView
+        android:id="@+id/feed_sticker"
+        android:layout_width="@dimen/feed_comment_input_box_height"
+        android:layout_height="@dimen/feed_comment_input_box_height"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

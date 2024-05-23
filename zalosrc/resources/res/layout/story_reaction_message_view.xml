@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/story_message_and_reaction_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.ReactionHorizontalView
+        android:layout_gravity="bottom"
+        android:id="@+id/story_message_and_reaction_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:splitMotionEvents="false"/>
+    <include
+        android:layout_gravity="bottom"
+        android:id="@+id/story_bottom_input_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="@dimen/story_reaction_bar_bottom_spacing"
+        layout="@layout/story_bottom_input_message_layout"/>
+</FrameLayout>

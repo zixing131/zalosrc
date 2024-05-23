@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="72dp"
+    android:paddingEnd="72dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/topImage"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/zds_il_community_upgrade_spot_1_1"/>
+</LinearLayout>

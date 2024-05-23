@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:id="@+id/function_container"
+    android:paddingLeft="10dp"
+    android:paddingTop="14dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:id="@+id/moreContainer"
+        android:clickable="true"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true">
+        <com.zing.zalo.uicomponents.reddot.RedDotImageView
+            android:layout_gravity="center"
+            android:id="@+id/more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="14dp"
+        android:textColor="?attr/TextColor2"
+        android:gravity="center"
+        android:id="@+id/sticker_name"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:text="@string/str_sticker_promote_description_default"
+        android:singleLine="true"
+        app:fstyle="medium"
+        app:maxScaledTextSize="18dp"/>
+</RelativeLayout>

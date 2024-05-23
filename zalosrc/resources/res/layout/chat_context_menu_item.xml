@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.widget.RobotoTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/f2"
+    android:textColor="@color/chat_context_menu_item_text_selector"
+    android:gravity="center_vertical"
+    android:id="@+id/context_item_name"
+    android:background="@drawable/stencils_contact_bg"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/func_bar_general_h"
+    android:lines="1"
+    android:singleLine="true"/>

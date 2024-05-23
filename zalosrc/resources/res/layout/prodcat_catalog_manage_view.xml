@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.zdesign.component.header.ZdsActionBar
+        android:id="@+id/zds_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leadingType="back"
+        app:middleTitleText="@string/product_catalog_manage_catalog_title"
+        app:middleType="title"
+        app:trailingType="none"
+        style="@style/BlueZdsActionBar.AppType"/>
+    <com.zing.p058v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/zds_action_bar">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_catalog_manage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.zing.p058v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

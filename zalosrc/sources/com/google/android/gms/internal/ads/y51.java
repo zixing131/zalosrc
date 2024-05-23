@@ -1,0 +1,23 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.concurrent.Executor;
+
+/* loaded from: classes2.dex */
+public final class y51 implements j04 {
+
+    /* renamed from: a */
+    private final w04 f30776a;
+
+    /* renamed from: b */
+    private final w04 f30777b;
+
+    public y51(w04 w04Var, w04 w04Var2) {
+        this.f30776a = w04Var;
+        this.f30777b = w04Var2;
+    }
+
+    @Override // com.google.android.gms.internal.ads.w04
+    public final /* bridge */ /* synthetic */ Object zzb() {
+        return new if1((gc1) this.f30776a.zzb(), (Executor) this.f30777b.zzb());
+    }
+}

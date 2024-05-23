@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/trending_sticker_keyword_highlight"
+    android:paddingLeft="10dp"
+    android:paddingTop="4dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="4dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="6dp">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="13sp"
+        android:textColor="?attr/TextColor2"
+        android:layout_gravity="center"
+        android:id="@+id/tvTrendingKeyword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

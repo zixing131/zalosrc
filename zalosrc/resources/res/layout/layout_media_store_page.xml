@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/zalo_action_bar"/>
+    <com.zing.zalo.p077ui.mediastore.common.MediaStoreMediaHeaderView
+        android:orientation="horizontal"
+        android:id="@+id/sticky_header_container"
+        android:background="?attr/PrimaryBackgroundColor"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_ms_sticky_header_view"/>
+    <include layout="@layout/fast_scroll_bubble_tv"/>
+    <com.zing.zalo.p077ui.zviews.multistate.MultiStateView
+        android:id="@+id/multi_state"
+        android:background="?attr/PrimaryBackgroundColor"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutTab"
+        app:msvEmptyLayout="@layout/layout_empty_state"
+        app:msvErrorLayout="@layout/layout_error_state"/>
+</RelativeLayout>

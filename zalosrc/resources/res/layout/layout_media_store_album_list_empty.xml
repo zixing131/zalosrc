@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="84dp"
+    android:paddingBottom="172dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/illus_empty_photos"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/HeaderFormTitleColor"
+        android:gravity="center"
+        android:id="@+id/txt_empty_title"
+        android:paddingLeft="74dp"
+        android:paddingRight="74dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/str_media_store_empty_collection_list_title"
+        style="@style/Roboto.f5b"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="@color/cMtxt2"
+        android:gravity="center"
+        android:id="@+id/txt_empty_desc"
+        android:paddingLeft="74dp"
+        android:paddingRight="74dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="@string/str_media_store_empty_collection_list_desc"
+        style="@style/Roboto.f13"/>
+</LinearLayout>

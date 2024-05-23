@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zad__iab_default_navigation_bar_height">
+            <include
+                android:id="@+id/zad__iab_navigation_bar"
+                layout="@layout/zad__iab_navigation_bar_layout"/>
+            <ProgressBar
+                android:id="@+id/zad__landing_progress"
+                android:background="@color/zad__iab_panel_color"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:progress="50"
+                android:indeterminate="false"
+                android:progressDrawable="@drawable/zad__bg_progress"
+                android:layout_alignParentBottom="true"
+                style="?android:attr/progressBarStyleHorizontal"/>
+        </RelativeLayout>
+        <FrameLayout
+            android:id="@+id/zad__landing_body"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.adtima.control.ObservableWebView
+                android:id="@+id/zad__landing_content"
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/zad__landing_loading"
+                android:background="@android:color/white"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zad__msg_loading"/>
+            </LinearLayout>
+            <include layout="@layout/zad__iab_pop_up_layout"/>
+            <include layout="@layout/zad__iab_chip_bottom_sheet_layout"/>
+            <include layout="@layout/zad__iab_done_bottom_sheet_layout"/>
+            <include layout="@layout/zad__iab_landing_error_layout"/>
+            <ImageButton
+                android:id="@+id/zad__landing_close_form"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/zad__ic_land_back_form"
+                android:scaleType="centerCrop"/>
+        </FrameLayout>
+    </LinearLayout>
+    <include
+        android:visibility="gone"
+        layout="@layout/zad__iab_outapp_pop_up_layout"/>
+</FrameLayout>

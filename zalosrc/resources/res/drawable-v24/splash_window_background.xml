@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"> android:opacity=&quot;opaque&quot;&gt; 
+    <item android:drawable="@color/bg_splash_screen"/>
+    <item
+        android:gravity="center"
+        android:drawable="@drawable/logo_zalo"
+        android:bottom="40dp"/>
+    <item>
+        <bitmap
+            android:gravity="bottom|right"
+            android:src="0x7f0809dd"/>
+    </item>
+</layer-list>

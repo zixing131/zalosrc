@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque">
+    <item android:drawable="@color/bg_splash_screen"/>
+    <item android:bottom="40dp">
+        <bitmap
+            android:gravity="center"
+            android:src="0x7f080ff5"/>
+    </item>
+    <item>
+        <bitmap
+            android:gravity="bottom|right"
+            android:src="0x7f0809dd"/>
+    </item>
+</layer-list>

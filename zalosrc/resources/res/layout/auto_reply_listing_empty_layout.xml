@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.ZAppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompatEx="@drawable/ic_ar_illus_empty"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/text_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="32dp"
+        android:text="@string/str_auto_reply_empty_state_title"
+        android:textAlignment="center"
+        style="@style/t_xlarge_m"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/text_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="32dp"
+        android:text="@string/str_auto_reply_empty_state_subtitle"
+        android:textAlignment="center"
+        style="@style/t_normal"/>
+    <com.zing.zalo.zdesign.component.Button
+        android:id="@+id/btn_create_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/str_auto_reply_empty_state_btn_text"
+        style="@style/ButtonMedium.Primary"/>
+</LinearLayout>

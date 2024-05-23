@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:package="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+    <com.zing.zalo.shortvideo.p072ui.widget.tv.SimpleShadowTextView
+        android:textSize="16dp"
+        android:textColor="@color/zch_text_primary"
+        android:id="@+id/tvNumStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        package:disableScaleTextSize="true"
+        package:zchFontStyle="medium"/>
+    <com.zing.zalo.shortvideo.p072ui.widget.tv.SimpleShadowTextView
+        android:textSize="12dp"
+        android:textColor="@color/zch_text_tertiary"
+        android:ellipsize="marquee"
+        android:id="@+id/tvTitleStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        package:disableScaleTextSize="true"
+        package:zchFontStyle="regular"/>
+</LinearLayout>

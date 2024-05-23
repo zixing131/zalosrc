@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_action_bar"/>
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="36dp"
+        android:src="0x7f080fcf"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/TextColor1"
+        android:gravity="center"
+        android:id="@+id/tv_note"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/security_question_activity_hint"
+        style="@style/Roboto.f5"/>
+    <com.zing.zalo.p077ui.widget.RobotoButton
+        android:id="@+id/btn_next"
+        android:layout_width="@dimen/mat_startup_button_width"
+        android:layout_marginTop="21dp"
+        android:text="@string/str_menu_item_done"
+        style="@style/MaterialStartupButton"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:interpolator="@android:anim/overshoot_interpolator"
+    android:duration="@integer/scan_qr_trigger_splash_duration"
+    android:valueFrom="-50"
+    android:valueTo="-10"
+    android:propertyName="translateY"/>

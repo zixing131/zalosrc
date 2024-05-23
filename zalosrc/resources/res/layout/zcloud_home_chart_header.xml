@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/text_01"
+        android:gravity="start"
+        android:id="@+id/chart_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:layout_weight="1"
+        style="@style/t_small_m"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/text_02"
+        android:gravity="end"
+        android:id="@+id/chart_subtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:layout_weight="1"
+        style="@style/t_xsmall_m"/>
+</LinearLayout>

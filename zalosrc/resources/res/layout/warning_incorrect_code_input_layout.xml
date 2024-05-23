@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.ZAppCompatImageView
+        android:id="@+id/icWarning"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:src="@drawable/zds_ic_warning_solid_16"
+        android:layout_below="@+id/tv_current_email_ggdrive"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/support_error"
+        android:id="@+id/tvCodeIncorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_title_incorrect_input_protect_code"
+        android:includeFontPadding="false"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="20dp"
+        style="@style/t_xxsmall"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

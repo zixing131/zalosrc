@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/story_bar"
+    android:background="?attr/ProfilePrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:splitMotionEvents="false">
+    <View
+        android:id="@+id/feedItemBodyTimeBar"
+        android:background="?attr/ProfileLineColor"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/feed_profile_timebar_marginleft"
+        android:layout_alignBottom="@+id/bottomAnchor"
+        android:layout_alignParentTop="true"/>
+    <com.zing.zalo.feed.uicontrols.FeedRecyclerView
+        android:id="@+id/rv_story_bar"
+        android:background="@drawable/bg_feed_profile_full"
+        android:padding="10dp"
+        android:fadingEdgeLength="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/feed_padding_left_profile"
+        android:layout_marginRight="@dimen/feed_padding_right_profile"
+        android:splitMotionEvents="false"
+        android:requiresFadingEdge="horizontal"/>
+    <View
+        android:id="@+id/bottomAnchor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="1dp"
+        android:layout_below="@+id/rv_story_bar"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_focused="true"
+        android:state_enabled="true">
+        <objectAnimator
+            android:duration="150"
+            android:valueFrom="0dp"
+            android:valueTo="@dimen/shadow_level_01"
+            android:valueType="floatType"
+            android:propertyName="translationZ"/>
+    </item>
+    <item
+        android:state_enabled="true"
+        android:state_selected="true">
+        <objectAnimator
+            android:duration="150"
+            android:valueFrom="0dp"
+            android:valueTo="@dimen/shadow_level_01"
+            android:valueType="floatType"
+            android:propertyName="translationZ"/>
+    </item>
+    <item
+        android:state_focused="false"
+        android:state_enabled="true"
+        android:state_selected="false">
+        <objectAnimator
+            android:duration="150"
+            android:valueFrom="@dimen/shadow_level_01"
+            android:valueTo="0dp"
+            android:valueType="floatType"
+            android:propertyName="translationZ"/>
+    </item>
+</selector>

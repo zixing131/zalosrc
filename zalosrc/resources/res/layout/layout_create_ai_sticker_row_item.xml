@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg_create_ai_sticker_item"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_sticker_height">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ic_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="11dp"
+        android:textColor="?attr/button_tertiary_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="@string/str_create_ai_sticker_button_txt"
+        app:disableScaleTextSize="true"
+        style="@style/t_xxxsmall"/>
+</LinearLayout>

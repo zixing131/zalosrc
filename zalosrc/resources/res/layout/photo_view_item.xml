@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="@dimen/incall_image_view_margin"
+    android:paddingRight="@dimen/incall_image_view_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.androidquery.util.RecyclingImageView
+        android:id="@+id/image_view_item"
+        android:layout_width="@dimen/incall_image_view_width"
+        android:layout_height="@dimen/incall_image_view_height"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/image_view_item_gallery"
+        android:background="@color/black_32"
+        android:visibility="visible"
+        android:layout_width="@dimen/incall_image_view_width"
+        android:layout_height="@dimen/incall_image_view_height">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="0x7f0808a7"
+            android:layout_centerInParent="true"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="14dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/call_add_photo_header"/>
+    </LinearLayout>
+</RelativeLayout>

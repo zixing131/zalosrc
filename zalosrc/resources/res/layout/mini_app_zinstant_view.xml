@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/page_background_01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/header_view"
+        android:background="?attr/ui_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.ZAppCompatImageView
+            android:id="@+id/ma_menu_close"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="?attr/icon_01"
+            android:layout_marginStart="2dp"
+            app:srcCompatEx="@drawable/zds_ic_chevron_left_line_24"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="18dp"
+            android:textColor="?attr/text_01"
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:fstyle="medium"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/contentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zing.zalo.p077ui.zviews.MiniAppZinstantLayout
+            android:id="@+id/zInstant"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+</LinearLayout>

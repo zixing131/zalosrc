@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/ic_scan_trigger">
+    <target
+        android:name="g1"
+        android:animation="@drawable/res_0x7f0801ac_ic_scan_trigger_shake_animated__0"/>
+    <target
+        android:name="g1"
+        android:animation="@drawable/res_0x7f0801ad_ic_scan_trigger_shake_animated__1"/>
+    <target
+        android:name="g2"
+        android:animation="@drawable/res_0x7f0801ae_ic_scan_trigger_shake_animated__2"/>
+    <target
+        android:name="g2"
+        android:animation="@drawable/res_0x7f0801af_ic_scan_trigger_shake_animated__3"/>
+    <target
+        android:name="g3"
+        android:animation="@drawable/res_0x7f0801b0_ic_scan_trigger_shake_animated__4"/>
+    <target
+        android:name="g3"
+        android:animation="@drawable/res_0x7f0801b1_ic_scan_trigger_shake_animated__5"/>
+    <target
+        android:name="g4"
+        android:animation="@drawable/res_0x7f0801b2_ic_scan_trigger_shake_animated__6"/>
+    <target
+        android:name="g4"
+        android:animation="@drawable/res_0x7f0801b3_ic_scan_trigger_shake_animated__7"/>
+</animated-vector>

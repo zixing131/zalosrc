@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btn_close"
+        android:background="@drawable/stencils_contact_bg"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/stencils_ic_head_close_black"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_error"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerInside"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/ic_icn_empty_music_load_error"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f6"
+        android:textColor="?attr/TextColor1"
+        android:gravity="center"
+        android:id="@+id/error_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/str_profile_music_error_msg"
+        android:layout_below="@+id/image_error"
+        android:layout_centerHorizontal="true"
+        app:atFontStyle="medium"/>
+    <com.zing.zalo.p077ui.widget.RobotoButton
+        android:gravity="center"
+        android:id="@+id/btn_refresh"
+        android:paddingLeft="48dp"
+        android:paddingRight="48dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/str_retry"
+        android:layout_below="@+id/error_title"
+        android:layout_centerHorizontal="true"
+        style="@style/btnType1.medium"/>
+</RelativeLayout>

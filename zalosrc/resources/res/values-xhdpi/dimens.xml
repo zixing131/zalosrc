@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_min_height">250dp</dimen>
+    <dimen name="grid_chatfunction_hight">94dp</dimen>
+    <dimen name="grid_chatfunction_width">80dp</dimen>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.widget.QuickActionViewType3 xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/divider_top"
+        android:background="?attr/ItemSeparatorColor"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <com.zing.zalo.p077ui.widget.recyclerview.CustomRecyclerView
+        android:id="@+id/recycler_view"
+        android:background="@drawable/bg_quick_action_view_with_state_press"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:clickable="true"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider_top"/>
+    <View
+        android:background="?attr/PopupBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/recycler_view"/>
+    <ImageView
+        android:id="@+id/iv_close"
+        android:visibility="gone"
+        android:layout_width="64dp"
+        android:layout_height="15dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/ic_quick_action_close"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/recycler_view"
+        android:layout_alignParentRight="true"/>
+</com.zing.zalo.p077ui.widget.QuickActionViewType3>

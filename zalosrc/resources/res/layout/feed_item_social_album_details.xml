@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/feed_item_header_template"/>
+    <RelativeLayout
+        android:id="@+id/feed_item_social_album_detail_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/feed_social_album_margin_lr"
+        android:layout_marginRight="@dimen/feed_social_album_margin_lr"
+        android:layout_marginBottom="@dimen/feed_padding_bottom"
+        android:layout_below="@+id/tvTranslation">
+        <com.zing.zalo.feed.components.FeedItemSocialAlbumHeader
+            android:id="@+id/feed_item_social_album_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"/>
+        <com.zing.zalo.feed.components.FeedItemSocialAlbumPhoto
+            android:id="@+id/feed_item_social_album_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/feed_social_album_content_margin"
+            android:layout_marginRight="@dimen/feed_social_album_content_margin"
+            android:layout_marginBottom="@dimen/feed_social_album_content_margin"
+            android:layout_below="@+id/feed_item_social_album_header"/>
+        <com.zing.zalo.feed.components.FeedItemSocialAlbumVideo
+            android:id="@+id/feed_item_social_album_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/feed_social_album_content_margin"
+            android:layout_marginRight="@dimen/feed_social_album_content_margin"
+            android:layout_marginBottom="@dimen/feed_social_album_content_margin"
+            android:layout_below="@+id/feed_item_social_album_header"/>
+    </RelativeLayout>
+</merge>

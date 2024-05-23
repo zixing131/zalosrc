@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:k="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/SecondaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_action_bar"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/ll_select_all"
+                android:background="?attr/PopupBackgroundColor"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <CheckBox
+                    android:id="@+id/checkbox_select_all"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="12dp"
+                    android:button="@drawable/btn_radio_circle_blue_normal"
+                    android:layout_centerVertical="true"/>
+                <com.zing.zalo.p077ui.widget.RobotoTextView
+                    android:textSize="@dimen/f0"
+                    android:textColor="?attr/TextColor1"
+                    android:gravity="center_vertical"
+                    android:id="@+id/tv_select_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:text="@string/select_all"
+                    android:layout_toRightOf="@+id/checkbox_select_all"/>
+                <View
+                    android:background="?attr/ItemSeparatorColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycle_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <com.zing.zalo.p077ui.zviews.multistate.MultiStateView
+            android:id="@+id/multi_state"
+            android:background="?attr/PrimaryBackgroundColor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            k:msvEmptyLayout="@layout/layout_empty_state"
+            k:msvErrorLayout="@layout/layout_error_state"/>
+    </FrameLayout>
+</LinearLayout>

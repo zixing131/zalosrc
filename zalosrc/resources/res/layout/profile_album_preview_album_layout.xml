@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_view"
+    android:background="?attr/ProfileSectionPhotoPrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.zdesign.component.header.ZdsActionBar
+        android:id="@+id/zds_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leadingType="back"
+        app:middleTitleText="@string/str_profile_album_preview_album_title"
+        app:middleType="title"
+        app:trailingTextButton="@string/str_profile_album_preview_album_finish"
+        app:trailingType="text"
+        style="@style/WhiteZdsActionBar.AppType"/>
+    <com.zing.zalo.feed.uicontrols.FeedRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zds_action_bar"/>
+    <RelativeLayout
+        android:layout_gravity="bottom"
+        android:id="@+id/button_post_photo_container"
+        android:background="@drawable/profile_bg_circle_post_photo"
+        android:padding="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:elevation="3dp">
+        <com.zing.zalo.p077ui.widget.AspectRatioImageView
+            android:id="@+id/icon_photo"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit_line"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <com.zing.zalo.p077ui.widget.ChangeableHeightRelativeLayout
+        android:id="@+id/quick_picker_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/width_shadow_action_bar"/>
+</RelativeLayout>

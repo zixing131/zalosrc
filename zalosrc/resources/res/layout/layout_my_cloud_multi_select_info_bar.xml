@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:id="@+id/desc_bar"
+    android:background="@drawable/bg_postfeed_actionbar"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/action_bar_default_height"
+    android:layout_alignBottom="@+id/zalo_action_bar"
+    android:paddingStart="16dp"
+    android:paddingEnd="0dp"
+    android:elevation="3dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:layout_centerVertical="true"
+        android:paddingStart="0dp"
+        android:paddingEnd="16dp"
+        app:srcCompat="@drawable/zds_ic_close_line_24"
+        app:tint="?attr/icon_01"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/text_01"
+        android:ellipsize="end"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:maxLines="1"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@+id/btn_close"
+        style="@style/t_large_m"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/text_02"
+        android:id="@+id/desc_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_toEndOf="@+id/btn_close"
+        style="@style/t_xxsmall"/>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_window_focused="false"
+        android:state_enabled="true"
+        android:state_checked="true"
+        android:drawable="0x7f080911"/>
+    <item
+        android:state_window_focused="false"
+        android:state_enabled="true"
+        android:state_checked="false"
+        android:drawable="0x7f0810ba"/>
+    <item
+        android:state_enabled="true"
+        android:state_checked="false"
+        android:drawable="0x7f0810ba"/>
+    <item
+        android:state_enabled="true"
+        android:state_checked="true"
+        android:drawable="0x7f080911"/>
+    <item
+        android:state_enabled="false"
+        android:state_checked="true"
+        android:drawable="@drawable/btn_check_on_disable"/>
+    <item
+        android:state_window_focused="false"
+        android:state_checked="false"
+        android:drawable="@drawable/btn_check_off_disable"/>
+    <item
+        android:state_checked="false"
+        android:drawable="@drawable/btn_check_off_disable"/>
+</selector>

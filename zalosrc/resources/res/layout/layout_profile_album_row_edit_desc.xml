@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.uicontrol.CustomEditText
+        android:textSize="15dp"
+        android:textColor="?attr/TextColor1"
+        android:textColorHint="?attr/TextColor3"
+        android:gravity="top|left"
+        android:id="@+id/input"
+        android:background="@color/transparent"
+        android:paddingTop="15dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80dp"
+        android:layout_toLeftOf="@+id/desc"
+        android:inputType="textMultiLine"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="11dp"
+        android:textColor="?attr/TextColor2"
+        android:id="@+id/desc"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootFollowerList"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/zch_bg_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/lytHeader"
+            layout="@layout/zch_layout_header_simple"/>
+        <FrameLayout
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.zing.zalo.shortvideo.p072ui.widget.p075rv.OverScrollableRecyclerView
+                android:id="@+id/rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <com.zing.zalo.shortvideo.p072ui.widget.LoadingLayout
+                android:id="@+id/lytLoading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

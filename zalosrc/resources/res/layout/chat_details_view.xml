@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/chat_details_fragment_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_action_bar"/>
+    <com.zing.zalo.p077ui.widget.recyclerview.TouchListView
+        android:id="@+id/chatline_list"
+        android:background="?attr/CSCPrimaryBackground"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:fadingEdge="none"
+        android:nextFocusUp="@+id/chatnavbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:listSelector="#00000000"
+        android:transcriptMode="disabled"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:layout_weight="1"
+        android:fastScrollEnabled="false"
+        android:smoothScrollbar="true"/>
+    <include
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/chat_details_actions_row"/>
+</LinearLayout>

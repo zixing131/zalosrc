@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/info_contact_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/dummy_1"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"/>
+    <View
+        android:id="@+id/dummy_3"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"/>
+    <View
+        android:orientation="vertical"
+        android:id="@+id/dummy_2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="142dp"/>
+    <View
+        android:id="@+id/dummy_4"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"/>
+    <View
+        android:id="@+id/dummy_5"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"/>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.widget.ChatMsgFooterView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chat_footer_container_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/separate_line"
+        android:background="@color/stencils_line_vertical_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/default_msg_item_padding_left"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="@color/primary_desc_color"
+        android:id="@+id/chat_footer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:singleLine="true"
+        android:layout_toLeftOf="@+id/chat_footer_action_view"
+        android:layout_below="@+id/separate_line"
+        android:layout_alignParentLeft="true"/>
+    <ImageView
+        android:id="@+id/chat_footer_action_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:src="0x7f080b3d"
+        android:layout_below="@+id/separate_line"
+        android:layout_alignParentRight="true"/>
+</com.zing.zalo.p077ui.widget.ChatMsgFooterView>

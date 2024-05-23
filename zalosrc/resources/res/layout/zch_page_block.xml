@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootBlockPageView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/lytContainer"
+        android:background="@color/zch_layer_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/header"
+            layout="@layout/zch_layout_header_simple"/>
+        <com.zing.zalo.shortvideo.p072ui.widget.menu.PageBar
+            android:id="@+id/barPage"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"/>
+        <com.zing.p058v4.view.ViewPager
+            android:id="@+id/viePager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</FrameLayout>

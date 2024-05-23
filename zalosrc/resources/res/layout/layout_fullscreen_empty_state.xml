@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/TextColor1"
+        android:gravity="center"
+        android:id="@+id/tv_recommend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/str_intro_des"
+        style="@style/Roboto.f4"/>
+    <com.zing.zalo.p077ui.widget.RobotoButton
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/btnFullEmpty"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="21dp"
+        android:minWidth="122dp"
+        android:text="@string/str_cap_start"
+        android:textAllCaps="true"
+        style="@style/btnType1.medium"/>
+    <com.zing.zalo.p077ui.widget.AspectRatioImageView
+        android:id="@+id/imv_fullscreen_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
+        android:contentDescription="Image"/>
+</LinearLayout>

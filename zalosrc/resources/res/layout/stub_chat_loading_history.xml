@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:id="@+id/layoutHistoryLoading"
+    android:background="@drawable/bg_black_chat_with_corners"
+    android:paddingLeft="26dp"
+    android:paddingTop="2dp"
+    android:paddingRight="26dp"
+    android:paddingBottom="2dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/viewstubChatSettingsBanner">
+    <include
+        android:layout_gravity="center"
+        android:id="@+id/chat_right_progress_upload_voice"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        layout="@layout/holo_circular_progress_bar_micro"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="11dp"
+        android:textColor="?attr/ChatStateTextColor"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:id="@+id/loading_history_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="@string/str_tv_loading"/>
+</LinearLayout>

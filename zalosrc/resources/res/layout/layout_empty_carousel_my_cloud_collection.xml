@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginEnd="16dp">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="15sp"
+            android:textColor="?attr/TextColor2"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_empty_item_carousel_collection_title"
+            app:fstyle="medium"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="13sp"
+            android:textColor="?attr/TextColor2"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_empty_item_carousel_collection_desc"/>
+    </LinearLayout>
+    <com.zing.zalo.zdesign.component.Button
+        android:layout_gravity="center_vertical"
+        android:id="@+id/bt_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="74dp"
+        android:minHeight="32dp"
+        android:text="@string/str_create_collection"
+        style="@style/ButtonSmall.Secondary"/>
+</LinearLayout>

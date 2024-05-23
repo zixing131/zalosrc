@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/zch_layer_background_subtle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.shortvideo.p072ui.widget.tv.SimpleShadowTextView
+        android:textSize="14dp"
+        android:textColor="@color/zch_text_tertiary"
+        android:id="@+id/groupBy"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:zchFontStyle="medium"/>
+</LinearLayout>

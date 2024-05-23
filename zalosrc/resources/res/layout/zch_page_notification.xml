@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:package="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lytPageNotification"
+    android:background="@color/zch_layer_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/lytContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/lytHeader"
+            layout="@layout/zch_layout_header_simple"/>
+        <com.zing.zalo.shortvideo.p072ui.widget.menu.PageBar
+            android:id="@+id/barPage"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            package:zchPageMargin="16dp"
+            package:zchPagePaddingBottom="3dp"
+            package:zchPageRippleEnable="false"/>
+        <com.zing.p058v4.view.ViewPager
+            android:id="@+id/viePager"
+            android:background="@color/zch_surface_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/dimContent"
+        android:background="@color/zch_curtain"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.zing.zalo.shortvideo.p072ui.widget.CommentBox
+        android:layout_gravity="bottom"
+        android:id="@+id/boxComment"
+        android:background="@color/zch_layer_background"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

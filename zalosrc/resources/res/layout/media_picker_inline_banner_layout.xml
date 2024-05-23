@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inline_banner_container"
+    android:background="#0047ab"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.androidquery.util.RecyclingImageView
+        android:id="@+id/inline_banner_close"
+        android:padding="3dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:src="0x7f080d7e"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="3dp"
+        android:layout_alignParentEnd="true"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:id="@+id/inline_banner_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="6dp"
+        android:layout_toLeftOf="@+id/inline_banner_close"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_toStartOf="@+id/inline_banner_close"
+        android:layout_alignParentStart="true"/>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/zch_divider_bts_action"
+    android:showDividers="middle">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:id="@+id/rowRetry"
+        android:text="@string/zch_bts_upload_action_retry"
+        style="@style/ZchBts.ItemAction"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:id="@+id/rowDelete"
+        android:text="@string/zch_bts_upload_action_delete"
+        style="@style/ZchBts.ItemAction"/>
+</LinearLayout>

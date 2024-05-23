@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f0"
+        android:textColor="?attr/TextColor1"
+        android:id="@+id/evnet_box_step_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/event_box_step_1"/>
+    <com.zing.zalo.p077ui.widget.StickerSuggestView
+        android:id="@+id/seasonal_sticker_girdview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f0"
+        android:textColor="?attr/TextColor1"
+        android:id="@+id/evnet_box_step_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/event_box_step_2"/>
+</LinearLayout>

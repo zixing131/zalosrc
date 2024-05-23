@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:id="@+id/icon_setting_reminder"
+    android:visibility="gone"
+    android:layout_width="16dp"
+    android:layout_height="16dp"
+    android:layout_marginLeft="@dimen/setting_reminder_margin_l"
+    android:scaleType="centerInside"/>

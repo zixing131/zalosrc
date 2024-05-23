@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/feed_audio_popup_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="320dp">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:id="@+id/alertTitle"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="18dp"
+        android:text="@string/str_report_other_reason"
+        app:fstyle="medium"
+        style="@style/DialogTitleText"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.zing.zalo.p077ui.widget.EditTextWithContextMenu
+            android:textColor="?attr/TextColor1"
+            android:textColorHint="?attr/TextColor2"
+            android:gravity="start"
+            android:id="@+id/editReasonReport"
+            android:background="@color/transparent"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:hint="@string/str_report_enter_reporting_reason"
+            app:alwaysUseContextPopup="true"
+            style="@style/Roboto.f0"/>
+        <View
+            android:id="@+id/editTextHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/editReasonReport"
+            android:layout_alignBottom="@+id/editReasonReport"/>
+    </RelativeLayout>
+    <View
+        android:background="?attr/ItemSeparatorColor"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"/>
+    <include layout="@layout/layout_dialog_footer_confirm"/>
+</LinearLayout>

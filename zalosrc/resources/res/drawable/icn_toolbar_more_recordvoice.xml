@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="64dp"
+    android:width="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <path
+        android:fillColor="@drawable/res_0x7f080243_icn_toolbar_more_recordvoice__0"
+        android:pathData="M32,32m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M31,42.5l2,0l0,5l-2,0z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M32,17.25L32,17.25A5.625,5.625 0,0 1,37.625 22.875L37.625,33.5A5.625,5.625 0,0 1,32 39.125L32,39.125A5.625,5.625 0,0 1,26.375 33.5L26.375,22.875A5.625,5.625 0,0 1,32 17.25z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M40.75,35.375C40.75,39.7923 36.1547,42.875 32,42.875C27.8453,42.875 23.25,39.7926 23.25,35.375"
+        android:strokeColor="#ffffff"
+        android:strokeWidth="2"
+        android:fillType="evenOdd"/>
+</vector>

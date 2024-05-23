@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <com.zing.zalo.uicomponents.reddot.RedDotImageButton
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/imgButtonNewNotificationList"
+        android:background="@drawable/item_actionbar_background_ripple"
+        android:paddingLeft="8dp"
+        android:paddingTop="4dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="4dp"
+        android:focusable="true"
+        android:visibility="visible"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/icon_header_notification"
+        android:scaleType="center"
+        android:minWidth="24dp"
+        android:minHeight="24dp"
+        style="?attr/actionButtonStyle"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:layout_gravity="right"
+        android:id="@+id/ic_newNotifyFeed"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="9dp"
+        style="@style/stencils_notification_text_view"/>
+</FrameLayout>

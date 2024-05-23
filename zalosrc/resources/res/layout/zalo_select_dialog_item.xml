@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.widget.RobotoTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColor="?attr/TextColor1"
+    android:ellipsize="marquee"
+    android:gravity="center_vertical"
+    android:id="@+id/text1"
+    android:background="@drawable/material_button_dialog_bg"
+    android:paddingLeft="@dimen/popup_content_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48dp"
+    style="@style/Roboto.f2"/>

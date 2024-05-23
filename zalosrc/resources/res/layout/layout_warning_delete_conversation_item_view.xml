@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fffff8ea"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/icn_danger"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="14dp"
+            android:padding="4dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/str_warning_delete_conversation"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <View
+        android:background="?attr/ItemSeparatorColor"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+</LinearLayout>

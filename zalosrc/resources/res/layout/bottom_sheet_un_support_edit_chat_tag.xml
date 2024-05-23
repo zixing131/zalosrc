@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingBottom="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="398.2891dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="51dp"
+        app:srcCompat="?attr/illus_feature_unsupported"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="18sp"
+        android:textColor="?attr/text_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_title_popup_unsupport_edit_chat_tag"
+        android:lineSpacingExtra="3sp"
+        android:translationY="-1.45sp"
+        android:textAlignment="center"
+        app:fstyle="medium"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="15sp"
+        android:textColor="?attr/text_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/str_desc_popup_unsupport_edit_chat_tag"
+        android:lineSpacingExtra="2sp"
+        android:translationY="-1.21sp"
+        android:textAlignment="center"/>
+    <com.zing.zalo.zdesign.component.Button
+        android:id="@+id/btn_got_it"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/str_button_popup_unsupport_edit_chat_tag"
+        style="@style/ButtonMedium.Primary"/>
+</LinearLayout>

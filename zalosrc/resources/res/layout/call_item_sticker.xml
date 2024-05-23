@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingLeft="8dp"
+    android:paddingTop="5dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.StickerView
+        android:layout_gravity="center"
+        android:id="@+id/sticker_item_element"
+        android:padding="0dp"
+        android:layout_width="@dimen/item_sticker_height"
+        android:layout_height="@dimen/item_sticker_height"/>
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/progress_id"
+        android:visibility="gone"
+        android:layout_width="@dimen/progressbar_sticker_weight"
+        android:layout_height="@dimen/progressbar_sticker_height"
+        style="@style/Widget.AppCompat.ProgressBar"/>
+</FrameLayout>

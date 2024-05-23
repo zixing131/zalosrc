@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/suggestTextContainer"
+    android:clickable="true"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true">
+    <FrameLayout
+        android:id="@+id/text_parent"
+        android:background="@drawable/bg_rounded_border_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/feed_comment_input_box_height"
+        android:layout_centerInParent="true">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="@dimen/feed_suggest_comment_emoji_text_size"
+            android:textColor="?attr/NormalIconWhiteHeaderColor"
+            android:gravity="center"
+            android:id="@+id/suggest_text"
+            android:paddingLeft="@dimen/suggest_comment_text_margin_horizontal"
+            android:paddingRight="@dimen/suggest_comment_text_margin_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="@dimen/zch_bts_action_divider_margin"
+        android:right="@dimen/zch_page_padding">
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/zch_divider_thick"/>
+            <solid android:color="@color/zch_divider_subtle"/>
+        </shape>
+    </item>
+</layer-list>

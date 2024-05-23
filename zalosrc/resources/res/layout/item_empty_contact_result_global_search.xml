@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:paddingLeft="16dp"
+    android:paddingTop="32dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="32dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f2"
+        android:textColor="?attr/TextColor2"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/empty_contact_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

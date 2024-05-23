@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.chat.widget.jumpbutton.MentionJumpFloatingView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/ll_mention_detail"
+        android:background="?attr/BackgroundUnion"
+        android:paddingBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingEnd="24dp"
+        android:layout_marginEnd="-12dp">
+        <com.zing.zalo.p077ui.widget.imageview.CircleImageView
+            android:id="@+id/iv_avt"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="0x7f081034"
+            android:layout_marginEnd="6dp"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="@dimen/f1s"
+            android:textColor="?attr/TextColor1"
+            android:id="@+id/tv_mention_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_btn_mention_jump"/>
+    </LinearLayout>
+    <ImageView
+        android:background="?attr/IconFABJumpMention"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</com.zing.zalo.p077ui.chat.widget.jumpbutton.MentionJumpFloatingView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="29dp"
+    android:width="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="29">
+    <path
+        android:fillColor="?attr/badge_background_warning"
+        android:pathData="M19.482,3.497C17.933,0.834 14.067,0.834 12.517,3.497L2.045,21.497C0.487,24.175 2.443,27.5 5.528,27.5H26.472C29.558,27.5 31.513,24.175 29.955,21.497L19.482,3.497Z"
+        android:strokeColor="?attr/badge_border"
+        android:strokeWidth="2"/>
+</vector>

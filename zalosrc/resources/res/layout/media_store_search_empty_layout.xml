@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="?attr/ui_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/icn_search_error"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="60dp"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/text_02"
+        android:id="@+id/tv_search_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/str_no_results_search_my_cloud_title"
+        style="@style/t_small"/>
+    <com.zing.zalo.p077ui.widget.RobotoButton
+        android:id="@+id/btn_retry"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minWidth="150dp"
+        android:text="@string/bt_try_again"
+        android:textAllCaps="true"
+        style="@style/btnType1.medium"/>
+</LinearLayout>

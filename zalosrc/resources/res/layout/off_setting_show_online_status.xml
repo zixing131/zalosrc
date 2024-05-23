@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/separate_line"
+        android:background="?attr/SecondaryBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="@dimen/text_header_list_margin_t_b"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f13"
+        android:textColor="?attr/TextColor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_header_list_margin_l"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="@dimen/text_header_list_margin_l"
+        android:text="@string/str_title_row_update_status_off"
+        android:includeFontPadding="false"
+        app:fstyle="medium"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f5"
+        android:textColor="?attr/TextColor5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_header_list_margin_l"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="@dimen/text_header_list_margin_l"
+        android:text="@string/str_des_row_off_update_status"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f5"
+        android:gravity="center"
+        android:id="@+id/btnShowOnlineStatus"
+        android:paddingLeft="@dimen/text_header_list_margin_l"
+        android:paddingRight="@dimen/text_header_list_margin_l"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/text_header_list_margin_l"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="18dp"
+        android:minWidth="89dp"
+        android:text="@string/str_btn_show_update_status"
+        style="@style/btnType1.small"/>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:tag="layout/z_cloud_gp_more_info_bottom_sheet_0"
+    android:background="?attr/layer_background"
+    android:paddingTop="12dp"
+    android:paddingBottom="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/text_tertiary"
+        android:background="?attr/layer_background"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_total_media_size_include"
+        android:paddingHorizontal="16dp"
+        style="@style/t_small_m"/>
+    <com.zing.zalo.zdesign.component.ListItem
+        android:id="@+id/listItemCloudMedia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:showDividers="none"/>
+    <com.zing.zalo.zdesign.component.ListItem
+        android:id="@+id/listItemMyCloud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:showDividers="none"/>
+</LinearLayout>

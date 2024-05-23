@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.p058v4.view.ViewPager
+        android:id="@+id/viewpager_full_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.zing.zalo.zview.actionbar.ActionBar
+        android:id="@+id/action_bar_full_image"
+        android:background="#cc000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

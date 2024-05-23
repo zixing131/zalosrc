@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.zdesign.component.inputfield.OtpEdittext
+        android:id="@+id/edt_form_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:id="@+id/tv_form_helper"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:drawablePadding="4dp"
+        android:layout_below="@+id/edt_form_content"
+        android:layout_centerHorizontal="true"
+        style="@style/FieldHelper"/>
+</RelativeLayout>

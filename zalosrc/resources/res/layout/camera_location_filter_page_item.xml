@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ProgressBar
+        android:theme="@style/CircularProgress"
+        android:layout_gravity="center"
+        android:id="@+id/location_filter_page_progress"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ProgressBarCircleNormal"/>
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@+id/location_filter_page_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="0x7f0807e3"/>
+</FrameLayout>

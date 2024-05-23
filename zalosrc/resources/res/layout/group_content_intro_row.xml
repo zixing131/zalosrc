@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/rounded_bubble_chat_background"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="16dp">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="18dp"
+            android:textColor="?attr/TextColor1"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:text="Bình chọn"
+            app:fstyle="medium"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="14dp"
+            android:textColor="?attr/TextColor1"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/intro_tv"
+            android:paddingLeft="20dp"
+            android:paddingTop="12dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tạo bình chọn để thống nhất thời gian, địa điểm gặp mặt hay hỏi ý kiến cả nhóm nhanh chóng hơn"/>
+    </LinearLayout>
+    <com.androidquery.util.RecyclingImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/icon_view"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="0x7f080f2f"/>
+</FrameLayout>

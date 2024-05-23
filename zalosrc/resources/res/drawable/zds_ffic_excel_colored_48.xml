@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="48dp"
+    android:width="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="@drawable/res_0x7f0802d7_zds_ffic_excel_colored_48__0"
+        android:pathData="M8.5714,8.2857C8.5714,6.0766 10.3623,4.2857 12.5714,4.2857H30.8571L39.4286,12.8571V39.7143C39.4286,41.9234 37.6377,43.7143 35.4286,43.7143H12.5714C10.3623,43.7143 8.5714,41.9234 8.5714,39.7143V8.2857Z"/>
+    <path
+        android:fillColor="#34b764"
+        android:pathData="M32.8571,12.8571L39.4286,12.8571L30.8571,4.2857L30.8571,10.8571C30.8571,11.9617 31.7526,12.8571 32.8571,12.8571Z"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M20.2611,31.7143V20.9143H27.5589V22.9509H22.5137V29.6777H27.6669V31.7143H20.2611ZM21.3411,27.1937V25.2189H26.8183V27.1937H21.3411Z"
+        android:strokeAlpha="0.85"
+        android:fillAlpha="0.85"/>
+</vector>

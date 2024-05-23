@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.shortvideo.p072ui.component.p073rv.item.ChannelCtaItem xmlns:android="http://schemas.android.com/apk/res/android" xmlns:package="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/zch_bg_cta_channel"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/zch_layout_channel_cta_height">
+    <com.androidquery.util.RecyclingImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="@dimen/zch_layout_channel_size_cta_icon"
+        android:layout_height="@dimen/zch_layout_channel_size_cta_icon"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="13dp"
+        android:textColor="@color/zch_text_secondary"
+        android:gravity="center"
+        android:id="@+id/tvCta"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/zch_layout_channel_cta_height"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="2dp"
+        package:zchFontStyle="regular"/>
+</com.zing.zalo.shortvideo.p072ui.component.p073rv.item.ChannelCtaItem>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="?attr/dialogPreferredPadding"
+    android:paddingRight="?attr/dialogPreferredPadding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/TextColor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_remind_update_mini_chat_permission_message"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+        <CheckBox
+            android:textColor="?attr/TextColor2"
+            android:id="@+id/checkbox_do_not_show_again"
+            android:padding="4dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:button="@drawable/checkbox_share_hd_photo"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="?attr/TextColor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_dialog_do_not_show_again"/>
+    </LinearLayout>
+</LinearLayout>

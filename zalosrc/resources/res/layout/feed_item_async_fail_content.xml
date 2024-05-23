@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="#fc4a4a"
+        android:gravity="center_vertical"
+        android:id="@+id/tvFail"
+        android:background="@drawable/bg_feed_async_failed"
+        android:paddingLeft="@dimen/feed_padding_left"
+        android:paddingRight="@dimen/feed_padding_right"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="@dimen/feed_padding_left"
+        android:layout_marginRight="@dimen/feed_padding_right"
+        android:layout_marginBottom="@dimen/feed_content_padding"
+        android:text="@string/str_noti_post_feed_fail"
+        android:singleLine="true"
+        android:drawableRight="@drawable/ic_feedoffline_chevron"/>
+</merge>

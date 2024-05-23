@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size
+        android:height="@dimen/story_bar_thumb_roundrect_height"
+        android:width="@dimen/story_bar_thumb_roundrect_width"/>
+    <corners android:radius="@dimen/story_bar_item_roundrect_corner_radius"/>
+    <solid android:color="?attr/bg_story_btn_add"/>
+</shape>

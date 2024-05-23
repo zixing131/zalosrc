@@ -1,0 +1,66 @@
+package vl0;
+
+/* renamed from: vl0.c */
+/* loaded from: classes7.dex */
+public abstract class AbstractC28293c {
+    public static int avatar_gradient_background_amber = 2131231972;
+    public static int avatar_gradient_background_blue = 2131231973;
+    public static int avatar_gradient_background_green = 2131231974;
+    public static int avatar_gradient_background_internal = 2131231975;
+    public static int avatar_gradient_background_orange = 2131231976;
+    public static int avatar_gradient_background_pink = 2131231977;
+    public static int avatar_gradient_background_purple = 2131231978;
+    public static int avatar_gradient_background_tanzanite = 2131231979;
+    public static int avatar_gradient_background_teal = 2131231980;
+    public static int avatar_story_contour_color = 2131231983;
+    public static int b50_skb55_diagonal = 2131231989;
+    public static int b50_skb55_horizontal = 2131231990;
+    public static int b50_skb55_vertical = 2131231991;
+    public static int b55_b30_diagonal = 2131231992;
+    public static int b55_b30_horizontal = 2131231993;
+    public static int b55_b30_vertical = 2131231994;
+    public static int b60_b40_diagonal = 2131231995;
+    public static int b60_b40_horizontal = 2131231996;
+    public static int b60_b40_vertical = 2131231997;
+    public static int blk_a0_blk_a10_vertical = 2131232807;
+    public static int blk_a0_blk_a50_vertical = 2131232808;
+    public static int blk_a10_blk_a0_vertical = 2131232818;
+    public static int blk_a50_blk_a0_vertical = 2131232825;
+    public static int core_birthdayhub_birthday_indicator_pink = 2131233073;
+    public static int gr60_gr40_diagonal = 2131233232;
+    public static int gr60_gr40_horizontal = 2131233233;
+    public static int gr60_gr40_vertical = 2131233234;
+    public static int gr60_y50_diagonal = 2131233235;
+    public static int gr60_y50_horizontal = 2131233236;
+    public static int gr60_y50_vertical = 2131233237;
+    public static int header_blue_container = 2131233263;
+    public static int mediabggradient = 2131234904;
+    public static int or60_y55_diagonal = 2131234984;
+    public static int or60_y55_horizontal = 2131234985;
+    public static int or60_y55_vertical = 2131234986;
+    public static int pk55_pk25_diagonal = 2131235007;
+    public static int pk55_pk25_horizontal = 2131235008;
+    public static int pk55_pk25_vertical = 2131235009;
+    public static int pu55_b50_diagonal = 2131235039;
+    public static int pu55_b50_horizontal = 2131235040;
+    public static int pu55_b50_vertical = 2131235041;
+    public static int pu55_pk25_diagonal = 2131235042;
+    public static int pu55_pk25_horizontal = 2131235043;
+    public static int pu55_pk25_vertical = 2131235044;
+    public static int pu60_pu40_diagonal = 2131235045;
+    public static int pu60_pu40_horizontal = 2131235046;
+    public static int pu60_pu40_vertical = 2131235047;
+    public static int r50_pk25_diagonal = 2131235067;
+    public static int r50_pk25_horizontal = 2131235068;
+    public static int r50_pk25_vertical = 2131235069;
+    public static int r55_or50_diagonal = 2131235073;
+    public static int r55_or50_horizontal = 2131235074;
+    public static int r55_or50_vertical = 2131235075;
+    public static int skb55_gr55_diagonal = 2131235200;
+    public static int skb55_gr55_horizontal = 2131235201;
+    public static int skb55_gr55_vertical = 2131235202;
+    public static int wht_a0_wht_a20_vertical = 2131235431;
+    public static int wht_a20_wht_a0_vertical = 2131235435;
+    public static int zaqrfooteroverlay = 2131235500;
+    public static int zaqrheaderoverlay = 2131235501;
+}

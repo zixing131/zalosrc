@@ -1,0 +1,32 @@
+package com.google.android.gms.ads.internal.client;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.google.android.gms.ads.RequestConfiguration;
+import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
+import p031b5.AbstractC2552a;
+
+/* loaded from: classes2.dex */
+public final class zzez extends AbstractSafeParcelable {
+    public static final Parcelable.Creator<zzez> CREATOR = new zzfa();
+    public final int zza;
+    public final int zzb;
+
+    public zzez(int i11, int i12) {
+        this.zza = i11;
+        this.zzb = i12;
+    }
+
+    @Override // android.os.Parcelable
+    public final void writeToParcel(Parcel parcel, int i11) {
+        int m12912a = AbstractC2552a.m12912a(parcel);
+        AbstractC2552a.m12924m(parcel, 1, this.zza);
+        AbstractC2552a.m12924m(parcel, 2, this.zzb);
+        AbstractC2552a.m12913b(parcel, m12912a);
+    }
+
+    public zzez(RequestConfiguration requestConfiguration) {
+        this.zza = requestConfiguration.getTagForChildDirectedTreatment();
+        this.zzb = requestConfiguration.getTagForUnderAgeOfConsent();
+    }
+}

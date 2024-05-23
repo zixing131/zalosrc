@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.shortvideo.p072ui.component.bts.BottomSheetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lytBottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/touchOutside"
+        android:background="@color/zch_curtain_subtle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <FrameLayout
+        android:id="@+id/lytContainer"
+        android:background="@drawable/zch_bg_bts"
+        android:paddingTop="@dimen/zch_bts_thumb_height"
+        android:paddingBottom="@dimen/zch_bts_footer_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/vieThumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/zch_bg_bts_thumb"
+        android:scaleType="centerInside"/>
+    <com.zing.zalo.shortvideo.p072ui.widget.p074iv.PulseImageView
+        android:id="@+id/btnClose"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/zch_ic_close_line_24"
+        android:scaleType="centerInside"
+        android:tint="@color/zch_icon_secondary"/>
+</com.zing.zalo.shortvideo.p072ui.component.bts.BottomSheetLayout>

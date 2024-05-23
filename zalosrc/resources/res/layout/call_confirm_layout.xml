@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="#aa000000"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/feed_audio_popup_bg"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <include layout="@layout/layout_dialog_header_confirm"/>
+        <FrameLayout
+            android:orientation="vertical"
+            android:id="@+id/likes_dialog_center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <com.zing.zalo.p077ui.widget.RobotoTextView
+                android:textColor="@color/cMtxt2"
+                android:id="@+id/confirm_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="16dp"
+                style="@style/Roboto.f0"/>
+        </FrameLayout>
+        <include layout="@layout/layout_dialog_footer_confirm"/>
+    </LinearLayout>
+</LinearLayout>

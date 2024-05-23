@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?attr/button_tertiary_alpha_disabled_background"/>
+    <corners
+        android:topLeftRadius="@dimen/btnTertiaryTopLeftRadius"
+        android:topRightRadius="@dimen/btnTertiaryTopRightRadius"
+        android:bottomLeftRadius="@dimen/btnTertiaryBottomLeftRadius"
+        android:bottomRightRadius="@dimen/btnTertiaryBottomRightRadius"/>
+</shape>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.uicontrol.CircleImage
+        android:id="@+id/imvAvatar"
+        android:src="?attr/default_avatar"
+        android:scaleType="fitXY"
+        style="@style/ava3"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="@color/white"
+        android:ellipsize="end"
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/feed_padding_left"
+        android:maxLines="1"
+        style="@style/ActionBarTitleText"/>
+</LinearLayout>

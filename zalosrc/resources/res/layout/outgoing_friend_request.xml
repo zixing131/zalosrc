@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/root_backgroundmain"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_action_bar"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.zing.zalo.p077ui.widget.RobotoTextView
+                android:textSize="@dimen/f13"
+                android:textColor="?attr/TextColor2"
+                android:gravity="center_vertical"
+                android:id="@+id/tv_header_info"
+                android:background="?attr/SecondaryBackgroundColor"
+                android:paddingLeft="@dimen/f2"
+                android:paddingTop="@dimen/f7"
+                android:paddingBottom="@dimen/f7"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <com.zing.zalo.p077ui.zviews.multistate.MultiStateView
+            android:id="@+id/multi_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:msvEmptyLayout="@layout/layout_empty_state"
+            app:msvErrorLayout="@layout/layout_error_state"/>
+        <include layout="@layout/suggest_entry_point_add_friend"/>
+    </FrameLayout>
+</LinearLayout>

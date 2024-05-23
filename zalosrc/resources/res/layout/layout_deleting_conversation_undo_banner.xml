@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/layout_undo_delete_conversations"
+    android:background="@drawable/background_deleting_conversation_banner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="15dp"
+        android:textColor="?attr/BannerDeleteConversationTextColor"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/tv_conversations_deleted"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        app:maxScaledTextRatioIndex="4"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="15dp"
+        android:textColor="?attr/BannerDeleteConversationButtonColor"
+        android:id="@+id/btn_undo_delete"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="16dp"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_undo_delete_conversations"
+        android:textAllCaps="true"
+        app:maxScaledTextRatioIndex="4"/>
+</LinearLayout>

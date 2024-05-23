@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/ic_scan_trigger">
+    <target
+        android:name="g1"
+        android:animation="@drawable/res_0x7f0801a3_ic_scan_trigger_fade_in_animated__0"/>
+    <target
+        android:name="g1"
+        android:animation="@drawable/res_0x7f0801a4_ic_scan_trigger_fade_in_animated__1"/>
+    <target
+        android:name="g2"
+        android:animation="@drawable/res_0x7f0801a5_ic_scan_trigger_fade_in_animated__2"/>
+    <target
+        android:name="g2"
+        android:animation="@drawable/res_0x7f0801a6_ic_scan_trigger_fade_in_animated__3"/>
+    <target
+        android:name="g3"
+        android:animation="@drawable/res_0x7f0801a7_ic_scan_trigger_fade_in_animated__4"/>
+    <target
+        android:name="g3"
+        android:animation="@drawable/res_0x7f0801a8_ic_scan_trigger_fade_in_animated__5"/>
+    <target
+        android:name="g4"
+        android:animation="@drawable/res_0x7f0801a9_ic_scan_trigger_fade_in_animated__6"/>
+    <target
+        android:name="g4"
+        android:animation="@drawable/res_0x7f0801aa_ic_scan_trigger_fade_in_animated__7"/>
+    <target
+        android:name="v"
+        android:animation="@drawable/res_0x7f0801ab_ic_scan_trigger_fade_in_animated__8"/>
+</animated-vector>

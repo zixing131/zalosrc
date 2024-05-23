@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="128dp"
+    android:width="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+    <group>
+        <clip-path android:pathData="M0,0h128v128h-128z M 0,0"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080432_zds_il_zalo_otp_spot_1_1__0"
+            android:pathData="M127.875 72.0536C127.875 86.9863 122.848 100.729 114.403 111.673H13.3476C4.90261 100.729 -0.124512 86.9863 -0.124512 72.0536C-0.124512 36.3992 28.5285 7.5 63.8793 7.5C99.2301 7.5 127.875 36.3992 127.875 72.0536Z"
+            android:strokeAlpha="0.3"
+            android:fillAlpha="0.3"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080433_zds_il_zalo_otp_spot_1_1__1"
+            android:pathData="M49.0863,29.7058L78.6647,29.7058A9.0,9.0,0,0,1,87.6647,38.7058L87.6647,101.839005A9.0,9.0,0,0,1,78.6647,110.839005L49.0863,110.839005A9.0,9.0,0,0,1,40.0863,101.839005L40.0863,38.7058A9.0,9.0,0,0,1,49.0863,29.7058z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080434_zds_il_zalo_otp_spot_1_1__2"
+            android:pathData="M49.8568,33.5017L77.8938,33.5017A6.0,6.0,0,0,1,83.8938,39.5017L83.8938,101.4227A6.0,6.0,0,0,1,77.8938,107.4227L49.8568,107.4227A6.0,6.0,0,0,1,43.8568,101.4227L43.8568,39.5017A6.0,6.0,0,0,1,49.8568,33.5017z"
+            android:strokeColor="#5f9fff"
+            android:strokeWidth="1"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080435_zds_il_zalo_otp_spot_1_1__3"
+            android:pathData="M101.665 51.4585C104.979 51.4585 107.665 54.1448 107.665 57.4585V75.0948C107.665 78.4086 104.979 81.0948 101.665 81.0948H71.4423C70.7287 81.0948 70.0691 81.4751 69.7115 82.0927L65.6063 89.1831C64.836 90.5136 62.915 90.5136 62.1447 89.1831L58.0395 82.0927C57.6819 81.4751 57.0223 81.0948 56.3087 81.0948H26.0857C22.772 81.0948 20.0857 78.4086 20.0857 75.0948V57.4585C20.0857 54.1448 22.772 51.4585 26.0857 51.4585H101.665Z"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M55.9404 62.0298V70.4624"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M59.5499 64.0669L52.3311 68.4254"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M59.5919 68.3542L52.2891 64.138"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M69.3367 62.0298V70.4624"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M72.9462 64.0669L65.7273 68.4254"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M72.9882 68.3542L65.6853 64.138"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M82.7329 62.0298V70.4624"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M86.3424 64.0669L79.1235 68.4254"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M86.3844 68.3542L79.0816 64.138"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M96.1292 62.0298V70.4624"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M99.7386 64.0669L92.5198 68.4254"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M99.7806 68.3542L92.4778 64.138"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M36.1253,66.1628m-9.94891,0.0a9.94891,9.94891,0,1,1,19.89782,0.0a9.94891,9.94891,0,1,1,-19.89782,0.0"/>
+        <path
+            android:fillColor="#0068ff"
+            android:pathData="M33.3839 63.7334H29.5076V64.564H32.197L29.5402 67.8534C29.4362 67.9956 29.3852 68.1697 29.3963 68.3456V68.5542H33.0541C33.0978 68.5542 33.141 68.5456 33.1813 68.5289C33.2216 68.5122 33.2582 68.4877 33.2891 68.4569C33.3199 68.426 33.3444 68.3894 33.3611 68.3491C33.3778 68.3088 33.3864 68.2656 33.3864 68.2219V67.7789H30.5628L33.0541 64.6477C33.0881 64.6037 33.1577 64.5245 33.1906 64.4871L33.1938 64.4834L33.211 64.4637C33.3347 64.2846 33.3955 64.0695 33.3839 63.8521V63.7334ZM38.3128 68.5512H38.8666V63.7335H38.039V68.2743C38.0392 68.3471 38.068 68.417 38.1192 68.4688C38.1704 68.5206 38.24 68.5502 38.3128 68.5512ZM37.3736 68.5512H36.8199C36.7605 68.5512 36.7035 68.5276 36.6615 68.4856C36.6195 68.4436 36.5959 68.3867 36.5959 68.3273V68.2209C36.475 68.3093 36.3433 68.3835 36.2035 68.4414C35.8576 68.5847 35.4771 68.6222 35.11 68.5491C34.7428 68.4761 34.4056 68.2958 34.1409 68.0312C33.8762 67.7665 33.696 67.4292 33.6229 67.0621C33.5499 66.695 33.5874 66.3144 33.7306 65.9686C33.8739 65.6228 34.1165 65.3272 34.4277 65.1192C34.739 64.9112 35.1049 64.8002 35.4792 64.8002C35.8832 64.8002 36.2738 64.9294 36.5959 65.1648V64.9056H37.3736V68.5512ZM35.4792 67.8065C35.2589 67.8067 35.0435 67.7415 34.8603 67.6192C34.6771 67.4969 34.5343 67.323 34.4499 67.1195C34.3655 66.916 34.3433 66.6921 34.3862 66.476C34.4291 66.2599 34.5352 66.0614 34.6909 65.9056C34.8466 65.7498 35.045 65.6437 35.2611 65.6006C35.4771 65.5576 35.7011 65.5796 35.9046 65.6639C36.1082 65.7482 36.2821 65.8909 36.4045 66.0741C36.5269 66.2572 36.5923 66.4726 36.5923 66.6929C36.5923 66.9881 36.475 67.2713 36.2663 67.4801C36.0576 67.689 35.7745 67.8064 35.4792 67.8065ZM40.2627 65.0992C40.5764 64.8896 40.9451 64.7777 41.3224 64.7777C41.8283 64.7777 42.3134 64.9787 42.6711 65.3364C43.0288 65.6941 43.2298 66.1792 43.2298 66.6851C43.2298 67.0624 43.1179 67.4311 42.9083 67.7448C42.6987 68.0585 42.4008 68.3029 42.0523 68.4473C41.7038 68.5917 41.3203 68.6294 40.9503 68.5559C40.5803 68.4823 40.2404 68.3006 39.9737 68.0338C39.7069 67.7671 39.5252 67.4272 39.4516 67.0572C39.378 66.6872 39.4158 66.3037 39.5602 65.9552C39.7046 65.6066 39.949 65.3088 40.2627 65.0992ZM40.6996 67.6154C40.8839 67.7386 41.1007 67.8043 41.3224 67.8043C41.4696 67.8044 41.6154 67.7755 41.7515 67.7191C41.8875 67.6628 42.0112 67.5803 42.1153 67.4761C42.2194 67.372 42.302 67.2484 42.3583 67.1124C42.4146 66.9763 42.4435 66.8305 42.4434 66.6833C42.4434 66.4615 42.3777 66.2448 42.2545 66.0604C42.1313 65.8761 41.9562 65.7324 41.7514 65.6475C41.5466 65.5627 41.3211 65.5405 41.1037 65.5837C40.8862 65.627 40.6865 65.7338 40.5297 65.8906C40.3729 66.0473 40.2661 66.2471 40.2229 66.4646C40.1796 66.682 40.2018 66.9074 40.2867 67.1123C40.3715 67.3171 40.5152 67.4922 40.6996 67.6154Z"
+            android:fillType="evenOdd"/>
+    </group>
+</vector>

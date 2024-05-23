@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="23dp"
+    android:width="28dp"
+    android:viewportWidth="28"
+    android:viewportHeight="23">
+    <path
+        android:fillColor="?attr/popover_container"
+        android:pathData="M12.272,1.962C13.044,0.639 14.956,0.639 15.728,1.962L28,23H0L12.272,1.962Z"/>
+</vector>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_backgroundmain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_action_bar"/>
+    <com.zing.zalo.uicontrol.SwipeRefreshListView
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/zalo_action_bar"/>
+    <com.zing.zalo.p077ui.zviews.multistate.MultiStateView
+        android:id="@+id/multi_state"
+        android:background="?attr/PrimaryBackgroundColor"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/zalo_action_bar"
+        app:msvEmptyLayout="@layout/layout_empty_state"
+        app:msvErrorLayout="@layout/layout_error_state"/>
+</RelativeLayout>

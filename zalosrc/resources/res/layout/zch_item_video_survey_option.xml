@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.shortvideo.p072ui.widget.tv.SimpleShadowTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:package="http://schemas.android.com/apk/res-auto"
+    android:textSize="15dp"
+    android:textColor="@color/zch_text_primary"
+    android:gravity="center"
+    android:background="@drawable/zch_bg_button_video_qna"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:includeFontPadding="false"
+    package:zchFontStyle="medium"/>

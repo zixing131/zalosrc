@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="14dp"
+        android:textColor="?attr/TextColor2"
+        android:gravity="center"
+        android:id="@+id/num_friend"
+        android:paddingLeft="@dimen/default_msg_item_padding_top"
+        android:paddingTop="@dimen/default_msg_item_padding_top"
+        android:paddingRight="@dimen/default_msg_item_padding_top"
+        android:paddingBottom="16dp"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.zing.zalo.p077ui.widget.ChangeableHeightView
+        android:id="@+id/padding_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+</LinearLayout>

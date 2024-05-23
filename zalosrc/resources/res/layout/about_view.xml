@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zing.zalo.p077ui.settings.widget.ListItemSetting
+        android:id="@+id/rl_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.zing.zalo.p077ui.settings.widget.ListItemSetting
+        android:id="@+id/rl_all_feature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+    <com.zing.zalo.p077ui.settings.widget.ListItemSetting
+        android:id="@+id/rl_contact_support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.zing.zalo.p077ui.settings.widget.ListItemSetting
+        android:id="@+id/rl_send_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.zing.zalo.p077ui.settings.widget.ListItemSetting
+        android:id="@+id/rl_policy_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+    <com.zing.zalo.zinstant.ZaloZinstantLayout
+        android:id="@+id/zl_whatnews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+    <View
+        android:id="@+id/dev_tools_separator_item"
+        android:background="?attr/SecondaryBackgroundColor"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"/>
+    <ScrollView
+        android:id="@+id/sv_all_dev_tools"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="?attr/PrimaryBackgroundColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/rl_dev_tools_switch"
+                android:paddingLeft="@dimen/build_info_margin"
+                android:paddingRight="@dimen/build_info_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/min_height_row_setting">
+                <com.zing.zalo.p077ui.widget.RobotoTextView
+                    android:textColor="?attr/section_label"
+                    android:id="@+id/tv_dev_tools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dev Tools"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentStart="true"
+                    style="@style/t_large_m"/>
+                <com.zing.zalo.zdesign.component.Button
+                    android:id="@+id/btn_disable_dev_tools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentEnd="true"
+                    app:btnSupportiveIcon="@drawable/icn_close_white"
+                    style="@style/ButtonSmall.Secondary"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@+id/ll_platform_tools"
+                android:background="@drawable/stencils_contact_bg"
+                android:paddingLeft="@dimen/build_info_margin"
+                android:paddingRight="@dimen/build_info_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/min_height_row_setting">
+                <com.zing.zalo.p077ui.widget.RobotoTextView
+                    android:textSize="@dimen/f2"
+                    android:textColor="?attr/TextColor1"
+                    android:duplicateParentState="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Platform Tools"
+                    android:layout_weight="1"/>
+                <include layout="@layout/imgv_setting_reminder"/>
+                <include layout="@layout/imv_setting_caret"/>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@+id/ll_chat_tools"
+                android:background="@drawable/stencils_contact_bg"
+                android:paddingLeft="@dimen/build_info_margin"
+                android:paddingRight="@dimen/build_info_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/min_height_row_setting">
+                <com.zing.zalo.p077ui.widget.RobotoTextView
+                    android:textSize="@dimen/f2"
+                    android:textColor="?attr/TextColor1"
+                    android:duplicateParentState="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Chat Tools"
+                    android:layout_weight="1"/>
+                <include layout="@layout/imgv_setting_reminder"/>
+                <include layout="@layout/imv_setting_caret"/>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@+id/ll_storage_tools"
+                android:background="@drawable/stencils_contact_bg"
+                android:paddingLeft="@dimen/build_info_margin"
+                android:paddingRight="@dimen/build_info_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/min_height_row_setting">
+                <com.zing.zalo.p077ui.widget.RobotoTextView
+                    android:textSize="@dimen/f2"
+                    android:textColor="?attr/TextColor1"
+                    android:duplicateParentState="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Storage Tools"
+                    android:layout_weight="1"/>
+                <include layout="@layout/imgv_setting_reminder"/>
+                <include layout="@layout/imv_setting_caret"/>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@+id/ll_backuprestore_tools"
+                android:background="@drawable/stencils_contact_bg"
+                android:paddingLeft="@dimen/build_info_margin"
+                android:paddingRight="@dimen/build_info_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/min_height_row_setting">
+                <com.zing.zalo.p077ui.widget.RobotoTextView
+                    android:textSize="@dimen/f2"
+                    android:textColor="?attr/TextColor1"
+                    android:duplicateParentState="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Backup/Restore/Transfer Tools"
+                    android:layout_weight="1"/>
+                <include layout="@layout/imgv_setting_reminder"/>
+                <include layout="@layout/imv_setting_caret"/>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@+id/ll_autodownload_tools"
+                android:background="@drawable/stencils_contact_bg"
+                android:paddingLeft="@dimen/build_info_margin"
+                android:paddingRight="@dimen/build_info_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/min_height_row_setting">
+                <com.zing.zalo.p077ui.widget.RobotoTextView
+                    android:textSize="@dimen/f2"
+                    android:textColor="?attr/TextColor1"
+                    android:duplicateParentState="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Auto Download Tools"
+                    android:layout_weight="1"/>
+                <include layout="@layout/imgv_setting_reminder"/>
+                <include layout="@layout/imv_setting_caret"/>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@+id/ll_zalo_cloud_tools"
+                android:background="@drawable/stencils_contact_bg"
+                android:paddingLeft="@dimen/build_info_margin"
+                android:paddingRight="@dimen/build_info_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/min_height_row_setting">
+                <com.zing.zalo.p077ui.widget.RobotoTextView
+                    android:textSize="@dimen/f2"
+                    android:textColor="?attr/TextColor1"
+                    android:duplicateParentState="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Zalo Cloud Tools"
+                    android:layout_weight="1"/>
+                <include layout="@layout/imgv_setting_reminder"/>
+                <include layout="@layout/imv_setting_caret"/>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@+id/ll_social_tools"
+                android:background="@drawable/stencils_contact_bg"
+                android:paddingLeft="@dimen/build_info_margin"
+                android:paddingRight="@dimen/build_info_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/min_height_row_setting">
+                <com.zing.zalo.p077ui.widget.RobotoTextView
+                    android:textSize="@dimen/f2"
+                    android:textColor="?attr/TextColor1"
+                    android:duplicateParentState="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Social Tools"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</merge>

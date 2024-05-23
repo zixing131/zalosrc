@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="?attr/zingmp3sdk_sample_bgPlayerViewColor"/>
+    <stroke
+        android:width="0.7dp"
+        android:color="?attr/zingmp3sdk_sample_stroke"/>
+    <corners android:radius="8dp"/>
+</shape>

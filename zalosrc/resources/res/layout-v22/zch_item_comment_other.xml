@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:package="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/zch_item_comment_padding_horizontal"
+    android:paddingTop="@dimen/zch_item_comment_padding_vertical"
+    android:paddingRight="@dimen/zch_item_comment_padding_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/zch_item_comment_padding_horizontal">
+    <com.zing.zalo.shortvideo.p072ui.widget.tv.BlinkTextView
+        android:textSize="13dp"
+        android:textColor="@color/zch_text_tertiary"
+        android:gravity="center"
+        android:id="@+id/txtOther"
+        android:paddingBottom="@dimen/zch_item_comment_padding_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/zch_item_comment_child_avatar_indent"
+        android:text="@string/zch_item_comment_see_other"
+        android:includeFontPadding="false"
+        android:drawableRight="@drawable/zch_ic_chevron_down_line_16"
+        android:drawablePadding="4dp"
+        package:zchFontStyle="medium"/>
+</FrameLayout>

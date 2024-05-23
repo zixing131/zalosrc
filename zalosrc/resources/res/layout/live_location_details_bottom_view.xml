@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="14dp"
+        android:textColor="?attr/TextColor2"
+        android:id="@+id/tv_note_people_invite_sharing"
+        android:background="@color/topic_banner_bg_color"
+        android:paddingLeft="@dimen/msg_item_padding_l_r"
+        android:paddingTop="@dimen/msg_item_padding_t_b"
+        android:paddingRight="@dimen/msg_item_padding_l_r"
+        android:paddingBottom="@dimen/msg_item_padding_t_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"/>
+    <include layout="@layout/live_location_bar"/>
+    <View
+        android:id="@+id/id_btm_seperator_line_location_bar"
+        android:background="?attr/ItemSeparatorColor"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="13dp"
+        android:textColor="?attr/TextColor1"
+        android:gravity="center_vertical"
+        android:id="@+id/tv_live_location_list_status"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fstyle="medium"/>
+    <FrameLayout
+        android:id="@+id/fl_live_location_content"
+        android:clickable="false"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/lv_live_location_entries"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.zing.zalo.p077ui.zviews.multistate.MultiStateView
+            android:id="@+id/multi_state"
+            android:background="?attr/PopupBackgroundColor"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:msvEmptyLayout="@layout/layout_empty_state"
+            app:msvErrorLayout="@layout/layout_error_state"/>
+    </FrameLayout>
+</LinearLayout>

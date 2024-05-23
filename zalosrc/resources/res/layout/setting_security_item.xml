@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="@dimen/f4"
+            android:textColor="?attr/TextColor1"
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:layout_weight="1"
+            style="@style/Roboto.f2b"/>
+        <com.androidquery.util.RecyclingImageView
+            android:id="@+id/img_info"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_security_info"/>
+    </LinearLayout>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f5"
+        android:textColor="?attr/TextColor2"
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="content"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="17dp"
+    android:width="23dp"
+    android:viewportWidth="23"
+    android:viewportHeight="17">
+    <path
+        android:fillColor="?attr/sticker_panel_ic_emoji_delete_color"
+        android:pathData="M18.87,0a4,4 0,0 1,4 4v8.21a4,4 0,0 1,-4 4H9.364a4,4 0,0 1,-2.948 -1.296L1.413,9.457a2,2 0,0 1,0 -2.703l5.003,-5.457A4,4 0,0 1,9.364 0h9.506zM9.84,4.207a0.6,0.6 0,0 0,0 0.849l3.048,3.049 -3.048,3.05a0.6,0.6 0,1 0,0.848 0.848l3.05,-3.049 3.05,3.05a0.6,0.6 0,0 0,0.848 -0.85l-3.05,-3.049 3.05,-3.05a0.6,0.6 0,1 0,-0.849 -0.848l-3.05,3.049 -3.049,-3.049a0.6,0.6 0,0 0,-0.848 0z"
+        android:fillType="evenOdd"/>
+</vector>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/root_backgroundmain"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_action_bar"/>
+    <ViewStub
+        android:id="@+id/stub_top_quick_action"
+        android:layout="@layout/media_box_top_quick_action_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ListView
+        android:id="@+id/contactlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@color/transparent"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:choiceMode="singleChoice"/>
+    <com.zing.zalo.p077ui.zviews.multistate.MultiStateView
+        android:id="@+id/multi_state"
+        android:background="?attr/PrimaryBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:msvEmptyLayout="@layout/layout_empty_state"
+        app:msvErrorLayout="@layout/layout_error_state"/>
+</LinearLayout>

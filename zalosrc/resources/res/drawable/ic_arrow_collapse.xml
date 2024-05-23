@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="vector"
+    android:height="14dp"
+    android:width="14dp"
+    android:viewportWidth="14"
+    android:viewportHeight="14">
+    <group
+        android:name="arrow_collapse_group"
+        android:pivotX="7"
+        android:pivotY="7">
+        <path
+            android:pathData="M 1 4.128 L 7.181 10 L 13 4"
+            android:strokeColor="?attr/NormalIcon3"
+            android:strokeWidth="0.9"/>
+    </group>
+</vector>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.androidquery.util.RecyclingImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/ava1"
+        android:layout_height="@dimen/ava1"
+        android:layout_marginLeft="@dimen/msg_item_padding_l_r"
+        android:layout_marginTop="@dimen/msg_item_padding_t_b"
+        android:layout_marginRight="@dimen/msg_item_padding_l_r"
+        android:layout_marginBottom="@dimen/msg_item_padding_t_b"
+        style="@style/myImageView"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f2"
+        android:textColor="?attr/TextColor1"
+        android:ellipsize="end"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/msg_item_padding_l_r"
+        android:lines="1"
+        android:singleLine="true"/>
+</LinearLayout>

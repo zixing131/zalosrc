@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.chat.widget.jumpbutton.UnreadJumpFloatingView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="?attr/BackgroundFloatingJumpBtn"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_chevron_double_up_line_24"
+        android:layout_marginEnd="6dp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="@dimen/f0"
+            android:textColor="?attr/FloatingJumpBtnTextColor"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_unread_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_btn_unread_jump"
+            android:includeFontPadding="false"
+            app:fstyle="medium"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="@dimen/f1s"
+            android:textColor="?attr/FloatingJumpBtnSubTextColor"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_has_file_sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_new_msg_has_file_sub_text"
+            android:includeFontPadding="false"/>
+    </LinearLayout>
+</com.zing.zalo.p077ui.chat.widget.jumpbutton.UnreadJumpFloatingView>

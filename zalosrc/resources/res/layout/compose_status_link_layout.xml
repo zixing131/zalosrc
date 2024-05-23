@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.uicontrol.CustomEditText
+        android:textSize="@dimen/dialog_message_text_size"
+        android:textColor="?attr/TextColor1"
+        android:textColorHint="@color/txtdate_color"
+        android:orientation="vertical"
+        android:id="@+id/link_input_edit_text"
+        android:background="@drawable/stencils_bg_edit_text_edit_info"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/standard_spacing"
+        android:maxHeight="106dp"
+        android:minHeight="48dp"
+        android:hint="@string/str_status_link_input_hint"
+        android:layout_toLeftOf="@+id/btn_clear_text"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:inputType="textMultiLine"
+        app:alwaysUseContextPopup="true"/>
+</RelativeLayout>

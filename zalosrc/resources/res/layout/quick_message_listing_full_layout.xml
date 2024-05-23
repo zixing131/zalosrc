@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/SecondaryBackgroundColor"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.zdesign.component.header.ZdsActionBar
+        android:id="@+id/zds_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:idTrailingButton="plus_button"
+        app:leadingType="back"
+        app:middleTitleText="@string/str_quick_message_listing_full_title"
+        app:middleType="title"
+        app:trailingIconButton="@drawable/ic_plus_line_24"
+        app:trailingType="icon"
+        style="@style/BlueZdsActionBar.AppType"/>
+    <com.zing.zalo.uicontrol.SwipeRefreshListView
+        android:id="@+id/rv_quick_message_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:modeContent="recycleview"/>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:clickable="true"
+    android:descendantFocusability="beforeDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_error"
+        android:layout_width="@dimen/imv_multi_state_width"
+        android:layout_height="@dimen/imv_multi_state_height"
+        android:contentDescription="@string/str_desImg"
+        app:srcCompat="@drawable/im_connect"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/TextColor1"
+        android:gravity="center"
+        android:id="@+id/error_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/unknown_error"
+        style="@style/Roboto.f2"/>
+    <com.zing.zalo.p077ui.widget.RobotoButton
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/btn_refresh"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="21dp"
+        android:minWidth="122dp"
+        android:text="@string/reDownload"
+        android:textAllCaps="true"
+        style="@style/btnType1.medium"/>
+</LinearLayout>

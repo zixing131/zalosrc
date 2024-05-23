@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/ll_input_live_chat"
+    android:background="@drawable/bg_chat_edittext"
+    android:layout_width="210dp"
+    android:layout_height="36dp">
+    <ImageView
+        android:id="@+id/btn_emoji"
+        android:paddingLeft="@dimen/feed_padding_left"
+        android:paddingRight="@dimen/feed_padding_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="0x7f080fb7"
+        android:scaleType="center"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="14dp"
+        android:textColor="@color/white_60"
+        android:gravity="center_vertical"
+        android:id="@+id/input_chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/live_stream_send_msg_hint"/>
+</LinearLayout>

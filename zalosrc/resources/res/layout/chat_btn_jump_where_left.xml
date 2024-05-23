@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.chat.widget.jumpbutton.WhereLeftJumpFloatingView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_rounded_corner_popup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:padding="4dp"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/ic_chevron_double_up_line_24"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f0"
+        android:textColor="?attr/FloatingJumpBtnTextColor"
+        android:gravity="center"
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="@string/str_where_left_jump"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="8dp"
+        app:fstyle="medium"/>
+</com.zing.zalo.p077ui.chat.widget.jumpbutton.WhereLeftJumpFloatingView>

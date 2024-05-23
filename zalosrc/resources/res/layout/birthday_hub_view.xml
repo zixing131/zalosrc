@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/ui_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_action_bar"/>
+    <FrameLayout
+        android:id="@+id/main_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="@dimen/width_shadow_action_bar">
+        <FrameLayout
+            android:id="@+id/calendar_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.zing.p058v4.view.ViewPager
+                android:id="@+id/calendar_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/drag_view"
+            android:background="?attr/ui_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <View
+                android:layout_gravity="top"
+                android:background="?attr/divider_birthday_hub"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/event_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <com.zing.zalo.zdesign.component.Button
+            android:gravity="center"
+            android:layout_gravity="bottom|center_horizontal"
+            android:id="@+id/btn_jump_today"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="26dp"
+            android:text="@string/str_today"
+            android:elevation="2dp"
+            style="@style/ButtonSmall.SecondaryAlphaNeutral"/>
+        <include
+            android:id="@+id/empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/empty_layout_msg_tab"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:package="http://schemas.android.com/apk/res-auto"
+    android:background="@color/zch_layer_background_subtle"
+    android:paddingLeft="62dp"
+    android:paddingTop="80dp"
+    android:paddingRight="62dp"
+    android:paddingBottom="80dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.shortvideo.p072ui.widget.tv.SimpleShadowTextView
+        android:textSize="14dp"
+        android:textColor="@color/zch_text_tertiary"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/tvMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"/>
+</FrameLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg_empty_ai_sticker"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="24dp"
+    android:layout_marginBottom="16dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/empty_thumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="15dp"
+        android:textColor="?attr/text_tertiary"
+        android:gravity="center_horizontal"
+        android:id="@+id/empty_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+    <com.zing.zalo.zdesign.component.Button
+        android:id="@+id/btn_try_now"
+        android:background="?attr/button_primary_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/str_empty_ai_sticker_btn_txt"/>
+</LinearLayout>

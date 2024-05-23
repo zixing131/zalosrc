@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.zdesign.component.Button
+        android:gravity="center"
+        android:id="@+id/btn_show_popover"
+        android:background="@color/b50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Show"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_alignParentStart="true"/>
+    <com.zing.zalo.zdesign.component.Button
+        android:gravity="center"
+        android:id="@+id/btn_hide_popover"
+        android:background="@color/b50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Dismiss"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>

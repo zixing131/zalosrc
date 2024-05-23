@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/SecondaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.zdesign.component.header.ZdsActionBar
+        android:id="@+id/zds_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leadingType="back"
+        app:middleType="title"
+        app:trailingType="none"
+        style="@style/BlueZdsActionBar.AppType"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/TextColor2"
+        android:id="@+id/tv_block_hint"
+        android:background="?attr/PrimaryBackgroundColor"
+        android:paddingLeft="@dimen/msg_item_padding_l_r"
+        android:paddingTop="12dp"
+        android:paddingRight="@dimen/msg_item_padding_l_r"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_title_ignoreList"
+        android:includeFontPadding="false"
+        style="@style/t_small"/>
+    <ListView
+        android:id="@+id/lv_ignore"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@color/transparent"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:choiceMode="singleChoice"/>
+    <com.zing.zalo.p077ui.zviews.multistate.MultiStateView
+        android:id="@+id/multi_state"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:msvEmptyLayout="@layout/layout_empty_state"
+        app:msvErrorLayout="@layout/layout_error_state"/>
+</LinearLayout>

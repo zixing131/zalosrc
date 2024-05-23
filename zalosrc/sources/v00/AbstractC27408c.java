@@ -1,0 +1,67 @@
+package v00;
+
+/* renamed from: v00.c */
+/* loaded from: classes5.dex */
+public abstract class AbstractC27408c {
+    public static int zch_bg_bar_reaction = 2131235502;
+    public static int zch_bg_box_comment = 2131235503;
+    public static int zch_bg_box_search = 2131235504;
+    public static int zch_bg_bts = 2131235505;
+    public static int zch_bg_bts_thumb = 2131235506;
+    public static int zch_bg_button_active_blue = 2131235507;
+    public static int zch_bg_button_active_blue_round = 2131235508;
+    public static int zch_bg_button_active_red = 2131235509;
+    public static int zch_bg_button_active_white = 2131235510;
+    public static int zch_bg_button_active_white_round = 2131235511;
+    public static int zch_bg_button_inactive = 2131235512;
+    public static int zch_bg_button_inactive_round = 2131235513;
+    public static int zch_bg_button_inactive_round_selected = 2131235514;
+    public static int zch_bg_button_livestream = 2131235515;
+    public static int zch_bg_button_new_notification = 2131235516;
+    public static int zch_bg_button_outline = 2131235517;
+    public static int zch_bg_button_select_video_channel = 2131235518;
+    public static int zch_bg_button_video_follow = 2131235519;
+    public static int zch_bg_button_video_follow_accent = 2131235520;
+    public static int zch_bg_button_video_play = 2131235521;
+    public static int zch_bg_button_video_qna = 2131235522;
+    public static int zch_bg_cta_channel = 2131235523;
+    public static int zch_bg_dot_red = 2131235524;
+    public static int zch_bg_follow_notification = 2131235525;
+    public static int zch_bg_having_new_cmt = 2131235526;
+    public static int zch_bg_like_notification = 2131235527;
+    public static int zch_bg_live_card_channel = 2131235528;
+    public static int zch_bg_live_indicator = 2131235529;
+    public static int zch_bg_option_onboarding = 2131235530;
+    public static int zch_bg_option_onboarding_expand = 2131235531;
+    public static int zch_bg_pin_comment = 2131235532;
+    public static int zch_bg_popup = 2131235533;
+    public static int zch_bg_ripple_circle = 2131235534;
+    public static int zch_bg_ripple_quick_anim = 2131235535;
+    public static int zch_bg_ripple_rectangle = 2131235536;
+    public static int zch_bg_similar_channel = 2131235537;
+    public static int zch_bg_tag_comment_author = 2131235538;
+    public static int zch_bg_tag_live_comment_author = 2131235539;
+    public static int zch_bg_text_cursor = 2131235540;
+    public static int zch_bg_toast = 2131235541;
+    public static int zch_bg_video = 2131235542;
+    public static int zch_divider_bts_action = 2131235543;
+    public static int zch_divider_popup_action = 2131235544;
+    public static int zch_divider_video_time = 2131235545;
+    public static int zch_ic_chevron_right_with_red_dot = 2131235560;
+    public static int zch_ic_heart_livestream_reaction = 2131235589;
+    public static int zch_ic_heart_livestream_reaction_fly = 2131235590;
+    public static int zch_ic_heart_livestream_reaction_spark = 2131235591;
+    public static int zch_ic_heart_reaction = 2131235592;
+    public static int zch_inapp_noti_ring = 2131235643;
+    public static int zch_layer_radial_blue = 2131235644;
+    public static int zch_logo_floating = 2131235645;
+    public static int zch_logo_floating_live = 2131235646;
+    public static int zch_overlay_floating_item = 2131235647;
+    public static int zch_overlay_floating_live_item = 2131235648;
+    public static int zch_placeholder_avatar_channel = 2131235650;
+    public static int zch_placeholder_avatar_user = 2131235651;
+    public static int zch_placeholder_thumbnail_video = 2131235654;
+    public static int zch_placeholder_thumbnail_video_channel = 2131235655;
+    public static int zch_placeholder_thumbnail_video_channel_without_logo = 2131235656;
+    public static int zch_selector_radio_button = 2131235657;
+}

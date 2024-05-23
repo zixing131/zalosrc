@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/ll_backgroundmain"
+    android:background="?attr/SecondaryBackgroundColor"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.zdesign.component.header.ZdsActionBar
+        android:id="@+id/zds_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leadingType="back"
+        app:middleTitleText="@string/str_group_notification_setting"
+        app:middleType="title"
+        style="@style/BlueZdsActionBar.AppType"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/content_recycle_view"
+        android:background="?attr/PrimaryBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

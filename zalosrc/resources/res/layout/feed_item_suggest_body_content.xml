@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/layoutSuggestFeed"
+        android:background="@drawable/bg_with_bottom_border"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/bottomAnchor"
+        android:layout_alignParentTop="true"/>
+    <com.zing.zalo.feed.uicontrols.FeedAdsImageView
+        android:id="@+id/imvPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="@dimen/feed_content_padding"
+        android:layout_marginRight="0dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/tvMessage"/>
+    <include layout="@layout/feed_item_ads_bottom_detail"/>
+    <View
+        android:id="@+id/bottomAnchor"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/feed_padding_top"
+        android:layout_below="@+id/layoutSuggestDetail"/>
+</merge>

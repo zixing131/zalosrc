@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:saveEnabled="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/toolbar_container"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/width_shadow_action_bar">
+        <RelativeLayout
+            android:id="@+id/header_webview_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <View
+            android:id="@+id/divider_bottom"
+            android:background="@color/cLine1"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignBottom="@+id/header_webview_container"/>
+        <ProgressBar
+            android:id="@+id/web_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:progressDrawable="@drawable/webapp_progress_bar"
+            android:layout_alignBottom="@+id/header_webview_container"
+            style="@android:style/Widget.ProgressBar.Horizontal"/>
+    </RelativeLayout>
+    <com.zing.zalo.p077ui.zviews.multistate.MultiStateView
+        android:id="@+id/multi_state_container"
+        android:background="@drawable/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_container"
+        custom:msvEmptyLayout="@layout/layout_empty_state"
+        custom:msvErrorLayout="@layout/layout_error_state">
+        <FrameLayout
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.zing.zalo.p077ui.zviews.multistate.MultiStateView>
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/chat_details_share_row"
+    android:background="?attr/PopupBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+    <View
+        android:background="?attr/ChatSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f4"
+        android:textColor="?attr/TextColor1"
+        android:gravity="center"
+        android:id="@+id/btn_forward_msg"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/share"
+        android:drawableLeft="@drawable/icn_csc_menu_share_n"
+        android:drawablePadding="4dp"
+        android:layout_alignParentLeft="true"/>
+</LinearLayout>

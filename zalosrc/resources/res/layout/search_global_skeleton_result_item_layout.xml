@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_loading"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:visibility="visible"
+    android:layout_width="match_parent"
+    android:layout_height="72dp">
+    <ProgressBar
+        android:background="@null"
+        android:layout_width="290dp"
+        android:layout_height="72dp"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/search_global_skeleton_result_item_animated_drawable"
+        android:indeterminateDuration="1500"
+        android:indeterminateBehavior="repeat"/>
+</FrameLayout>

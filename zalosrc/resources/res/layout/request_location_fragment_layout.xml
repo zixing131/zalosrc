@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/black_alpha"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/holo_circular_progress_bar_mini"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/tv_request_location"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"
+        android:layout_below="@+id/holoCircularProgressBar"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

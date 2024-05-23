@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_action_bar"/>
+    <com.zing.zalo.uicontrol.CustomEditText
+        android:textSize="15sp"
+        android:textColor="?attr/TextColor1"
+        android:textColorHint="?attr/TextColor2"
+        android:id="@+id/input_search"
+        android:background="@drawable/bg_input_collection_name"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/str_hint_search_my_cloud_message_picker_view"
+        android:maxLines="1"
+        android:inputType="textCapSentences"
+        android:textCursorDrawable="@drawable/chat_bar_text_cursor"
+        android:textAlignment="textStart"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.zing.zalo.uicontrol.ViewPagerCustomSwipeable
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

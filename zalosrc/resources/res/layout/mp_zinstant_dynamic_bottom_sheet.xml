@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.zdesign.component.TrackingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/backgroundView"
+        android:background="@color/black_70"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.zing.zalo.uicomponents.framelayout.DragToCloseLayout
+        android:id="@+id/drag_to_close_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <com.zing.zalo.p077ui.rounedlayout.RelativeRoundedLayout
+            android:id="@+id/contentView"
+            android:background="?attr/container"
+            android:paddingTop="16dp"
+            android:paddingBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:topLeft="20dp"
+            app:topRight="20dp">
+            <com.zing.zalo.p077ui.zviews.MiniAppZinstantLayout
+                android:id="@+id/zinstantView"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.zing.zalo.p077ui.rounedlayout.RelativeRoundedLayout>
+    </com.zing.zalo.uicomponents.framelayout.DragToCloseLayout>
+</com.zing.zalo.zdesign.component.TrackingRelativeLayout>

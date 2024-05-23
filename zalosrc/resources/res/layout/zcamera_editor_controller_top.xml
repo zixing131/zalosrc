@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/editor_controller_top"
+    android:background="@drawable/photo_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48dp"
+    android:layout_alignParentTop="true"
+    android:splitMotionEvents="false">
+    <com.zing.zalo.uicomponents.imagebutton.ActiveImageButton
+        android:layout_gravity="center_vertical"
+        android:id="@+id/btn_editor_back"
+        android:background="@color/transparent"
+        android:padding="14dp"
+        android:layout_width="@dimen/camera_button_size"
+        android:layout_height="@dimen/camera_button_size"
+        app:srcCompat="0x7f08084e"/>
+    <com.zing.zalo.uicomponents.imageview.ActiveImageColorButton
+        android:layout_gravity="center_vertical"
+        android:id="@+id/btn_editor_back_filter"
+        android:background="@color/transparent"
+        android:padding="14dp"
+        android:visibility="gone"
+        android:layout_width="@dimen/camera_button_size"
+        android:layout_height="@dimen/camera_button_size"
+        app:srcCompat="0x7f080aa6"/>
+    <RelativeLayout
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/editor_top_action_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/btn_editor_music"
+            android:layout_width="120dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="4dp"
+            layout="@layout/layout_editor_music"/>
+        <include
+            android:id="@+id/editor_top_button_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:layout_toEndOf="@+id/btn_editor_music"
+            layout="@layout/zcamera_editor_controller_button"/>
+    </RelativeLayout>
+</FrameLayout>

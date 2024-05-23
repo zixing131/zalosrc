@@ -1,0 +1,1369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="12100739"
+    android:versionName="24.04.02"
+    android:installLocation="auto"
+    android:compileSdkVersion="34"
+    android:compileSdkVersionCodename="14"
+    package="com.zing.zalo"
+    platformBuildVersionCode="34"
+    platformBuildVersionName="14"
+    xmlns:ns1="http://schemas.android.com/apk/distribution" 
+    ns1:requiredSplitTypes="base__abi,base__density"
+    xmlns:ns2="http://schemas.android.com/apk/distribution" 
+    ns2:splitTypes="">
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="34"/>
+    <supports-screens
+        android:anyDensity="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:resizeable="true"
+        android:xlargeScreens="true"/>
+    <uses-feature
+        android:glEsVersion="0x20000"
+        android:required="true"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission-sdk-23 android:name="android.permission.READ_PHONE_NUMBERS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:maxSdkVersion="30"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="com.zing.zalo.permission.BIND_ZALO_SERVICE"/>
+    <uses-permission android:name="zing.zalo.permission.ZALO_SERVICE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission-sdk-23 android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission-sdk-23 android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.screen.portrait"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false"/>
+    <permission
+        android:label="@string/perm_acces"
+        android:name="zing.zalo.permission.ZALO_SERVICE"
+        android:protectionLevel="signature"
+        android:description="@string/perm_acces_summary"/>
+    <permission
+        android:label="@string/perm_acces"
+        android:name="com.zing.zalo.permission.BIND_ZALO_SERVICE"
+        android:protectionLevel="normal"
+        android:description="@string/perm_acces_summary"/>
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.OPEN_DOCUMENT"/>
+            <category android:name="android.intent.category.OPENABLE"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+        </intent>
+        <package android:name="com.facebook.mlite"/>
+        <package android:name="com.facebook.lite"/>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="com.facebook.orca"/>
+        <package android:name="org.telegram.messenger"/>
+        <package android:name="com.skype.raider"/>
+        <package android:name="us.zoom.videomeetings"/>
+        <package android:name="com.viber.voip"/>
+        <package android:name="com.viettel.mocha.app"/>
+        <package android:name="com.whatsapp"/>
+        <package android:name="com.tencent.mm"/>
+        <package android:name="jp.naver.line.android"/>
+        <package android:name="com.instagram.android"/>
+        <package android:name="vn.moca.pass"/>
+        <package android:name="com.snapchat.android"/>
+        <package android:name="com.kakao.talk"/>
+        <package android:name="com.sgiggle.production"/>
+        <package android:name="com.tencent.mobileqqi"/>
+        <package android:name="com.ss.android.ugc.trill"/>
+        <package android:name="com.zing.boba"/>
+        <package android:name="com.vivavietnam.lotus"/>
+        <package android:name="com.google.android.apps.tachyon"/>
+        <package android:name="com.beetalk"/>
+        <package android:name="com.epi"/>
+        <package android:name="com.zing.znews"/>
+        <package android:name="com.zing.mp3"/>
+        <package android:name="com.kaka.karaoke"/>
+        <package android:name="com.zing.tv3"/>
+        <package android:name="com.xb.topnews"/>
+        <package android:name="mobi.fiveplay.tinmoi24h"/>
+        <package android:name="com.baohay24h.app"/>
+        <package android:name="com.spotify.music"/>
+        <package android:name="com.nct.tablet"/>
+        <package android:name="ht.nct"/>
+        <package android:name="vn.nct.nhaccuatui"/>
+        <package android:name="com.soundcloud.android"/>
+        <package android:name="vn.tuoitre.app"/>
+        <package android:name="fr.playsoft.vnexpress"/>
+        <package android:name="vn.com.dantrinews.android"/>
+        <package android:name="com.google.android.youtube"/>
+        <package android:name="com.goldsun.kola"/>
+        <package android:name="com.xb.vn_today"/>
+        <package android:name="com.vtechnology.mykara"/>
+        <package android:name="com.vttm.tinnganradio"/>
+        <package android:name="com.apple.android.music"/>
+        <package android:name="com.yokara.v2"/>
+        <package android:name="com.km.karaokenow"/>
+        <package android:name="vcc.mobilenewsreader.kenh14"/>
+        <package android:name="com.tencent.wesing"/>
+        <package android:name="net.ukara"/>
+        <package android:name="com.vcc.newpega"/>
+        <package android:name="com.vttm.keeng"/>
+        <package android:name="com.vng.inputmethod.labankey"/>
+        <package android:name="kynam.ime.gotiengviet"/>
+        <package android:name="com.vng.laban.gif"/>
+        <package android:name="kynam.gotiengviet.android"/>
+        <package android:name="com.google.android.inputmethod.latin"/>
+        <package android:name="com.touchtype.swiftkey"/>
+        <package android:name="com.sec.android.inputmethod"/>
+        <package android:name="com.emoji.input.gif.theme.keyboard"/>
+        <package android:name="com.jb.gokeyboardpro"/>
+        <package android:name="com.touchtype.swiftkey.beta"/>
+        <package android:name="com.sonyericsson.textinput.uxp"/>
+        <package android:name="bkav.android.inputmethod.gtv"/>
+        <package android:name="com.jb.gokeyboard"/>
+        <package android:name="com.baidu.input_huawei"/>
+        <package android:name="com.jb.lab.gokeyboard"/>
+        <package android:name="com.nuance.swype.dtc"/>
+        <package android:name="com.blackberry.keyboard"/>
+        <package android:name="com.jb.gokeyboard.langpack.vi"/>
+        <package android:name="com.sec.android.inputmethod.axt9"/>
+        <package android:name="com.nuance.swype.trial"/>
+        <package android:name="com.android.inputmethod"/>
+        <package android:name="com.sonyericsson.textinput"/>
+        <package android:name="com.nuance.swype"/>
+        <package android:name="com.nuance.swype.oppo"/>
+        <package android:name="com.android.inputmethod.latin"/>
+        <package android:name="com.jb.emoji.gokeyboard"/>
+        <package android:name="com.htc.sense.ime"/>
+        <package android:name="com.asus.ime"/>
+        <package android:name="com.lge.ime"/>
+        <package android:name="com.mohviettel.sskdt"/>
+        <package android:name="com.mic.bluezone"/>
+        <package android:name="vn.coquan.hd"/>
+        <package android:name="com.lazada.android"/>
+        <package android:name="com.shopee.vn"/>
+        <package android:name="com.beeasy.toppay"/>
+        <package android:name="com.mservice.momotransfer"/>
+        <package android:name="com.grabtaxi.passenger"/>
+        <package android:name="vn.tiki.app.tikiandroid"/>
+        <package android:name="com.sendo"/>
+        <package android:name="vn.com.vng.zalopay"/>
+        <package android:name="com.bplus.vtpay"/>
+        <package android:name="vnpay.smartacccount"/>
+        <package android:name="vn.com.paysmart"/>
+        <package android:name="com.paypal.android.p2pmobile"/>
+        <package android:name="com.bigc.appbigc"/>
+        <package android:name="com.bachhoaxanh"/>
+        <package android:name="com.amazon.mShop.android.shopping"/>
+        <package android:name="com.woowahan.vn.baemin"/>
+        <package android:name="com.alibaba.intl.android.apps.poseidon"/>
+        <package android:name="tech.hungdong.saigoncoop"/>
+        <package android:name="vn.vimo"/>
+        <package android:name="com.garena.game.kgvn"/>
+        <package android:name="com.vttm.vietteldiscovery"/>
+        <package android:name="com.vnpay.Agribank3g"/>
+        <package android:name="com.VCB"/>
+        <package android:name="com.vietinbank.ipay"/>
+        <package android:name="com.vnpay.bidv"/>
+        <package android:name="com.mbmobile"/>
+        <package android:name="com.coccoc.trinhduyet"/>
+        <package android:name="vn.homecredit.hcvn"/>
+        <package android:name="com.chotot.vn"/>
+        <package android:name="com.sacombank.ewallet"/>
+        <package android:name="com.samsung.svmc.smm"/>
+        <package android:name="com.google.android.wearable.app"/>
+        <package android:name="com.google.android.webview"/>
+        <package android:name="com.hay1.tintuc"/>
+        <package android:name="com.bhxhapp"/>
+        <package android:name="com.vnid"/>
+        <package android:name="vn.com.techcombank.bb.app"/>
+        <package android:name="ops.namabank.com.vn"/>
+        <package android:name="com.vnpay.vpbankonline"/>
+        <package android:name="mobile.acb.com.vn"/>
+        <package android:name="com.tpb.mb.gprsandroid"/>
+        <package android:name="src.com.sacombank"/>
+        <package android:name="com.vib.myvib2"/>
+        <package android:name="vn.shb.mbanking"/>
+        <package android:name="com.vnpay.abbank"/>
+        <package android:name="com.ocb.omniextra"/>
+        <package android:name="com.shinhan.global.vn.bank"/>
+        <package android:name="vn.com.lpb.lienviet24h"/>
+        <package android:name="com.vnpay.hdbank"/>
+        <package android:name="vn.com.msb.smartBanking"/>
+        <package android:name="com.vnpay.EximBankOmni"/>
+        <package android:name="vn.com.seabank.mb1"/>
+        <package android:name="pgbankApp.pgbank.com.vn"/>
+        <package android:name="com.sunshine.ksbank"/>
+        <package android:name="phn.com.vn.mb"/>
+        <package android:name="com.vnpay.vietbank"/>
+        <package android:name="com.vnpay.sgbank"/>
+        <package android:name="com.bab.retailUAT"/>
+        <package android:name="vn.banvietbank.mobilebanking"/>
+        <package android:name="com.vnpay.bvbank"/>
+        <package android:name="com.dongabank.mobilenternet"/>
+        <package android:name="com.ncb.bank"/>
+        <package android:name="com.vnpay.ocean"/>
+        <package android:name="com.vsii.pvcombank"/>
+        <package android:name="io.lifestyle.plus"/>
+        <package android:name="xyz.be.cake"/>
+        <package android:name="vn.vpbank.ubank"/>
+        <package android:name="com.vnpay.bidc"/>
+        <package android:name="my.com.hongleongconnect.mobileconnect"/>
+        <package android:name="cbbank.vn.mobile"/>
+        <package android:name="vn.cimbbank.octo"/>
+        <package android:name="com.vnpay.coopbank"/>
+        <package android:name="com.dbs.sg.dbsmbanking"/>
+        <package android:name="vn.hsbc.hsbcvietnam"/>
+        <package android:name="com.ibk.neobanking.mini"/>
+        <package android:name="com.vnpay.ivb"/>
+        <package android:name="com.kasikornbank.kplus.vn"/>
+        <package android:name="com.kbstar.global"/>
+        <package android:name="nh.smart.banking"/>
+        <package android:name="com.vnpay.publicbank"/>
+        <package android:name="com.sc.mobilebanking.vn"/>
+        <package android:name="com.uob.mightyvn"/>
+        <package android:name="vn.com.woori.smart"/>
+        <package android:name="com.zing.mp3.dev"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <intent>
+            <action android:name="com.android.vending.billing.InAppBillingService.BIND"/>
+        </intent>
+        <package android:name="com.google.android.apps.maps"/>
+    </queries>
+    <uses-permission android:name="com.zing.zalo.permission.BROADCAST_FROM_VIDEO_PROCESSING"/>
+    <permission
+        android:label="@string/permdesc_receiveBroadcast"
+        android:name="com.zing.zalo.permission.BROADCAST_FROM_VIDEO_PROCESSING"
+        android:protectionLevel="signature"
+        android:description="@string/permlab_receiveBroadcast"/>
+    <permission
+        android:name="com.zing.zalo.permission.C2D_MESSAGE"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.zing.zalo.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <permission
+        android:name="com.zing.zalo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.zing.zalo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application
+        android:theme="@style/ThemeDefault.Start"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:name="com.zing.zalo.MainApplication"
+        android:manageSpaceActivity=".ui.toolstorage.ToolStorageAppSettingActivity"
+        android:backupAgent="com.zing.zalo.db.backup.ZaloBackupAgent"
+        android:allowBackup="false"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:fullBackupOnly="true"
+        android:extractNativeLibs="true"
+        android:usesCleartextTraffic="true"
+        android:resizeableActivity="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:isSplitRequired="true"
+        android:hasFragileUserData="true"
+        android:requestLegacyExternalStorage="true"
+        android:allowNativeHeapPointerTagging="false"
+        android:preserveLegacyExternalStorage="true">
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.8"/>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAlKqxSbbNqoc3rpoJGaDczTbKF0Hh9dEA"/>
+        <meta-data
+            android:name="com.google.mlkit.vision.DEPENDENCIES"
+            android:value="barcode,ocr"/>
+        <meta-data
+            android:name="com.google.android.gms.car.application"
+            android:resource="@xml/automotive_app_desc"/>
+        <activity
+            android:theme="@style/ThemeDefault.NoActionbar.Translucent"
+            android:name="com.zing.zalo.p077ui.MiniChatRequestPermissionActivity"
+            android:taskAffinity="com.zing.zalo.RequestPermissionActivity"
+            android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="unspecified"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:name="com.zing.zalo.p077ui.ZaloLauncherActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:configChanges="density|smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity-alias
+            android:label="@string/zalo"
+            android:name="com.zing.zalo.ui.TempShareViaActivity"
+            android:exported="true"
+            android:targetActivity="com.zing.zalo.ui.ZaloLauncherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <action android:name="com.zing.zalo.intent.action.SEND"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/*"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter android:icon="0x7f080f75">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/com.zing.zalo.call"/>
+            </intent-filter>
+            <intent-filter android:icon="0x7f080f75">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/com.zing.zalo.message"/>
+            </intent-filter>
+            <intent-filter android:icon="0x7f080f75">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/com.zing.zalo.video.call"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.service.chooser.chooser_target_service"
+                android:value=".service.DirectShareChooserService"/>
+        </activity-alias>
+        <activity
+            android:name="com.zing.zalo.p077ui.toolstorage.ToolStorageAppSettingActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name="com.zing.zalo.p077ui.PasscodeActivity"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden"/>
+        <activity
+            android:theme="@style/ThemeDefault.MP.Light"
+            android:name="com.zing.zalo.p077ui.WebViewMPActivity"
+            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@style/ThemeDefault.MP.Light"
+            android:name="com.zing.zalo.p077ui.NoWebviewInstalledActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@style/ThemeDefault.TranslucentLight"
+            android:name="com.zing.zalo.p077ui.MissCallActivity"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="unspecified"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"/>
+        <activity
+            android:theme="@style/ThemeDefault.NoActionbarLight"
+            android:name="com.zing.zalo.p077ui.ExternalCallSplashActivity"
+            android:enabled="true"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"/>
+        <activity-alias
+            android:label="@string/app_name"
+            android:name="com.zing.zalo.thirdparty.ui.RequestPermissionActivityAlias"
+            android:exported="true"
+            android:targetActivity="com.zing.zalo.ui.ExternalCallSplashActivity">
+            <intent-filter>
+                <action android:name="com.zing.zalo.intent.action.THIRD_PARTY_REQ_PERM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:label="@string/app_name"
+            android:name="com.zing.zalo.thirdparty.ui.AuthorizationAppActivityAlias"
+            android:exported="true"
+            android:targetActivity="com.zing.zalo.ui.ExternalCallSplashActivity">
+            <intent-filter>
+                <action android:name="com.zing.zalo.intent.action.THIRD_PARTY_APP_AUTHORIZATION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:label="@string/app_name"
+            android:name="com.zing.zalo.thirdparty.ui.WebAuthorizationActivityAlias"
+            android:exported="true"
+            android:targetActivity="com.zing.zalo.ui.ExternalCallSplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="zalo"
+                    android:host="login"/>
+            </intent-filter>
+        </activity-alias>
+        <activity
+            android:theme="@style/ThemeDefault.IntentHandlerLight"
+            android:name="com.zing.zalo.p077ui.IntentHandlerInternalActivity"
+            android:exported="false"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:configChanges="screenSize|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@style/ThemeDefault.IntentHandlerLight"
+            android:name="com.zing.zalo.p077ui.NotificationReceiverTrampolineActivity"
+            android:exported="false"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:configChanges="screenSize|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@style/ThemeDefault.IntentHandlerLight"
+            android:name="com.zing.zalo.p077ui.IntentHandlerTrampolineActivity"
+            android:exported="false"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:configChanges="screenSize|orientation|keyboardHidden|keyboard">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.zing.zalo.intent.action.ACTION_FINISH_DOWNLOAD_APK"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.zing.zalo.intent.action.ACTION_RETRY_DOWNLOAD_APK"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.zing.zalo.browser.action.DOWNLOAD_OPEN"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/ThemeDefault.IntentHandlerLight"
+            android:name="com.zing.zalo.p077ui.IntentHandlerActivity"
+            android:exported="true"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:configChanges="screenSize|orientation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.NOTIFICATION_PREFERENCES"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="zalo"
+                    android:host="zaloapp.com"
+                    android:pathPrefix="/qr/"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="http"
+                    android:host="zaloapp.com"
+                    android:pathPrefix="/qr/"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="zaloapp.com"
+                    android:pathPrefix="/qr/"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="http"
+                    android:host="zaloapp.com"
+                    android:pathPrefix="/"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="zaloapp.com"
+                    android:pathPrefix="/"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="zalo.me"
+                    android:pathPrefix="/"/>
+                <data
+                    android:scheme="https"
+                    android:host="catalog.zalo.me"
+                    android:pathPrefix="/"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="http"
+                    android:host="zalo.me"
+                    android:pathPrefix="/"/>
+                <data
+                    android:scheme="http"
+                    android:host="catalog.zalo.me"
+                    android:pathPrefix="/"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="http"
+                    android:host="www.zaloapp.com"
+                    android:pathPrefix="/"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="www.zaloapp.com"
+                    android:pathPrefix="/"/>
+            </intent-filter>
+        </activity>
+        <activity-alias
+            android:label="@string/zalo"
+            android:name="com.zing.zalo.ui.CallIntentHandlerActivityAlias"
+            android:enabled="true"
+            android:exported="true"
+            android:targetActivity="com.zing.zalo.ui.IntentHandlerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.DIAL"/>
+                <action android:name="android.intent.action.CALL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:label="@string/zalo"
+            android:name="com.zing.zalo.ui.IntentHandlerActivityAlias"
+            android:exported="true"
+            android:targetActivity="com.zing.zalo.ui.IntentHandlerActivity"/>
+        <activity-alias
+            android:label="@string/zalo"
+            android:name="com.zing.zalo.ui.QRCodeParserActivityAlias"
+            android:exported="true"
+            android:targetActivity="com.zing.zalo.ui.IntentHandlerActivity"/>
+        <activity
+            android:label="@string/app_name"
+            android:name="com.zing.zalo.p077ui.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="zalo"
+                    android:host="start"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/sharing_shortcut"/>
+        </activity>
+        <activity
+            android:theme="@style/ThemeDefault.NoActionbar"
+            android:name="com.zing.zalo.p077ui.Cocos2dxAnimationActivity"
+            android:process=":animation"
+            android:launchMode="singleTask"
+            android:screenOrientation="unspecified"
+            android:hardwareAccelerated="false"/>
+        <activity
+            android:theme="@style/ThemeDefault.TranslucentLight"
+            android:name="com.zing.zalo.p077ui.MessagePopupActivity"
+            android:exported="false"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="com.zing.zalo.ui.MessagePopupActivityIntent"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/ThemeDefault.TranslucentLight"
+            android:name="com.zing.zalo.p077ui.MessageHintSuggestActivity"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"/>
+        <activity
+            android:theme="@style/ThemeDefault.NoActionbar.Translucent"
+            android:name="com.zing.zalo.p077ui.RetryMsgPopupActivity"
+            android:exported="false"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="user"
+            android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.zing.zalo.p077ui.RetryMsgPopupActivity"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/ThemeDefault.NoActionbar"
+            android:name="zm.voip.p721ui.incall.ZmInCallActivity"
+            android:exported="false"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation"
+            android:showOnLockScreen="true"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="true">
+            <intent-filter android:priority="10">
+                <action android:name="zm.voip.phone.action.INCALL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/ThemeDefault.NoActionbar"
+            android:name="zm.voip.p721ui.incall.GroupCallActivity"
+            android:exported="false"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation"
+            android:showOnLockScreen="true"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="true">
+            <intent-filter android:priority="10">
+                <action android:name="zm.voip.phone.action.INCALL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.Translucent"
+            android:name="com.adtima.ads.ZAdsActivity"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent"
+            android:name="com.adtima.ads.ZAdsNetwork"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent"
+            android:name="com.adtima.ads.ZAdsLanding"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent"
+            android:name="com.adtima.ads.ZAdsVideoReward"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent"
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:exported="false"
+            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+        <activity
+            android:theme="@style/ThemeDefault.Start"
+            android:label="@string/zalo"
+            android:name="com.zing.zalo.p077ui.ZaloBubbleActivity"
+            android:configChanges="keyboardHidden|keyboard"
+            android:allowEmbedded="true"
+            android:resizeableActivity="true"/>
+        <receiver android:name="com.zing.zalo.receiver.AlarmReceiver"/>
+        <receiver android:name="com.zing.zalo.receiver.KeepAliveSCReceiver"/>
+        <receiver android:name="com.zing.zalo.receiver.KeepAliveSCUploadReceiver"/>
+        <receiver android:name="com.zing.zalo.receiver.KeepAliveSCUploadVideoReceiver"/>
+        <receiver
+            android:name="com.zing.zalo.receiver.ZaloReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE_IMMEDIATE"/>
+                <action android:name="android.intent.action.AIRPLANE_MODE"/>
+                <action android:name="com.zing.zalo.intent.action.ACTION_RETRY_DOWNLOAD_APK"/>
+                <action android:name="com.zing.zalo.intent.action.ACTION_FINISH_DOWNLOAD_APK"/>
+                <action android:name="com.zing.zalo.intent.action.START_ZALO_BACKGROUND_SERVICE"/>
+                <action android:name="com.zing.zalo.browser.action.DOWNLOAD_CANCEL"/>
+                <action android:name="com.zing.zalo.intent.action.DELETE_NOTIFICATION"/>
+                <action android:name="com.zing.zalo.intent.action.CALL_DELETE_NOTIFICATION"/>
+                <action android:name="com.zing.zalo.intent.action.CALL_NOTIFICATION"/>
+                <action android:name="com.zing.zalo.intent.action.ACTION_CANCEL_ACTIVEBYREJECTCALL"/>
+                <action android:name="com.zing.zalo.intent.action.FINISH_COCOS_EFFECT"/>
+                <action android:name="com.zing.zalo.intent.action.START_COCOS_EFFECT"/>
+                <action android:name="com.zing.zalo.intent.action.ACTION_COCOS_INPUT_TEXT_CHANGED"/>
+                <action android:name="com.zing.zalo.intent.action.ACTION_COCOS_PROCESS_ACTION_LIST"/>
+                <action android:name="com.zing.zalo.intent.action.ACTION_DEMAND_WEARABLE"/>
+                <action android:name="com.zing.zalo.intent.action.ACTION_RETRY_DOWNLOAD_FILE"/>
+                <action android:name="android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.PHONE_STATE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_REMOVED"/>
+                <action android:name="android.intent.action.MEDIA_EJECT"/>
+                <action android:name="android.intent.action.MEDIA_BAD_REMOVAL"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.zing.zalo.camera.videos.VideoCompressReceiver"
+            android:permission="com.zing.zalo.permission.BROADCAST_FROM_VIDEO_PROCESSING"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.zing.zalo.action.ACTION_UPDATE_VIDEO_PROCESSING"/>
+                <action android:name="com.zing.zalo.action.ACTION_LOG_QOS_DETAILS"/>
+                <action android:name="com.zing.zalo.action.ACTION_LOG_QOS_FILTER_ACTION_SUCCESS"/>
+                <action android:name="com.zing.zalo.action.ACTION_WRITE_LOG"/>
+                <category android:name="com.zing.zalo"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="zm.voip.service.HeadsetButtonReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.zing.zalo.receiver.ZaloNotificationReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.zing.zalo.intent.action.OPEN_NOTIFICATION"/>
+                <action android:name="com.zing.zalo.intent.action.DELETE_NOTIFICATION"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.zing.zalo.service.ProcessVideoService"
+            android:process=":video_processing"
+            android:foregroundServiceType="">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Processing video"/>
+        </service>
+        <service
+            android:name="com.zing.zalo.chathead.MiniChatService"
+            android:foregroundServiceType="location"/>
+        <service
+            android:label="@string/zalo"
+            android:name="com.zing.zalo.service.DirectShareChooserService"
+            android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.service.chooser.ChooserTargetService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:enabled="@bool/enable_system_foreground_service_default"
+            android:exported="false"
+            android:directBootAware="false"
+            android:foregroundServiceType="location|dataSync"/>
+        <service
+            android:name="com.zing.zalo.service.ZaloBackgroundService"
+            android:permission="zing.zalo.permission.ZALO_SERVICE"
+            android:enabled="true"
+            android:exported="true"
+            android:foregroundServiceType="microphone|camera">
+            <intent-filter>
+                <action android:name="com.zing.zalo.intent.action.PICK_SERVICE"/>
+                <category android:name="com.zing.zalo.intent.category.ZALO_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.zing.zalo.service.ZaloKeepAliveService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="true"
+            android:foregroundServiceType="">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Keep Alive Service"/>
+            <intent-filter>
+                <action android:name="com.zing.zalo.intent.action.KEEP_ALIVE_SERVICE_STARTER"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.zing.zalo.backuprestore.service.BackupRestoreService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="dataSync"/>
+        <service
+            android:name="com.zing.zalo.service.PlatformService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.zing.zalo.action.PlatformService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.zing.zalo.service.AuthenticationService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator"/>
+        </service>
+        <service
+            android:name="com.zing.zalo.service.SyncService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapter"/>
+            <meta-data
+                android:name="android.provider.CONTACTS_STRUCTURE"
+                android:resource="@xml/contacts"/>
+        </service>
+        <service
+            android:name="com.zing.zalo.zalocloud.onboarding.ZaloCloudOnboardingForegroundService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync"/>
+        <service android:name="com.zing.zalo.service.StartIntentFromBubbleService"/>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:exported="false"
+            android:authorities="com.zing.zalo.androidx-startup">
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup"/>
+        </provider>
+        <provider
+            android:name="com.zing.zalo.p062db.PreferencesProvider"
+            android:exported="false"
+            android:authorities="com.zing.zalo.db.preferencesprovider"/>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.zing.zalo.provider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+        <provider
+            android:name="com.zing.zalo.crashhandler.ErrorReportProvider"
+            android:exported="false"
+            android:authorities="com.zing.zalo"
+            android:initOrder="101"
+            android:grantUriPermissions="false"/>
+        <provider
+            android:name="com.zing.zalo.provider.InternalProvider"
+            android:exported="false"
+            android:authorities="com.zing.zalo.provider.InternalProvider"/>
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false"/>
+        <meta-data
+            android:name="android.vivo_multidisplay_support"
+            android:value="true"/>
+        <meta-data
+            android:name="com.zing.zalosdk.configAutoTrackingActivity"
+            android:value="false"/>
+        <provider
+            android:name="com.zing.zalo.wakeup.StartupHelperProvider"
+            android:enabled="true"
+            android:exported="true"
+            android:authorities="com.zing.zalo.provider.startuphelper">
+            <intent-filter>
+                <action android:name="me.zalo.startuphelper.intent.action.STARTUP_HELPER_PROVIDER"/>
+            </intent-filter>
+        </provider>
+        <service
+            android:name="com.zing.zalo.service.ZaloFirebaseMessagingService"
+            android:exported="false"
+            android:foregroundServiceType="">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="false"/>
+        <meta-data
+            android:name="firebase_performance_collection_enabled"
+            android:value="false"/>
+        <activity
+            android:name="com.zing.zalo.startup.StartupActivity"
+            android:exported="false"/>
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false"/>
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false"/>
+        <provider
+            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+            android:exported="false"
+            android:authorities="com.zing.zalo.mobileadsinitprovider"
+            android:initOrder="100"/>
+        <service
+            android:name="com.google.android.gms.ads.AdService"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable.BroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.BatteryChargingProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.BatteryNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.StorageNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.NetworkStateProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false"
+            android:directBootAware="true">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.perf.ktx.FirebasePerfKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <meta-data
+            android:name="com.google.android.play.billingclient.version"
+            android:value="6.1.0"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            android:exported="false"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <service
+            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+            android:exported="false"
+            android:directBootAware="true">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"/>
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:exported="true"
+            android:visibleToInstantApps="true"/>
+        <provider
+            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+            android:exported="false"
+            android:authorities="com.zing.zalo.mlkitinitprovider"
+            android:initOrder="99"/>
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false"
+            android:directBootAware="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"/>
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:exported="false"
+            android:authorities="com.zing.zalo.firebaseinitprovider"
+            android:initOrder="100"
+            android:directBootAware="true"/>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <receiver
+            android:name="me.zalo.startuphelper.StartupHelperReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false"
+            android:directBootAware="true"/>
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false">
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct"/>
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/Theme.PlayCore.Transparent"
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:exported="false"
+            android:stateNotNeeded="true"/>
+        <meta-data
+            android:name="com.android.vending.splits.required"
+            android:value="true"/>
+        <meta-data
+            android:name="com.android.stamp.source"
+            android:value="https://play.google.com/store"/>
+        <meta-data
+            android:name="com.android.stamp.type"
+            android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data
+            android:name="com.android.vending.splits"
+            android:resource="@xml/splits0"/>
+        <meta-data
+            android:name="com.android.vending.derived.apk.id"
+            android:value="4"/>
+    </application>
+</manifest>

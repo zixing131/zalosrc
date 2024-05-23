@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:focusable="true"
+    android:clickable="true"
+    android:descendantFocusability="beforeDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.p077ui.widget.AspectRatioImageView
+        android:id="@+id/image_error"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="Image"
+        app:srcCompatEx="0x7f080fc7"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/TextColor1"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="32dp"
+        android:text="@string/str_phone_reminder_title_remind_old_device_fullscreen"
+        style="@style/Roboto.f4"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:gravity="center"
+        android:id="@+id/btn_sync_phonebook_error"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="42dp"
+        android:minWidth="170dp"
+        android:text="@string/str_button_confirm_yes"
+        android:lines="1"
+        android:singleLine="true"
+        android:textAllCaps="true"
+        app:fstyle="medium"
+        style="@style/btnType1.medium"/>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="true"
+        android:state_checked="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="100dp"/>
+            <solid android:color="?attr/switch_off_track"/>
+            <size android:height="24dp"/>
+            <size android:width="48dp"/>
+        </shape>
+    </item>
+    <item
+        android:state_enabled="true"
+        android:state_checked="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="100dp"/>
+            <solid android:color="?attr/switch_on_track"/>
+            <size android:height="24dp"/>
+            <size android:width="48dp"/>
+        </shape>
+    </item>
+    <item
+        android:state_enabled="false"
+        android:state_checked="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="100dp"/>
+            <solid android:color="?attr/switch_off_disabled_track"/>
+            <size android:height="24dp"/>
+            <size android:width="48dp"/>
+        </shape>
+    </item>
+    <item
+        android:state_enabled="false"
+        android:state_checked="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="100dp"/>
+            <solid android:color="?attr/switch_on_disabled_track"/>
+            <size android:height="24dp"/>
+            <size android:width="48dp"/>
+        </shape>
+    </item>
+</selector>

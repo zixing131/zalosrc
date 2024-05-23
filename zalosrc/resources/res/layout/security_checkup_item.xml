@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.widget.SecurityCheckupItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.zinstant.ZaloZinstantRootLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/zinstant_layout"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"/>
+</com.zing.zalo.p077ui.widget.SecurityCheckupItemView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user_details_header_container"
+    android:background="?attr/SecondaryBackgroundColor"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.androidquery.util.RecyclingImageView
+        android:id="@+id/imv_cover"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cover_height"
+        android:src="@drawable/bg_feed"
+        android:scaleType="centerCrop"/>
+    <RelativeLayout
+        android:id="@+id/fake_cover_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cover_height"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fake_cover_image"
+        layout="@layout/preview_profile_content_layout"/>
+    <include layout="@layout/layout_action_bar"/>
+</RelativeLayout>

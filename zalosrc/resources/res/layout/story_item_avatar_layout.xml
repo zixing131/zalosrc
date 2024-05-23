@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/story_avatar_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="12dp"
+    android:layout_alignParentLeft="true">
+    <com.androidquery.util.RecyclingImageView
+        android:layout_gravity="center"
+        android:id="@+id/img_story_avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="?attr/default_avatar"/>
+    <ViewSwitcher
+        android:layout_gravity="center"
+        android:id="@+id/viewswitcher_story_avatar_ring"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:inAnimation="@anim/fadein"
+        android:outAnimation="@anim/fadeout"
+        android:animateFirstView="false">
+        <View
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ProgressBar
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/story_loading_animation"
+            android:indeterminateDuration="1500"
+            android:indeterminateBehavior="repeat"/>
+    </ViewSwitcher>
+</FrameLayout>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nhours_description">
+        <item quantity="one">1 hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="one">1 minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="one">1 second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="plural_delete_multi_messages_for_admin_title">
+        <item quantity="other">Xóa %d tin nhắn cho cả nhóm?</item>
+    </plurals>
+    <plurals name="plural_delete_multi_messages_for_me_title">
+        <item quantity="other">Xóa %d tin nhắn cho riêng bạn?</item>
+    </plurals>
+    <plurals name="plural_error_download">
+        <item quantity="one">Có %d ảnh bị lỗi khi chia sẻ. Xin hãy thử lại.</item>
+        <item quantity="other">Có %d ảnh bị lỗi khi chia sẻ. Xin hãy thử lại.</item>
+    </plurals>
+    <plurals name="plural_share_multi_messages">
+        <item quantity="other">Chia sẻ %d tin nhắn</item>
+    </plurals>
+    <plurals name="plural_undo_multi_messages">
+        <item quantity="other">Thu hồi %d tin nhắn</item>
+    </plurals>
+    <plurals name="str_conversation_by_size">
+        <item quantity="other">Có %1$s trò chuyện lớn hơn %2$s</item>
+    </plurals>
+    <plurals name="str_conversation_count">
+        <item quantity="other">%d trò chuyện</item>
+    </plurals>
+    <plurals name="str_delete_my_cloud_item_title">
+        <item quantity="other">Xóa vĩnh viễn %d mục?</item>
+    </plurals>
+    <plurals name="str_delete_zcloud_item_title">
+        <item quantity="other">Xóa %d mục này?</item>
+    </plurals>
+    <plurals name="str_feed_tag_others_friend">
+        <item quantity="other">%d bạn</item>
+    </plurals>
+    <plurals name="str_lock_time_in_hours">
+        <item quantity="one">%d giờ</item>
+        <item quantity="other">%d giờ</item>
+    </plurals>
+    <plurals name="str_lock_time_in_minutes">
+        <item quantity="one">%d phút</item>
+        <item quantity="other">%d phút</item>
+    </plurals>
+    <plurals name="str_lock_time_in_seconds">
+        <item quantity="one">%d giây</item>
+        <item quantity="other">%d giây</item>
+    </plurals>
+    <plurals name="str_number_photo">
+        <item quantity="other">%d ảnh</item>
+    </plurals>
+    <plurals name="str_number_video">
+        <item quantity="other">%d video</item>
+    </plurals>
+    <plurals name="str_qm_reach_max_item">
+        <item quantity="other">Đã tạo tối đa %d tin nhắn nhanh</item>
+    </plurals>
+    <plurals name="str_reaction_comment">
+        <item quantity="other">%d bình luận</item>
+    </plurals>
+    <plurals name="str_reaction_like_comment_count">
+        <item quantity="other">%s người bày tỏ cảm xúc</item>
+    </plurals>
+    <plurals name="str_reaction_like_feed_count">
+        <item quantity="other">%s người bày tỏ cảm xúc</item>
+    </plurals>
+    <plurals name="str_reaction_someone_with_others">
+        <item quantity="other">%1$s và %2$d người khác</item>
+    </plurals>
+    <plurals name="str_reaction_total_friends">
+        <item quantity="other">%d bạn</item>
+    </plurals>
+    <plurals name="str_reaction_you_and_people_overflow">
+        <item quantity="other">Bạn và %d người khác</item>
+    </plurals>
+    <plurals name="str_reaction_you_someone_with_others">
+        <item quantity="other">Bạn, %1$s và %2$d người khác</item>
+    </plurals>
+    <plurals name="str_reaction_you_with_others">
+        <item quantity="other">Bạn và %d người khác</item>
+    </plurals>
+    <plurals name="str_selection_count">
+        <item quantity="other">Đã chọn: %1$s mục %2$s</item>
+    </plurals>
+    <plurals name="str_time_in_days">
+        <item quantity="one">%d ngày</item>
+        <item quantity="other">%d ngày</item>
+    </plurals>
+    <plurals name="str_time_in_hours">
+        <item quantity="one">%d giờ</item>
+        <item quantity="other">%d giờ</item>
+    </plurals>
+    <plurals name="str_time_in_minutes">
+        <item quantity="one">%d phút</item>
+        <item quantity="other">%d phút</item>
+    </plurals>
+    <plurals name="str_time_in_seconds">
+        <item quantity="one">%d giây</item>
+        <item quantity="other">%d giây</item>
+    </plurals>
+    <plurals name="str_title_delete_message_my_cloud_v2">
+        <item quantity="other">Xóa %d mục?</item>
+    </plurals>
+    <plurals name="str_title_incorrect_code_with_attempt_times">
+        <item quantity="one">Mã không chính xác. Bạn còn %s lần thử.</item>
+        <item quantity="other">Mã không chính xác. Bạn còn %s lần thử.</item>
+    </plurals>
+    <plurals name="str_title_time_hh_hours_ago">
+        <item quantity="one">%d giờ trước</item>
+        <item quantity="other">%d giờ trước</item>
+    </plurals>
+    <plurals name="str_title_time_mm_minutes_ago">
+        <item quantity="one">%d phút trước</item>
+        <item quantity="other">%d phút trước</item>
+    </plurals>
+    <plurals name="str_title_zcloud_overtimes_retry_max_attempt">
+        <item quantity="one">Bạn đã nhập sai mã bảo vệ quá %d lần</item>
+        <item quantity="other">Bạn đã nhập sai mã bảo vệ quá %d lần</item>
+    </plurals>
+    <plurals name="str_zcloud_grace_period_banner_title">
+        <item quantity="one">Bạn còn %d ngày để giữ lại %s tin nhắn media</item>
+        <item quantity="other">Bạn còn %d ngày để giữ lại %s tin nhắn media</item>
+    </plurals>
+    <plurals name="str_zhome_grace_period_banner_title">
+        <item quantity="one">Bạn còn %d ngày để giữ lại tin nhắn media</item>
+        <item quantity="other">Bạn còn %d ngày để giữ lại tin nhắn media</item>
+    </plurals>
+    <plurals name="zch_char">
+        <item quantity="one">%d kí tự</item>
+        <item quantity="other">%d kí tự</item>
+    </plurals>
+    <plurals name="zch_item_livestream_viewers">
+        <item quantity="one">%s người xem</item>
+        <item quantity="other">%s người xem</item>
+    </plurals>
+    <plurals name="zch_layout_channel_info_stats_followers">
+        <item quantity="one">Theo dõi</item>
+        <item quantity="other">Theo dõi</item>
+    </plurals>
+    <plurals name="zch_layout_channel_info_stats_likes">
+        <item quantity="one">Lượt thích</item>
+        <item quantity="other">Lượt thích</item>
+    </plurals>
+    <plurals name="zch_layout_channel_info_stats_videos">
+        <item quantity="one">Video</item>
+        <item quantity="other">Video</item>
+    </plurals>
+    <plurals name="zch_livestream_having_new_cmt">
+        <item quantity="one">%s tin nhắn mới</item>
+        <item quantity="other">%s tin nhắn mới</item>
+    </plurals>
+    <plurals name="zch_page_search_item_channel_stats_follower">
+        <item quantity="one"> •  %s theo dõi</item>
+        <item quantity="other">  •  %s theo dõi</item>
+    </plurals>
+    <plurals name="zch_page_search_item_channel_stats_video">
+        <item quantity="one">%s video</item>
+        <item quantity="other">%s video</item>
+    </plurals>
+    <plurals name="zch_page_search_item_similar_channel_stats_follower">
+        <item quantity="one">%s theo dõi</item>
+        <item quantity="other">%s theo dõi</item>
+    </plurals>
+    <plurals name="zch_time_dd_days">
+        <item quantity="one">%d ngày</item>
+        <item quantity="other">%d ngày</item>
+    </plurals>
+    <plurals name="zch_time_dd_days_ago">
+        <item quantity="one">%d ngày trước</item>
+        <item quantity="other">%d ngày trước</item>
+    </plurals>
+    <plurals name="zch_time_hh_hours">
+        <item quantity="one">%d giờ</item>
+        <item quantity="other">%d giờ</item>
+    </plurals>
+    <plurals name="zch_time_hh_hours_ago">
+        <item quantity="one">%d giờ trước</item>
+        <item quantity="other">%d giờ trước</item>
+    </plurals>
+    <plurals name="zch_time_mm_minutes">
+        <item quantity="one">%d phút</item>
+        <item quantity="other">%d phút</item>
+    </plurals>
+    <plurals name="zch_time_mm_minutes_ago">
+        <item quantity="one">%d phút trước</item>
+        <item quantity="other">%d phút trước</item>
+    </plurals>
+    <plurals name="zch_time_mm_months">
+        <item quantity="one">%d tháng</item>
+        <item quantity="other">%d tháng</item>
+    </plurals>
+    <plurals name="zch_time_mm_months_ago">
+        <item quantity="one">%d tháng trước</item>
+        <item quantity="other">%d tháng trước</item>
+    </plurals>
+    <plurals name="zch_time_ss_seconds">
+        <item quantity="one">%d giây</item>
+        <item quantity="other">%d giây</item>
+    </plurals>
+    <plurals name="zch_time_ss_seconds_ago">
+        <item quantity="one">%d giây trước</item>
+        <item quantity="other">%d giây trước</item>
+    </plurals>
+    <plurals name="zch_time_ww_weeks">
+        <item quantity="one">%d tuần</item>
+        <item quantity="other">%d tuần</item>
+    </plurals>
+    <plurals name="zch_time_ww_weeks_ago">
+        <item quantity="one">%d tuần trước</item>
+        <item quantity="other">%d tuần trước</item>
+    </plurals>
+    <plurals name="zch_time_yy_years">
+        <item quantity="one">%d năm</item>
+        <item quantity="other">%d năm</item>
+    </plurals>
+    <plurals name="zch_time_yy_years_ago">
+        <item quantity="one">%d năm trước</item>
+        <item quantity="other">%d năm trước</item>
+    </plurals>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reply_suggestion_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/text_01"
+        android:gravity="center"
+        android:id="@+id/reply_suggestion_text"
+        android:background="@drawable/quick_reply_suggestion_background_item"
+        android:paddingLeft="12dp"
+        android:paddingTop="6dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/t_normal"/>
+</FrameLayout>

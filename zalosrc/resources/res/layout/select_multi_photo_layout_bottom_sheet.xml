@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/text_01"
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/str_select_layout"
+        android:layout_centerHorizontal="true"
+        style="@style/t_xlarge_m"/>
+    <ImageView
+        android:id="@+id/imv_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/zds_ic_close_line_24"
+        android:layout_alignTop="@+id/tvTitle"
+        android:layout_alignBottom="@+id/tvTitle"
+        android:layout_alignParentEnd="true"/>
+    <com.zing.zalo.zdesign.component.Divider
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/tvTitle"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:layout_below="@+id/divider"/>
+</RelativeLayout>

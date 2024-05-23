@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tf="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_gravity="left"
+        android:id="@+id/profile_feed_video_thumb_group"
+        android:layout_width="72dp"
+        android:layout_height="72dp">
+        <com.zing.zalo.videoplayer.VideoThumbnailView
+            android:layout_gravity="left"
+            android:id="@+id/imvMediaThumb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            tf:video_play_icon="@drawable/icn_csc_play_small"/>
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/feed_item_video_processing_view"/>
+    </FrameLayout>
+</merge>

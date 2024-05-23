@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tf="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@+id/feedItemTimeBar"
+        android:background="?attr/SecondaryBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="19dp"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="18dp"
+        android:textColor="?attr/TextColor1"
+        android:id="@+id/tvYearDivider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="4dp"
+        android:layout_below="@+id/feedItemTimeBar"
+        tf:fstyle="medium"/>
+</merge>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:package="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/lytPromoteFooter"
+    android:background="@color/zch_curtain_subtle"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/zch_padding_12"
+    android:paddingStart="2dp">
+    <com.zing.zalo.shortvideo.p072ui.widget.p074iv.RoundedImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/icoLabel"
+        android:background="#40ffffff"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="3dp"/>
+    <com.zing.zalo.shortvideo.p072ui.widget.tv.EllipsizedTextView
+        android:textSize="13dp"
+        android:textColor="@color/zch_text_primary"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/txtLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:minHeight="20dp"
+        android:maxLines="1"
+        android:includeFontPadding="false"
+        android:paddingStart="4dp"
+        android:paddingEnd="6dp"
+        package:zchFontStyle="medium"/>
+</LinearLayout>

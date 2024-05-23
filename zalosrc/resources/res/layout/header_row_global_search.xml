@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/header_view_list_contact"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/section_label"
+        android:id="@+id/title_label"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:layout_weight="1"
+        android:paddingStart="@dimen/text_header_list_margin_l"
+        android:paddingEnd="@dimen/text_header_list_margin_l"
+        style="@style/t_small_m"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f61"
+        android:textColor="?attr/TextColor2"
+        android:id="@+id/title_funtion"
+        android:background="@drawable/mat_selected_text_view_background"
+        android:paddingLeft="@dimen/text_header_list_margin_l"
+        android:paddingTop="@dimen/text_header_list_to_line_margin_t"
+        android:paddingRight="@dimen/text_header_list_margin_l"
+        android:paddingBottom="@dimen/label_header_margin_t_b"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"/>
+</LinearLayout>

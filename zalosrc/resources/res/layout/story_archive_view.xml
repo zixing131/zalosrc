@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.widget.CustomRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/StoryPrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.zdesign.component.header.ZdsActionBar
+        android:id="@+id/zds_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leadingType="back"
+        app:middleTitleText="@string/str_story_archive_view_title"
+        app:middleType="title"
+        app:trailingType="none"
+        style="@style/WhiteZdsActionBar.AppType"/>
+    <com.zing.zalo.uicontrol.SwipeRefreshListView
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/zds_action_bar"
+        app:modeContent="recycleview"/>
+    <include layout="@layout/fast_scroll_bubble_tv"/>
+</com.zing.zalo.p077ui.widget.CustomRelativeLayout>

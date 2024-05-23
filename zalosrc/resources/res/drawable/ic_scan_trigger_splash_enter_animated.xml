@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/ic_scan_splash_enter">
+    <target
+        android:name="g1"
+        android:animation="@drawable/res_0x7f0801b4_ic_scan_trigger_splash_enter_animated__0"/>
+    <target
+        android:name="g1"
+        android:animation="@drawable/res_0x7f0801b5_ic_scan_trigger_splash_enter_animated__1"/>
+    <target
+        android:name="g2"
+        android:animation="@drawable/res_0x7f0801b6_ic_scan_trigger_splash_enter_animated__2"/>
+    <target
+        android:name="g2"
+        android:animation="@drawable/res_0x7f0801b7_ic_scan_trigger_splash_enter_animated__3"/>
+    <target
+        android:name="g3"
+        android:animation="@drawable/res_0x7f0801b8_ic_scan_trigger_splash_enter_animated__4"/>
+    <target
+        android:name="g3"
+        android:animation="@drawable/res_0x7f0801b9_ic_scan_trigger_splash_enter_animated__5"/>
+    <target
+        android:name="g4"
+        android:animation="@drawable/res_0x7f0801ba_ic_scan_trigger_splash_enter_animated__6"/>
+    <target
+        android:name="g4"
+        android:animation="@drawable/res_0x7f0801bb_ic_scan_trigger_splash_enter_animated__7"/>
+</animated-vector>

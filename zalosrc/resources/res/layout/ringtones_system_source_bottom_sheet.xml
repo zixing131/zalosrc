@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/bottom_sheet_header"
+        android:background="@drawable/bottom_sheet_top_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/bottom_sheet_container"
+        android:background="@drawable/album_list_bottom_sheet_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/icn_slide_hint"
+            android:layout_width="40dp"
+            android:layout_height="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/album_bottom_sheet_handle"
+            app:tint="?attr/PopupBackgroundColor"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:scrollbarThumbVertical="@drawable/profile_album_scroll_bar_thumb"
+            android:scrollbarStyle="insideOverlay"
+            android:id="@+id/ringtones"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarDefaultDelayBeforeFade="0"/>
+    </LinearLayout>
+</RelativeLayout>

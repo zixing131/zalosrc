@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_container_preview"
+    android:background="@color/transparent"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/preview_comment_layout_size">
+    <RelativeLayout
+        android:background="?attr/PrimaryBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/shadow_view">
+        <FrameLayout
+            android:id="@+id/imv_content_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/ic_remove_preview"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="19dp"
+            android:src="@drawable/ic_close_circle"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <View
+        android:id="@+id/shadow_view"
+        android:background="@drawable/comment_preview_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/preview_comment_shadow_height"
+        android:layout_alignParentTop="true"/>
+</RelativeLayout>

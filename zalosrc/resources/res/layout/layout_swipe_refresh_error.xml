@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_gravity="bottom"
+    android:orientation="horizontal"
+    android:id="@+id/error_container"
+    android:tag="zalo_error_container"
+    android:background="@drawable/stencils_bg_footer_function_maintab"
+    android:visibility="visible"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48dp"
+    android:layout_alignParentBottom="true">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="@color/cMtxt1"
+        android:gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/feed_padding_left"
+        android:text="@string/str_connection_error"
+        android:layout_weight="1"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="@drawable/bg_btn_type2_text"
+        android:gravity="center"
+        android:id="@+id/tvRetry"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="@dimen/feed_padding_right"
+        android:minWidth="70dp"
+        android:text="@string/str_retry"
+        style="@style/btnType2.small"/>
+</LinearLayout>

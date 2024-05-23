@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.widget.ZinstantQuickActionView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="?attr/PopupBackgroundColor"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.zing.zalo.zinstant.ZaloZinstantLayout
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/zinstant_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_gravity="end"
+            android:id="@+id/btn_close_quick_action_banner"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:visibility="gone"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="0x7f080d7d"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"/>
+    </FrameLayout>
+</com.zing.zalo.p077ui.widget.ZinstantQuickActionView>

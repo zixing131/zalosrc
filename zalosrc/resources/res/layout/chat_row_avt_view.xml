@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.widget.GroupAvatarView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/avt"
+    android:layout_width="35dp"
+    android:layout_height="35dp"/>

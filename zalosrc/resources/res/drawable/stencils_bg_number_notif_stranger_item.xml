@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/maintab_bg_number_of_newnoti_tranger_item"/>
+    <corners
+        android:topLeftRadius="9dp"
+        android:topRightRadius="9dp"
+        android:bottomLeftRadius="9dp"
+        android:bottomRightRadius="9dp"/>
+    <padding
+        android:left="0.5dp"
+        android:top="0.5dp"
+        android:right="0.5dp"
+        android:bottom="0.5dp"/>
+</shape>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp">
+    <com.zing.zalo.p077ui.widget.RobotoCheckBox
+        android:id="@+id/cb_not_show_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/circle_radio_button_bg"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/TextColor2"
+        android:gravity="center_vertical"
+        android:id="@+id/tv_not_show_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/str_dialog_do_not_show_again"
+        style="@style/Roboto.f0"/>
+</LinearLayout>

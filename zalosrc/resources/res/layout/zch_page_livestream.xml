@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.shortvideo.p072ui.view.LivestreamPageLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/lytPageLivestream"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/lytContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zing.zalo.shortvideo.p072ui.component.p073rv.snaper.LivestreamVideoLayout
+            android:id="@+id/lytVideo"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.zing.zalo.shortvideo.p072ui.widget.p075rv.OverScrollableRecyclerView
+            android:id="@+id/lstVideo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+    <com.zing.zalo.shortvideo.p072ui.widget.LoadingLayout
+        android:id="@+id/lytLoading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.zing.zalo.shortvideo.p072ui.widget.CommentBox
+        android:id="@+id/boxComment"
+        android:background="@color/zch_layer_background"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</com.zing.zalo.shortvideo.p072ui.view.LivestreamPageLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/search_global_skeleton_result_item_drawable">
+    <target
+        android:name="progressThumb"
+        android:animation="@anim/search_global_skeleton_indeterminate"/>
+    <target
+        android:name="progressName"
+        android:animation="@anim/search_global_skeleton_indeterminate"/>
+    <target
+        android:name="progressSubName"
+        android:animation="@anim/search_global_skeleton_indeterminate"/>
+</animated-vector>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.uicontrol.MainTabFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zalo="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/maintab_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.uicontrol.ViewPagerCustomSwipeable
+        android:id="@+id/pager"
+        android:background="?attr/page_background_01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <include layout="@layout/layout_action_bar"/>
+    <com.zing.zalo.p077ui.maintab.widget.CustomMainTab
+        android:id="@+id/sliding_tabs"
+        android:background="@drawable/white_top_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_tab_main"
+        android:elevation="@dimen/bottom_nav_elevation"
+        zalo:typeOfTab="1"/>
+    <FrameLayout
+        android:id="@+id/maintab_tip_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="@dimen/tip_elevation"/>
+</com.zing.zalo.uicontrol.MainTabFrameLayout>

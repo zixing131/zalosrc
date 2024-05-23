@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_comment_item_header_template"/>
+    <com.zing.zalo.p077ui.widget.AspectRatioImageView
+        android:id="@+id/imvPhoto"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/comment_content_padding_left"
+        android:layout_marginRight="16dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"/>
+    <include layout="@layout/layout_comment_item_footer_template"/>
+</merge>

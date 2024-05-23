@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dialog_link"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/str_titleDefault"
+        android:includeFontPadding="false"
+        app:fstyle="medium"
+        style="@style/DialogMessageText"/>
+    <EditText
+        android:textSize="@dimen/dialog_message_text_size"
+        android:textColor="?attr/TextColor1"
+        android:textColorHint="?attr/TextColor5"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/et_content"
+        android:paddingBottom="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:inputType="textMultiLine"
+        style="@style/MaterialEditText"/>
+</LinearLayout>

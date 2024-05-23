@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.ClippedFrameLayout
+        android:id="@+id/layout_btn_speaker"
+        android:background="@drawable/bg_feed_item_video_speaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/wht_a60"
+            android:ellipsize="none"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/tvVideoHasNoSound"
+            android:paddingLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_info_video_has_no_sound"
+            android:singleLine="true"
+            android:paddingStart="16dp"
+            android:layout_marginEnd="32dp"/>
+        <com.androidquery.util.RecyclingImageView
+            android:layout_gravity="end|center_vertical"
+            android:id="@+id/btnSpeakerVideo"
+            android:padding="6dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/zds_ic_off_speaker_solid_24"
+            app:tint="@color/white"/>
+    </com.zing.zalo.p077ui.widget.ClippedFrameLayout>
+</FrameLayout>

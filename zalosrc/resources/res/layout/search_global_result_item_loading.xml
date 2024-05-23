@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:focusable="true"
+    android:clickable="true"
+    android:descendantFocusability="beforeDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ProgressBar
+        android:theme="@style/CircularProgress"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/holoCircularProgressBar"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="105dp"
+        android:indeterminate="true"
+        android:indeterminateDuration="1500"
+        android:indeterminateBehavior="repeat"
+        style="@style/ProgressBarCircleNormal"/>
+</FrameLayout>

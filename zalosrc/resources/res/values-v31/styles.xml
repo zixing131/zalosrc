@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeDefault.Start" parent="@style/Theme.AppCompat">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/ZaloActionBarStyle</item>
+        <item name="android:colorPrimary">@color/task_background_color</item>
+        <item name="android:colorPrimaryDark">#33000000</item>
+        <item name="android:navigationBarColor">@color/bg_splash_screen</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="?0x101062c">@color/bg_splash_screen</item>
+        <item name="?0x101062d">@drawable/logo_zalo</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="switchStyleZalo">@style/StencilSwitchStyleZalo</item>
+    </style>
+</resources>

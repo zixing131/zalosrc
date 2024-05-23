@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.StickerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sticker_item_element"
+    android:background="@drawable/ic_sticker_download"
+    android:layout_width="@dimen/item_sticker_height"
+    android:layout_height="@dimen/item_sticker_height"/>

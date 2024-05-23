@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:background="@drawable/background_wave_form_preview"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    android:minHeight="40dp">
+    <com.zing.zalo.zdesign.component.Button
+        android:layout_gravity="center"
+        android:id="@+id/ic_play_pause"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:btnSupportiveIcon="@drawable/zds_ic_play_solid_24"
+        style="@style/ButtonMedium.SecondaryNeutral"/>
+    <com.zing.zalo.uicontrol.voice.WaveformView
+        android:layout_gravity="center"
+        android:id="@+id/wave_form_view"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="4"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/text_02"
+        android:layout_gravity="center"
+        android:id="@+id/time_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="00:00"
+        app:disableScaleTextSize="true"
+        style="@style/t_xsmall"/>
+</LinearLayout>

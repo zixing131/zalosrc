@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="v"
+    android:height="128dp"
+    android:width="128dp"
+    android:viewportWidth="256"
+    android:viewportHeight="256">
+    <group
+        android:name="g1"
+        android:translateX="50"
+        android:translateY="50">
+        <path
+            android:name="vector1"
+            android:fillColor="#00000000"
+            android:pathData="M8.77,44V20C8.77,13.37 14.15,8 20.77,8H44.77"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="8"
+            android:strokeLineCap="round"
+            android:strokeAlpha="0.4"
+            android:fillAlpha="0.4"/>
+    </group>
+    <group
+        android:name="g2"
+        android:translateX="-50"
+        android:translateY="50">
+        <path
+            android:name="vector2"
+            android:fillColor="#00000000"
+            android:pathData="M212.77,8L236.77,8C243.4,8 248.77,13.37 248.77,20L248.77,44"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="8"
+            android:strokeLineCap="round"
+            android:strokeAlpha="0.4"
+            android:fillAlpha="0.4"/>
+    </group>
+    <group
+        android:name="g3"
+        android:translateX="-50"
+        android:translateY="-50">
+        <path
+            android:name="vector3"
+            android:fillColor="#00000000"
+            android:pathData="M248.77,212L248.77,236C248.77,242.63 243.4,248 236.77,248L212.77,248"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="8"
+            android:strokeLineCap="round"
+            android:strokeAlpha="0.4"
+            android:fillAlpha="0.4"/>
+    </group>
+    <group
+        android:name="g4"
+        android:translateX="50"
+        android:translateY="-50">
+        <path
+            android:name="vector4"
+            android:fillColor="#00000000"
+            android:pathData="M44.77,248L20.77,248C14.15,248 8.77,242.63 8.77,236L8.77,212"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="8"
+            android:strokeLineCap="round"
+            android:strokeAlpha="0.4"
+            android:fillAlpha="0.4"/>
+    </group>
+</vector>

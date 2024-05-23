@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f0"
+        android:textColor="?attr/TextColor2"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/empty_oa_error"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_error_user_oa"/>
+    <ProgressBar
+        android:theme="@style/CircularProgress"
+        android:layout_gravity="center"
+        android:id="@+id/holoCircularProgressBar"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:indeterminate="true"
+        android:indeterminateDuration="1500"
+        android:indeterminateBehavior="repeat"
+        android:layout_centerInParent="true"
+        style="@style/ProgressBarCircleNormal"/>
+</LinearLayout>

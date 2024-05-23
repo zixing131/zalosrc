@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/ChatBarBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.androidquery.util.RecyclingImageView
+        android:id="@+id/chat_attachment_photo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_centerInParent="true"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/chat_attachment_delete"
+        android:clickable="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="6dp"
+        android:layout_alignTop="@+id/chat_attachment_photo"
+        android:layout_alignRight="@+id/chat_attachment_photo"
+        app:srcCompat="@drawable/btn_removeimg"/>
+    <View
+        android:background="?attr/ItemSeparatorColor"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/chat_attachment_photo"/>
+</RelativeLayout>

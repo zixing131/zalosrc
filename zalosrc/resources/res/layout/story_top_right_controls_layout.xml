@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/ll_story_item_top_right_controls"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="8dp"
+    android:layout_alignParentRight="true">
+    <com.zing.zalo.zdesign.component.TrackingImageView
+        android:id="@+id/btn_story_settings"
+        android:background="@drawable/bg_btn_viewimage"
+        android:padding="8dp"
+        android:clickable="true"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="center"
+        android:cropToPadding="true"
+        app:srcCompatEx="@drawable/zds_ic_more_horizontal_solid_24"
+        app:tint="@color/white"/>
+    <com.zing.zalo.zdesign.component.TrackingImageView
+        android:id="@+id/btn_story_close"
+        android:background="@drawable/bg_btn_viewimage"
+        android:padding="8dp"
+        android:clickable="true"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="center"
+        android:cropToPadding="true"
+        app:srcCompatEx="@drawable/zds_ic_close_line_32"
+        app:tint="@color/white"/>
+</LinearLayout>

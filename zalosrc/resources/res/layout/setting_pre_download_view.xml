@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/SecondaryBackgroundColor"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.zdesign.component.header.ZdsActionBar
+        android:id="@+id/zds_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leadingType="back"
+        app:middleType="title"
+        app:trailingType="none"
+        style="@style/BlueZdsActionBar.AppType"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/text_02"
+        android:id="@+id/header_text"
+        android:background="?attr/ui_background"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_pre_download_setting_header_description"
+        style="@style/t_small"/>
+    <com.zing.zalo.p077ui.settings.widget.ListItemSetting
+        android:id="@+id/pre_download_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View
+        android:background="?attr/SecondaryBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"/>
+    <com.zing.zalo.p077ui.settings.widget.ListItemSetting
+        android:id="@+id/btn_clean_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:subtitle="@string/str_pre_download_setting_clean_up_data_description"
+        app:title="@string/str_pre_download_setting_clean_up_data"/>
+</LinearLayout>

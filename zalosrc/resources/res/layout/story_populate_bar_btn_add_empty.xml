@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/story_populate_bar_btn_add"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="14dp"
+        android:textColor="?attr/TextColor2"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/tv_story_populate_add_empty"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/str_story_bar_profile_empty"/>
+</LinearLayout>

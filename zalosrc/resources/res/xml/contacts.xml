@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContactsAccountType xmlns:android="http://schemas.android.com/apk/res/android">\\ 
+    <ContactsDataKind
+        android:icon="0x7f080f75"
+        android:mimeType="vnd.android.cursor.item/com.zing.zalo.call"
+        android:summaryColumn="data2"
+        android:detailColumn="data3"/>
+    <ContactsDataKind
+        android:icon="0x7f080f75"
+        android:mimeType="vnd.android.cursor.item/com.zing.zalo.message"
+        android:summaryColumn="data2"
+        android:detailColumn="data3"/>
+    <ContactsDataKind
+        android:icon="0x7f080f75"
+        android:mimeType="vnd.android.cursor.item/com.zing.zalo.video.call"
+        android:summaryColumn="data2"
+        android:detailColumn="data3"/>
+</ContactsAccountType>

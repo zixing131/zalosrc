@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zing.zalo.feed.components.FeedItemSuggestHeader
+        android:id="@+id/feedItemSuggestHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.zing.zalo.feed.uicontrols.FeedGroupViewPager
+        android:gravity="center"
+        android:id="@+id/vpager"
+        android:paddingLeft="1px"
+        android:paddingRight="1px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="300dp"
+        android:layout_below="@+id/feedItemSuggestHeader"/>
+    <View
+        android:layout_width="1px"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/feed_padding_top"
+        android:layout_below="@+id/vpager"/>
+</merge>

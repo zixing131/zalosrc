@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/richmessage_item_row"
+    android:background="@drawable/stencils_contact_bg"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.imageview.RoundedImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/img_item"
+        android:duplicateParentState="true"
+        android:layout_width="@dimen/avt_image_size_default"
+        android:layout_height="@dimen/avt_image_size_default"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/attach_gallery_96"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        app:round_radius="4dp"
+        app:sriv_left_bottom_corner_radius="5dp"
+        app:sriv_left_top_corner_radius="5dp"
+        app:sriv_right_bottom_corner_radius="5dp"
+        app:sriv_right_top_corner_radius="5dp"/>
+    <com.zing.zalo.p077ui.widget.textview.RobotoTextModulesView
+        android:textSize="14dp"
+        android:textColor="?attr/TextColor1"
+        android:ellipsize="end"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/description_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/constant_Contact"
+        android:maxLines="2"
+        app:isWrapWordOnEllipsized="true"/>
+</LinearLayout>

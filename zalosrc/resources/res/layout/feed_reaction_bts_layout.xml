@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/feed_reaction_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_alignParentTop="true">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="18dp"
+            android:textColor="?attr/header_white_title"
+            android:id="@+id/feed_reactions_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            style="@style/header_text_title"/>
+    </LinearLayout>
+    <com.zing.zalo.zdesign.component.Divider
+        android:id="@+id/feed_reaction_divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feed_reaction_header"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_feed_reaction_views"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:layout_below="@+id/feed_reaction_divider"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_action_bar"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="14sp"
+        android:textColor="?attr/TextColor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/str_title_input_collection_name"
+        android:textAlignment="textStart"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+    <com.zing.zalo.uicontrol.CustomEditText
+        android:textSize="16sp"
+        android:textColor="?attr/TextColor1"
+        android:textColorHint="?attr/TextColor2"
+        android:id="@+id/et_collection_name"
+        android:background="@drawable/bg_input_collection_name"
+        android:paddingLeft="13dp"
+        android:paddingTop="13dp"
+        android:paddingRight="13dp"
+        android:paddingBottom="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text=""
+        android:hint="@string/str_hint_input_collection_name"
+        android:maxLines="1"
+        android:inputType="textCapSentences"
+        android:textCursorDrawable="@drawable/chat_bar_text_cursor"
+        android:textAlignment="textStart"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+</LinearLayout>

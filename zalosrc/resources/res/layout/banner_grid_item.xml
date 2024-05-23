@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+    <com.zing.zalo.p077ui.widget.imageview.RoundedImageView
+        android:layout_gravity="center"
+        android:id="@+id/banner_item_element"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:scaleType="centerCrop"
+        app:sriv_left_bottom_corner_radius="6dp"
+        app:sriv_left_top_corner_radius="6dp"
+        app:sriv_right_bottom_corner_radius="6dp"
+        app:sriv_right_top_corner_radius="6dp"/>
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="128dp"
+    android:width="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+    <path
+        android:fillColor="@drawable/res_0x7f080323_zds_il_conversation_empty_light_spot_1_1__0"
+        android:pathData="M64,64m-64,0a64,64 0,1 1,128 0a64,64 0,1 1,-128 0"
+        android:strokeAlpha="0.3"
+        android:fillAlpha="0.3"/>
+    <path
+        android:fillColor="@drawable/res_0x7f080324_zds_il_conversation_empty_light_spot_1_1__1"
+        android:pathData="M54.454,75.606C52.244,75.606 50.454,77.397 50.454,79.606V89.928C50.454,92.137 52.244,93.928 54.454,93.928H90.315L96.44,100.053C97.205,100.817 98.512,100.276 98.512,99.195V93.928H98.526C100.735,93.928 102.526,92.137 102.526,89.928V79.606C102.526,77.397 100.735,75.606 98.526,75.606H54.454Z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/res_0x7f080325_zds_il_conversation_empty_light_spot_1_1__2"
+        android:pathData="M59.614,83.32C58.816,83.32 58.168,83.968 58.168,84.767C58.168,85.565 58.816,86.213 59.614,86.213H80.829C81.628,86.213 82.276,85.565 82.276,84.767C82.276,83.968 81.628,83.32 80.829,83.32H59.614ZM86.615,83.32C85.816,83.32 85.169,83.968 85.169,84.767C85.169,85.565 85.816,86.213 86.615,86.213H92.401C93.2,86.213 93.847,85.565 93.847,84.767C93.847,83.968 93.2,83.32 92.401,83.32H86.615Z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M79.894,38C82.103,38 83.894,39.791 83.894,42V61.965C83.894,64.174 82.103,65.965 79.894,65.965H39.355L33.072,72.248C32.307,73.012 31,72.471 31,71.39V65.965C28.791,65.965 27,64.174 27,61.965V42C27,39.791 28.791,38 31,38H79.894Z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/res_0x7f080326_zds_il_conversation_empty_light_spot_1_1__3"
+        android:pathData="M36.575,46.739C35.776,46.739 35.128,47.387 35.128,48.186C35.128,48.985 35.776,49.632 36.575,49.632L55.354,49.632C56.153,49.632 56.8,48.985 56.8,48.186C56.8,47.387 56.153,46.739 55.354,46.739L36.575,46.739ZM36.446,54.399C35.648,54.399 35,55.047 35,55.846C35,56.645 35.648,57.292 36.446,57.292H74.5C75.299,57.292 75.947,56.645 75.947,55.846C75.947,55.047 75.299,54.399 74.5,54.399H36.446Z"
+        android:fillType="evenOdd"/>
+</vector>

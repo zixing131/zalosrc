@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/layout_thumb"
+        android:background="?attr/ProfileBackgroundSuggestAlbumItem"
+        android:padding="7dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp">
+        <com.zing.zalo.p077ui.widget.AspectRatioImageView
+            android:id="@+id/thumb_empty"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_plus_album_blue"
+            android:scaleType="centerCrop"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="16dp"
+        android:textColor="?attr/TextColor5"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="@string/str_profile_album_new_album"
+        android:layout_toRightOf="@+id/layout_thumb"
+        android:layout_centerVertical="true"
+        app:fstyle="medium"/>
+</RelativeLayout>

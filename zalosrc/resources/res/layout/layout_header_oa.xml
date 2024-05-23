@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingTop="@dimen/feed_padding_top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/layout_description_header_oa"/>
+    <View
+        android:id="@+id/divider_top_promote"
+        android:background="@color/cLine1"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/oa_padding"
+        android:layout_below="@+id/layout_desc"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/layout_promote"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider_top_promote"/>
+</RelativeLayout>

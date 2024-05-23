@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f0"
+        android:textColor="?attr/TextColor1"
+        android:gravity="center_horizontal"
+        android:id="@+id/txt_description_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fstyle="medium"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f13"
+        android:textColor="?attr/TextColor2"
+        android:gravity="center_horizontal"
+        android:id="@+id/txt_description_secondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

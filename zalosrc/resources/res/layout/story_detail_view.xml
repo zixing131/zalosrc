@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.widget.KeyboardFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/story_detail_keyboard_framelayout"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zing.zalo.uicomponents.framelayout.DragToCloseLayout
+            android:id="@+id/story_detail_dragtoclose"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.zing.zalo.uicontrol.StoryViewPager
+                android:id="@+id/story_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </com.zing.zalo.uicomponents.framelayout.DragToCloseLayout>
+    </LinearLayout>
+</com.zing.zalo.p077ui.widget.KeyboardFrameLayout>

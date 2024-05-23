@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="180dp"
+    android:width="180dp"
+    android:viewportWidth="180"
+    android:viewportHeight="180">
+    <path
+        android:fillColor="?attr/ImagePlaceHolderColor"
+        android:pathData="M0,0h180v180h-180z"
+        android:fillType="evenOdd"/>
+</vector>

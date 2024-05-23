@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/ll_backgroundmain"
+    android:background="?attr/SecondaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_action_bar"/>
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/container_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.zing.zalo.p077ui.widget.PagerSlidingTabStrip
+                android:id="@+id/tabs"
+                android:background="@drawable/white"
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sub_tab_height"
+                app:pstsDividerColor="?attr/PrimaryBackgroundColor"
+                app:pstsIndicatorColor="?attr/TextColor1"
+                app:pstsIndicatorHeight="1dp"
+                app:pstsShouldExpand="true"
+                app:pstsUnderlineColor="?attr/ItemSeparatorColor"
+                app:pstsUnderlineHeight="1px"/>
+            <com.zing.p058v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

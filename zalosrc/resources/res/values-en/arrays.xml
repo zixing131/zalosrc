@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_active_time_passcode">
+        <item>Now</item>
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+    </array>
+    <array name="array_active_time_passcode_as_second">
+        <item>0</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>30000</item>
+    </array>
+    <array name="array_codemessagearchive">
+        <item>0</item>
+        <item>10</item>
+        <item>30</item>
+        <item>90</item>
+        <item>120</item>
+    </array>
+    <array name="array_common_default_status">
+        <item>Tìm bạn chat</item>
+        <item>Rãnh quá</item>
+        <item>Bận ghê</item>
+        <item>Đừng làm phiền</item>
+        <item>Đang trên đường</item>
+        <item>Máy hết pin</item>
+    </array>
+    <array name="array_days_of_week_full">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </array>
+    <array name="array_days_of_week_short">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </array>
+    <array name="array_dob_mode">
+        <item>Don\'t show</item>
+        <item>Show day, month, year</item>
+        <item>Show only day and month</item>
+    </array>
+    <array name="array_font_setting">
+        <item>Zalo font</item>
+        <item>System font</item>
+    </array>
+    <array name="array_font_size_setting">
+        <item />
+        <item />
+        <item />
+        <item />
+    </array>
+    <array name="array_months_full">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+    <array name="array_months_full_02d">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+    <array name="array_months_lunar_full">
+        <item>1st month</item>
+        <item>2nd month</item>
+        <item>3rd month</item>
+        <item>4th month</item>
+        <item>5th month</item>
+        <item>6th month</item>
+        <item>7th month</item>
+        <item>8th month</item>
+        <item>9th month</item>
+        <item>10th month</item>
+        <item>11th month</item>
+        <item>12th month</item>
+    </array>
+    <array name="array_months_lunar_short">
+        <item>1st month</item>
+        <item>2nd month</item>
+        <item>3rd month</item>
+        <item>4th month</item>
+        <item>5th month</item>
+        <item>6th month</item>
+        <item>7th month</item>
+        <item>8th month</item>
+        <item>9th month</item>
+        <item>10th month</item>
+        <item>11th month</item>
+        <item>12th month</item>
+    </array>
+    <array name="array_months_short">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </array>
+    <array name="array_privacy_show_mode">
+        <item>@string/str_privacy_show_only_me</item>
+        <item>@string/str_privacy_show_public</item>
+        <item>@string/str_privacy_show_only_friend</item>
+    </array>
+    <array name="array_radar_background_time">
+        <item>30 mins</item>
+        <item>1 hour</item>
+        <item>8 hours</item>
+        <item>24 hours</item>
+        <item>No limit</item>
+        <item>OFF</item>
+    </array>
+    <array name="array_show_active_friend">
+        <item>All friends</item>
+        <item>Friends who use Zalo</item>
+    </array>
+    <array name="array_themes">
+        <item>Blue</item>
+        <item>Gray</item>
+    </array>
+    <array name="array_title_main_tab">
+        <item>Messages</item>
+        <item>Contacts</item>
+        <item>Groups</item>
+        <item>Timeline</item>
+        <item>More</item>
+    </array>
+    <array name="array_topic_expire_time">
+        <item>1 hour</item>
+        <item>8 hours</item>
+        <item>1 day</item>
+        <item>3 days</item>
+        <item>1 week</item>
+        <item>Until manually changed</item>
+    </array>
+    <array name="array_uimode_option">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System</item>
+    </array>
+    <array name="array_years_lunar">
+        <item>Rat</item>
+        <item>Buffalo</item>
+        <item>Tiger</item>
+        <item>Cat</item>
+        <item>Dragon</item>
+        <item>Snake</item>
+        <item>Horse</item>
+        <item>Goat</item>
+        <item>Monkey</item>
+        <item>Rooster</item>
+        <item>Dog</item>
+        <item>Pig</item>
+    </array>
+    <array name="color_generator_material">
+        <item>0xffa0de7e</item>
+        <item>0xff72d5fd</item>
+        <item>0xff82b1ff</item>
+        <item>0xff00fcfd</item>
+        <item>0xffffcd6a</item>
+        <item>0xffff885e</item>
+        <item>0xfffcc6a3</item>
+        <item>0xffe0a2f3</item>
+    </array>
+    <array name="color_generator_material_next">
+        <item>0xff54cb68</item>
+        <item>0xff2a9ef1</item>
+        <item>0xff665fff</item>
+        <item>0xff4acccd</item>
+        <item>0xffffa85c</item>
+        <item>0xffff516a</item>
+        <item>0xffef7434</item>
+        <item>0xffd669ed</item>
+    </array>
+    <array name="filter_by_array">
+        <item>A-Z</item>
+        <item>Z-A</item>
+    </array>
+    <array name="nearby_sex_code">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </array>
+    <array name="nearby_sex_text">
+        <item>Only female</item>
+        <item>Only male</item>
+        <item>Both male and female</item>
+    </array>
+    <array name="sex_code">
+        <item>0</item>
+        <item>1</item>
+    </array>
+    <array name="sex_text">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Do not disclose</item>
+    </array>
+</resources>

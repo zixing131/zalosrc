@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/frametabsLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textStyle="normal"
+        android:gravity="center"
+        android:id="@+id/numnotification"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-7.5dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/icon"
+        app:fstyle="medium"
+        style="@style/stencils_notification_text_view"/>
+    <View
+        android:layout_gravity="top|right"
+        android:id="@+id/noti_new_post_in_feed"
+        android:background="@drawable/stencils_bg_new_post_in_feed_notif"
+        android:visibility="gone"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/icon"/>
+    <View
+        android:id="@+id/icn_main_tab_red_dot"
+        android:background="@drawable/icon_red_dot"
+        android:visibility="gone"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginRight="-6dp"
+        android:layout_marginBottom="-6dp"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_above="@+id/icon"/>
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/story_ads_bottom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:id="@+id/story_ads_caption_cta_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/switch_text_on_color"
+            android:ellipsize="end"
+            android:id="@+id/tv_story_ads_desc"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:maxLines="3"
+            app:disableScaleTextSize="true"
+            style="@style/t_large"/>
+        <com.zing.zalo.zdesign.component.Button
+            android:textColor="?attr/constant_white"
+            android:id="@+id/btn_story_ads_cta"
+            android:background="@drawable/bg_btn_story_ads_tertiary"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            style="@style/ButtonMedium.TertiaryNeutral"/>
+    </LinearLayout>
+    <include
+        android:layout_gravity="bottom"
+        android:id="@+id/story_bottom_input_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="@dimen/story_reaction_bar_bottom_spacing"
+        layout="@layout/story_bottom_input_message_layout"/>
+</FrameLayout>

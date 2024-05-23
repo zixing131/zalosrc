@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/PopupBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f6"
+        android:textColor="?attr/ChatTextColor1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/tv_title"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:maxLines="1"
+        android:includeFontPadding="false"/>
+    <com.zing.zalo.uicontrol.TrackSeekBar
+        android:id="@+id/music_player_seekbar"
+        android:paddingRight="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:progressDrawable="@drawable/sticky_music_player_progress"
+        android:thumb="@drawable/sticky_music_player_thumb"
+        android:layout_alignParentBottom="true"/>
+    <ImageButton
+        android:id="@+id/img_icon"
+        android:background="@color/transparent"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/icn_mp_3_close_black"
+        android:scaleType="center"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

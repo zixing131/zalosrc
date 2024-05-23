@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.zdesign.layout.BoundedLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/popover_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.zdesign.layout.BoundedRecyclerView
+        android:id="@+id/rv_popover_options"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="4dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+</com.zing.zalo.zdesign.layout.BoundedLinearLayout>

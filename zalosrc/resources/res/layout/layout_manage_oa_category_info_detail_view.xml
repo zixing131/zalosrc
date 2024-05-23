@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/SecondaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.zdesign.component.header.ZdsActionBar
+        android:id="@+id/zds_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leadingType="back"
+        app:middleType="title"
+        style="@style/BlueZdsActionBar.AppType"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_category_event"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.zing.zalo.p077ui.zviews.multistate.MultiStateView
+        android:id="@+id/multi_state_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:msvEmptyLayout="@layout/layout_loading"
+        app:msvErrorLayout="@layout/layout_error_state"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="16dp"
+    android:width="16dp"
+    android:viewportWidth="16"
+    android:viewportHeight="16">
+    <path
+        android:fillColor="?attr/TabUnSelectedColor"
+        android:pathData="M8.6,3.7c0,-0.332 -0.269,-0.6 -0.6,-0.6 -0.331,0 -0.6,0.268 -0.6,0.6v3.7H3.7c-0.331,0 -0.6,0.268 -0.6,0.6 0,0.331 0.269,0.6 0.6,0.6h3.7v3.7c0,0.331 0.269,0.6 0.6,0.6 0.331,0 0.6,-0.269 0.6,-0.6V8.6h3.7c0.332,0 0.6,-0.269 0.6,-0.6 0,-0.332 -0.268,-0.6 -0.6,-0.6H8.6V3.7z"
+        android:fillType="evenOdd"/>
+</vector>

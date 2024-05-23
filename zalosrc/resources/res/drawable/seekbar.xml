@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@android:id/background"
+        android:height="@dimen/seekbar_height"
+        android:drawable="@color/cM0_alpha60"/>
+    <item
+        android:id="@android:id/secondaryProgress"
+        android:height="@dimen/seekbar_height">
+        <scale
+            android:drawable="@color/cM0_alpha100"
+            android:scaleWidth="100%"/>
+    </item>
+    <item
+        android:id="@android:id/progress"
+        android:height="@dimen/seekbar_height">
+        <scale
+            android:drawable="@color/cM1"
+            android:scaleWidth="100%"/>
+    </item>
+</layer-list>

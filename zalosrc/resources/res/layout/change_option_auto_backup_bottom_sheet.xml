@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/ll_content_parent"
+    android:background="@drawable/bg_introduce_backup_rules_btm_sheet"
+    android:paddingLeft="16dp"
+    android:paddingTop="36dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="41dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f2"
+        android:textColor="?attr/TextColor1"
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/str_title_auto_back_up_daily"
+        android:layout_weight="1"
+        android:layout_marginEnd="16dp"/>
+    <com.zing.zalo.zdesign.component.Switch
+        android:id="@+id/swEnableAutoBackup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Switch.Medium"/>
+</LinearLayout>

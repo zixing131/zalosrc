@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.zing.zalo.zdesign.component.ListItem
+                android:id="@+id/itemViewProfilePicture"
+                android:background="@drawable/bg_list_item_popup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:subtitle=""
+                app:title="@string/str_register_user_update_avatar_item_view_profile_picture"/>
+            <com.zing.zalo.zdesign.component.ListItem
+                android:id="@+id/itemTakeNewPicture"
+                android:background="@drawable/bg_list_item_popup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:subtitle=""
+                app:title="@string/str_register_user_update_avatar_item_take_new_picture"/>
+            <com.zing.zalo.zdesign.component.ListItem
+                android:id="@+id/itemSelectFromDevice"
+                android:background="@drawable/bg_list_item_popup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:subtitle=""
+                app:title="@string/str_register_user_update_avatar_item_select_from_device"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

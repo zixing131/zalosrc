@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.uicontrol.CustomEditText
+        android:textSize="@dimen/dialog_message_text_size"
+        android:textColor="?attr/TextColor1"
+        android:textColorHint="?attr/TextColor2"
+        android:orientation="vertical"
+        android:id="@+id/description_input_edit_text"
+        android:background="@drawable/bg_description_input_layout"
+        android:padding="@dimen/standard_padding"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/standard_spacing"
+        android:layout_marginRight="@dimen/standard_spacing"
+        android:maxHeight="106dp"
+        android:minHeight="50dp"
+        android:hint="@string/description_input_text_popup_title_for_photo"
+        android:maxLength="3000"
+        android:inputType="textMultiLine"
+        android:textCursorDrawable="@drawable/chat_bar_text_cursor"
+        app:alwaysUseContextPopup="true"
+        style="@style/StencilEditText"/>
+</LinearLayout>

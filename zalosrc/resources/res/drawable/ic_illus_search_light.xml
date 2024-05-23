@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="120dp"
+    android:width="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <path
+        android:fillColor="#ebf4ff"
+        android:pathData="M60,60m-60,0a60,60 0,1 1,120 0a60,60 0,1 1,-120 0"/>
+    <path
+        android:fillColor="@drawable/res_0x7f080126_ic_illus_search_light__0"
+        android:pathData="M73.898,38.166L73.919,38.187C83.051,47.468 83.359,62.278 74.79,71.832L87.228,84.435C88.306,85.528 88.247,87.265 87.1,88.287C85.981,89.283 84.244,89.229 83.193,88.165L70.685,75.492C60.981,82.367 47.554,81.32 39.137,72.767C29.571,63.177 29.633,47.818 39.253,38.174C48.797,28.606 64.241,28.615 73.898,38.166ZM69.76,41.766C62.23,34.61 50.447,34.69 43.128,42.028C35.628,49.546 35.578,61.46 43.026,68.927C50.354,76.374 62.449,76.413 69.928,69.016C77.358,61.668 77.402,49.533 70.03,42.028L70.028,42.025L70.025,42.022L69.76,41.766Z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/res_0x7f080127_ic_illus_search_light__1"
+        android:pathData="M69.76,41.766C62.23,34.61 50.448,34.69 43.129,42.028C35.628,49.546 35.578,61.46 43.026,68.927C50.355,76.374 62.449,76.413 69.928,69.016C77.359,61.668 77.402,49.534 70.031,42.028L70.028,42.025L70.025,42.022L69.76,41.766Z"
+        android:fillType="evenOdd"/>
+</vector>

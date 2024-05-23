@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/video_placeholder"
+        android:background="?attr/layer_background_pressed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/zaloVideoViewBig"
+        android:layout_alignBottom="@+id/zaloVideoViewBig"
+        android:layout_alignStart="@+id/zaloVideoViewBig"
+        android:layout_alignEnd="@+id/zaloVideoViewBig"/>
+    <com.zing.zalo.zmedia.view.ZVideoView
+        android:id="@+id/zaloVideoViewBig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        app:controller_style="inline"/>
+    <com.zing.zalo.feed.components.video.FeedVideoSpeakerView
+        android:orientation="horizontal"
+        android:id="@+id/btn_speaker"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_alignBottom="@+id/zaloVideoViewBig"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_alignEnd="@+id/zaloVideoViewBig"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/zaloVideoViewBig"
+        android:layout_alignTop="@+id/zaloVideoViewBig"
+        android:layout_alignRight="@+id/zaloVideoViewBig"
+        android:layout_alignBottom="@+id/zaloVideoViewBig"
+        layout="@layout/feed_item_video_processing_view"/>
+</merge>

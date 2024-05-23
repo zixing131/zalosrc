@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/transparent"/>
+            <size
+                android:height="105dp"
+                android:width="70dp"/>
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/zch_logo_floating_live"
+        android:left="10dp"
+        android:top="85dp"
+        android:right="10dp"
+        android:bottom="4dp"/>
+    <item
+        android:left="21dp"
+        android:top="38.5dp"
+        android:right="21dp"
+        android:bottom="38.5dp">
+        <vector
+            android:height="28dp"
+            android:width="28dp"
+            android:viewportWidth="28"
+            android:viewportHeight="28">
+            <path
+                android:fillColor="#000000"
+                android:pathData="M14,14m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0"
+                android:fillAlpha="0.6"/>
+            <path
+                android:fillColor="#ffffff"
+                android:pathData="M11.58,8.819C11.372,8.715 11.123,8.715 10.916,8.819C10.685,8.934 10.525,9.17 10.525,9.464V18.173C10.525,18.474 10.73,18.676 10.877,18.768C11.03,18.864 11.304,18.955 11.58,18.817C11.593,18.811 11.606,18.803 11.619,18.795L18.63,14.413C19.094,14.158 19.094,13.479 18.63,13.223L11.619,8.841C11.606,8.833 11.593,8.826 11.58,8.819Z"
+                android:fillType="evenOdd"/>
+        </vector>
+    </item>
+</layer-list>

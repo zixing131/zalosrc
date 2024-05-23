@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="10dp">
+        <vector
+            android:height="16dp"
+            android:width="16dp"
+            android:viewportWidth="16"
+            android:viewportHeight="16">
+            <path
+                android:fillColor="@color/zch_icon_tertiary"
+                android:pathData="M5.6464,2.6465C5.8417,2.4512 6.1583,2.4512 6.3535,2.6465L11.3535,7.6465C11.5488,7.8417 11.5488,8.1583 11.3535,8.3535L6.3535,13.3536C6.1583,13.5488 5.8417,13.5488 5.6464,13.3536C5.4511,13.1583 5.4511,12.8417 5.6464,12.6464L10.2929,8L5.6464,3.3535C5.4511,3.1583 5.4511,2.8417 5.6464,2.6465Z"/>
+        </vector>
+    </item>
+    <item
+        android:top="5dp"
+        android:right="20dp"
+        android:bottom="5dp">
+        <shape android:shape="oval">
+            <size
+                android:height="6dp"
+                android:width="6dp"/>
+            <solid android:color="@color/zch_icon_accent_red"/>
+        </shape>
+    </item>
+</layer-list>

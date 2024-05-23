@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="49dp"
+    android:width="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="49">
+    <path
+        android:fillColor="?attr/ListItemPlaceHolderColor"
+        android:pathData="M24,0c13.255,0 24,10.745 24,24v1c0,13.255 -10.745,24 -24,24S0,38.255 0,25v-1C0,10.745 10.745,0 24,0z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M17,24.683h14.359M24.18,17.354v14.658"
+        android:strokeColor="#0085ff"
+        android:strokeWidth="0.9"
+        android:strokeLineCap="round"
+        android:fillType="evenOdd"/>
+</vector>

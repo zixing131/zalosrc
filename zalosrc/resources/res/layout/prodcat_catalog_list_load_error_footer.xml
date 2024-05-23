@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/TextColor1"
+        android:layout_gravity="center"
+        android:padding="@dimen/u4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loadmore_failed"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/icn_csc_bubble_error"
+        style="@style/f200"/>
+</FrameLayout>

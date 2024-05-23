@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.zdesign.component.TrackingLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/ma_item_share_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+    <com.zing.zalo.p077ui.rounedlayout.FrameRoundedLayout
+        android:background="?attr/border_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:connerRadius="100dp">
+        <com.zing.zalo.p077ui.widget.imageview.CircleImageView
+            android:id="@+id/ma_contact_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="0.5dp"
+            android:src="@drawable/ma_ic_more_horizontal"/>
+    </com.zing.zalo.p077ui.rounedlayout.FrameRoundedLayout>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="12dp"
+        android:textColor="?attr/text_01"
+        android:ellipsize="end"
+        android:id="@+id/ma_contact_name"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/btn_see_more"
+        android:maxLines="1"
+        android:paddingHorizontal="5dp"/>
+</com.zing.zalo.zdesign.component.TrackingLinearLayout>

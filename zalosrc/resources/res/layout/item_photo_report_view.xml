@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.imageview.RoundCornerImageView
+        android:id="@+id/report_photo_imv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:round_radius="8dp"
+        app:srcCompatEx="@drawable/chat_icloud_default"/>
+    <androidx.appcompat.widget.ZAppCompatImageView
+        android:layout_gravity="end|top"
+        android:id="@+id/report_photo_remove_icon"
+        android:background="@drawable/bg_icon_remove_item_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3.5dp"
+        android:layout_marginEnd="4dp"
+        android:elevation="1dp"
+        app:srcCompatEx="@drawable/zds_ic_close_circle_line_24"
+        app:tint="?attr/icon_04"/>
+</FrameLayout>

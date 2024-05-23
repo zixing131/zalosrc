@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/story_input_message_layout"
+    android:background="@drawable/bg_story_message"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:minHeight="@dimen/story_reaction_bar_emoticon_width"
+    android:splitMotionEvents="false">
+    <com.zing.zalo.uicontrol.ActionEditText
+        android:textSize="@dimen/f500"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white_60"
+        android:autoLink="none"
+        android:id="@+id/edt_story_message"
+        android:background="@null"
+        android:paddingLeft="16dp"
+        android:scrollbars="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/str_story_reaction_v2_send_message_hint"
+        android:maxLines="1"
+        android:scrollHorizontally="true"
+        android:layout_weight="1"
+        android:inputType="textAutoCorrect"
+        android:imeOptions="flagNoExtractUi|actionSend"
+        android:textCursorDrawable="@null"/>
+    <com.zing.zalo.zdesign.component.TrackingImageView
+        android:id="@+id/btn_story_send"
+        android:background="@null"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/zds_ic_send_solid_24"
+        app:tint="@color/btn_story_send_msg_color_selector"/>
+</LinearLayout>

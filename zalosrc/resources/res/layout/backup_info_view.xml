@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/text_secondary"
+        android:id="@+id/tvLatestTimeBackup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/t_normal"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/text_secondary"
+        android:id="@+id/tvDeviceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        style="@style/t_normal"/>
+</merge>

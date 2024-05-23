@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.custom.PhotoToggleButton xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/check_icon"
+    android:paddingLeft="8dp"
+    android:paddingTop="8dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="8dp"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    app:checkedImage="@drawable/picker_photo_checkmark_pressed"
+    app:uncheckedImage="@drawable/picker_photo_checkmark_normal"/>

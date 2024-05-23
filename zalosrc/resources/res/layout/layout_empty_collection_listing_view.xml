@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.p077ui.widget.AspectRatioImageView
+        android:id="@+id/imvEmpty"
+        android:layout_width="@dimen/imv_multi_state_width"
+        android:layout_height="@dimen/imv_multi_state_height"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/illus_emptystate_list"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/text_02"
+        android:id="@+id/tvEmpty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/str_empty"
+        style="@style/Roboto.f2"/>
+    <com.zing.zalo.p077ui.widget.RobotoButton
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/btnEmpty"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="21dp"
+        android:minWidth="150dp"
+        android:textAllCaps="true"
+        style="@style/btnType1.medium"/>
+</LinearLayout>

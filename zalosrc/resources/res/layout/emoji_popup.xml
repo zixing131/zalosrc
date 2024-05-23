@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:id="@+id/popup_content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/emoji_list"/>
+        <View
+            android:id="@+id/emoji_border"
+            android:background="@color/emoji_border_background"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+    </FrameLayout>
+</FrameLayout>

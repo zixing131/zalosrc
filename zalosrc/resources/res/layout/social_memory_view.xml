@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.p077ui.zviews.multistate.MultiStateView
+        android:id="@+id/multi_state_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:msvEmptyLayout="@layout/social_memory_empty_view"
+        app:msvErrorLayout="@layout/social_memory_error_view"
+        app:msvLoadingLayout="@layout/social_memory_loading_view"/>
+</FrameLayout>

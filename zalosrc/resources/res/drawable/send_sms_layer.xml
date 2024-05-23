@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/transparent"/>
+    <item
+        android:drawable="@drawable/bg_btn_send_sms_profile"
+        android:left="14px"
+        android:top="20px"
+        android:right="14px"
+        android:bottom="18px"/>
+</layer-list>

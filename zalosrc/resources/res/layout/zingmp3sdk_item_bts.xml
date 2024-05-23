@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48dp"
+    android:drawablePadding="@dimen/zingmp3sdk_spacing_normal"
+    android:paddingStart="@dimen/zingmp3sdk_spacing_bottom_sheet"
+    android:paddingEnd="@dimen/zingmp3sdk_spacing_bottom_sheet"
+    style="@style/ZingMP3Sdk.Widget.TextView.BottomSheet"/>

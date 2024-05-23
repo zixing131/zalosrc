@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/feed_item_header_template"/>
+    <com.zing.zalo.zinstant.ZaloZinstantLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/zinstant_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/memory_feed_skeleton_height"
+        android:layout_below="@+id/tvTranslation"/>
+    <include
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/memory_feed_multi_state_height"
+        android:layout_below="@+id/tvTranslation"
+        layout="@layout/memory_feed_error_view"/>
+</merge>

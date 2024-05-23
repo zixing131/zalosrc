@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/layoutLoadingComment"
+    android:paddingLeft="@dimen/feed_padding_left"
+    android:paddingRight="@dimen/feed_padding_right"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include
+        android:id="@+id/pbLoadMoreCmt"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        layout="@layout/holo_circular_progress_bar_mili"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="14dp"
+        android:textColor="?attr/TextColor2"
+        android:gravity="center"
+        android:id="@+id/tvLoadingComment"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginLeft="8dp"
+        android:minHeight="35dp"
+        android:text="@string/waiting"/>
+</LinearLayout>

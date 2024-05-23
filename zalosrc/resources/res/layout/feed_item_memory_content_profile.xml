@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@+id/feedItemBodyTimeBar"
+        android:background="?attr/ProfileLineColor"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/feed_profile_timebar_marginleft"
+        android:layout_alignBottom="@+id/layout_content_container"
+        android:layout_alignParentTop="true"/>
+    <com.zing.zalo.p077ui.widget.AvatarImageView
+        android:id="@+id/imvAvatarBody"
+        android:visibility="gone"
+        android:layout_width="@dimen/feed_mutual_avatar_size"
+        android:layout_height="@dimen/feed_mutual_avatar_size"
+        android:layout_marginLeft="@dimen/feed_mutual_avatar_marginleft"
+        android:scaleType="fitXY"/>
+    <FrameLayout
+        android:id="@+id/layout_content_container"
+        android:background="@drawable/bg_feed_profile_body"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/feed_padding_left_profile"
+        android:layout_marginRight="@dimen/feed_padding_right_profile"
+        android:adjustViewBounds="true">
+        <com.zing.zalo.zinstant.ZaloZinstantLayout
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/zinstant_layout"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/memory_feed_skeleton_height"
+            android:adjustViewBounds="true"/>
+        <include layout="@layout/memory_feed_error_view"/>
+    </FrameLayout>
+</merge>

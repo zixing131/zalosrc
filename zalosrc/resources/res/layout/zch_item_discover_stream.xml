@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.shortvideo.p072ui.component.p073rv.item.DiscoverStreamItem xmlns:android="http://schemas.android.com/apk/res/android" xmlns:package="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.shortvideo.p072ui.widget.p074iv.RoundedImageView
+        android:id="@+id/ivCover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
+    <com.zing.zalo.shortvideo.p072ui.widget.tv.SimpleShadowTextView
+        android:textSize="13dp"
+        android:textColor="@color/zch_icon_primary"
+        android:id="@+id/tvLive"
+        android:paddingLeft="@dimen/zch_padding_8"
+        android:paddingTop="@dimen/zch_padding_2"
+        android:paddingRight="@dimen/zch_padding_8"
+        android:paddingBottom="@dimen/zch_padding_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIVE"
+        android:maxLines="1"
+        package:zchFontStyle="regular"/>
+    <com.zing.zalo.shortvideo.p072ui.widget.tv.SimpleShadowTextView
+        android:textSize="13dp"
+        android:textColor="@color/zch_icon_primary"
+        android:gravity="center_vertical"
+        android:id="@+id/tvViewer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1,234"
+        android:drawablePadding="2dp"
+        package:zchFontStyle="medium"/>
+    <com.zing.zalo.shortvideo.p072ui.widget.tv.SimpleShadowTextView
+        android:textSize="12dp"
+        android:textColor="@color/zch_icon_primary"
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 ngày nữa mình ngưng nhận đơn nha!!"
+        android:maxLines="2"
+        package:zchFontStyle="regular"/>
+    <com.zing.zalo.shortvideo.p072ui.widget.tv.SimpleShadowTextView
+        android:textSize="11dp"
+        android:textColor="@color/zch_text_secondary"
+        android:id="@+id/tvChannelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thế giới Skinfood Store"
+        android:maxLines="1"
+        package:zchFontStyle="regular"/>
+</com.zing.zalo.shortvideo.p072ui.component.p073rv.item.DiscoverStreamItem>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dock_view_container"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/TextColor1"
+        android:id="@+id/dock_view_title"
+        android:background="?attr/PrimaryBackgroundColor"
+        android:paddingLeft="16dp"
+        android:paddingTop="15dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/t_xsmall_m"/>
+    <com.zing.zalo.p077ui.custom.PhotoToggleButton
+        android:id="@+id/check_icon"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="24dp"
+        android:layout_alignParentEnd="true"
+        app:checkedImage="0x7f08087f"
+        app:uncheckedImage="@drawable/ic_unchecked_radio_button_header"/>
+    <com.zing.zalo.zdesign.component.Divider
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/dock_view_title"/>
+</RelativeLayout>

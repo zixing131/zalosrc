@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:tag="layout/e2ee_setting_view_0"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.uicomponents.imagebutton.ActiveImageButton
+        android:layout_gravity="left"
+        android:id="@+id/btnClose"
+        android:background="@color/transparent"
+        android:padding="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close_line_24"/>
+    <ViewStub
+        android:id="@+id/stubE2eeUpgradeStateView"
+        android:layout="@layout/e2ee_upgrade_state_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ViewStub
+        android:id="@+id/stubOldE2eeIntroView"
+        android:layout="@layout/old_user_e2ee_setting_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

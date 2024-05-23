@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="21dp"
+    android:width="20dp"
+    android:viewportWidth="20"
+    android:viewportHeight="21">
+    <path
+        android:fillColor="?attr/IconTTLCountDownInsideSender"
+        android:pathData="M10.0004,3.0999C5.6373,3.0999 2.1004,6.6368 2.1004,10.9999C2.1004,15.363 5.6373,18.8999 10.0004,18.8999C14.3634,18.8999 17.9004,15.363 17.9004,10.9999C17.9004,6.6368 14.3634,3.0999 10.0004,3.0999ZM0.9004,10.9999C0.9004,5.9741 4.9746,1.8999 10.0004,1.8999C15.0262,1.8999 19.1004,5.9741 19.1004,10.9999C19.1004,16.0257 15.0262,20.0999 10.0004,20.0999C4.9746,20.0999 0.9004,16.0257 0.9004,10.9999Z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="?attr/IconTTLCountDownInsideSender"
+        android:pathData="M11.7995,1.5H8.2995C7.8995,1.5 7.5995,1.2 7.5995,0.8C7.4995,0.3 7.7995,0 8.1995,0H11.6995C12.0995,0 12.3995,0.3 12.3995,0.7C12.4995,1.2 12.1995,1.5 11.7995,1.5Z"/>
+    <path
+        android:fillColor="?attr/IconTTLCountDownInsideSender"
+        android:pathData="M16.8008,5.8L14.3008,3.2999L15.3008,2.2999C15.5008,2 16.0008,2 16.3008,2.2999L17.7008,3.6999C18.0008,3.9999 18.0008,4.4999 17.7008,4.8L16.8008,5.8Z"/>
+    <path
+        android:fillColor="?attr/IconTTLCountDownInsideSender"
+        android:pathData="M10,11V5C8.2,5 6.6,5.8 5.5,7L10,11Z"/>
+    <path
+        android:fillColor="?attr/IconTTLCountDownInsideSender"
+        android:pathData="M11,3L11,0L9,-0L9,3L11,3Z"/>
+</vector>

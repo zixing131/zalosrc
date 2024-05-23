@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.shortvideo.p072ui.component.p073rv.item.SurveyVideoItem xmlns:android="http://schemas.android.com/apk/res/android" xmlns:package="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.androidquery.util.RecyclingImageView
+        android:id="@+id/rivBackground"
+        android:background="@color/zch_layer_background_subtle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+    <com.zing.zalo.shortvideo.p072ui.widget.p074iv.RoundedImageView
+        android:id="@+id/rivThumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
+    <com.zing.zalo.shortvideo.p072ui.widget.tv.SimpleShadowTextView
+        android:textSize="15dp"
+        android:textColor="@color/zch_text_secondary"
+        android:gravity="center_horizontal"
+        android:id="@+id/txtQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2dp"
+        package:zchFontStyle="medium"/>
+</com.zing.zalo.shortvideo.p072ui.component.p073rv.item.SurveyVideoItem>

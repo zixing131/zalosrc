@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zing.zalo.uicontrol.CircleImage
+        android:id="@+id/imvAvatar"
+        android:src="0x7f080958"
+        android:scaleType="fitXY"
+        style="@style/ava1"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="12dp"
+        android:textColor="@color/cMtxt1"
+        android:gravity="center_vertical"
+        android:id="@+id/tv_chat_msg"
+        android:paddingLeft="12dp"
+        android:paddingTop="9dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="9dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="240dp"
+        android:includeFontPadding="false"
+        android:layout_toRightOf="@+id/imvAvatar"
+        android:layout_alignTop="@+id/imvAvatar"/>
+</merge>

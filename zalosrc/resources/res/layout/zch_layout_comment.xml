@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.shortvideo.p072ui.view.CommentLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:package="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/lytComment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:splitMotionEvents="false">
+    <com.zing.zalo.shortvideo.p072ui.widget.tv.SimpleShadowTextView
+        android:textSize="15dp"
+        android:textColor="@color/zch_text_secondary"
+        android:gravity="center"
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/zch_bts_comment_title"
+        android:includeFontPadding="false"
+        package:zchFontStyle="medium"/>
+    <FrameLayout
+        android:id="@+id/flComment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <com.zing.zalo.shortvideo.p072ui.widget.p075rv.ListClickableRecyclerView
+            android:id="@+id/lstComment"
+            android:paddingTop="@dimen/zch_item_comment_padding_vertical"
+            android:paddingBottom="@dimen/zch_item_comment_padding_vertical"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:splitMotionEvents="false"/>
+        <com.zing.zalo.shortvideo.p072ui.widget.LoadingLayout
+            android:id="@+id/lytLoading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+    <View
+        android:id="@+id/dimContent"
+        android:background="@color/zch_curtain"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.zing.zalo.shortvideo.p072ui.widget.CommentBox
+        android:id="@+id/boxComment"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</com.zing.zalo.shortvideo.p072ui.view.CommentLayout>

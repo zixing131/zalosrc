@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/edit_groupname_newchat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="?attr/PrimaryBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_default_height"
+        android:elevation="@dimen/width_shadow_action_bar">
+        <com.zing.zalo.p077ui.widget.edittext.ActionDoneEditText
+            android:textSize="16dp"
+            android:textColor="?attr/TextColor1"
+            android:textColorHint="?attr/TextColor2"
+            android:id="@+id/edit_text_group_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:hint="@string/str_update_group_name_hint"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:textCursorDrawable="@drawable/chat_bar_text_cursor"
+            android:backgroundTint="?attr/AppAccentColor"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/edit_group_name_done_icn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            app:srcCompat="@drawable/icn_done_none_circle"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/edit_group_name_blank_view"
+        android:background="?attr/TextColor1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"/>
+</LinearLayout>

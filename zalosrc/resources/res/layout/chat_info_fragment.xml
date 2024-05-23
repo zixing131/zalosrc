@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/main_content_container"
+        android:background="?attr/PrimaryBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zing.zalo.zdesign.component.header.ZdsActionBar
+            android:id="@+id/zds_action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:leadingType="back"
+            app:middleTitleText="@string/str_header_title_right_menu"
+            app:middleType="title"
+            style="@style/BlueZdsActionBar.AppType"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <com.zing.zalo.p077ui.widget.ChatInfoHighLightSettingView
+        android:id="@+id/hightLightView"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

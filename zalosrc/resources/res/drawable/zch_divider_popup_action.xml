@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <size
+        android:height="@dimen/zch_divider_thick"
+        android:width="@dimen/zch_divider_thick"/>
+    <solid android:color="@color/zch_divider_subtle"/>
+</shape>

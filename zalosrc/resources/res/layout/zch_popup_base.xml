@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/touchOutside"
+        android:background="@color/zch_curtain_subtle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@+id/lytContainer"
+        android:background="@drawable/zch_bg_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/zch_popup_margin_horizontal"
+        android:layout_marginRight="@dimen/zch_popup_margin_horizontal"/>
+</FrameLayout>

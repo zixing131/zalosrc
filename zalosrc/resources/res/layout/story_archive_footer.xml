@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutFooter"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/layoutFooterLoading"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/holo_circular_progress_bar_mili"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/layoutFooterError"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="@dimen/f0"
+            android:textColor="?attr/TextColor4"
+            android:id="@+id/tv_footer_error_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_story_archive_loadmore_failed"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="@dimen/f0"
+            android:textColor="?attr/btn_type_2_text_n"
+            android:id="@+id/tv_footer_error_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="@string/str_story_archive_loadmore_retry"
+            app:fstyle="medium"
+            style="@style/Roboto.f1s"/>
+    </LinearLayout>
+</FrameLayout>

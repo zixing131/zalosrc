@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.zdesign.component.header.ZdsActionBar
+        android:id="@+id/zds_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leadingType="back"
+        app:middleTitleText="@string/str_title_btn_change_group_avatar"
+        app:middleType="title"
+        style="@style/BlueZdsActionBar.AppType"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:modeContent="recycleview"/>
+    <include layout="@layout/fast_scroll_bubble_tv"/>
+    <com.zing.zalo.p077ui.zviews.multistate.MultiStateView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/multi_state"
+        android:background="?attr/PrimaryBackgroundColor"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:msvEmptyLayout="@layout/layout_empty_state"
+        app:msvErrorLayout="@layout/layout_error_state"/>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@+id/view_empty_store"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutTab">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@drawable/illus_empty_photos"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="16dp"
+            android:textColor="?attr/TextColor2"
+            android:gravity="center"
+            android:id="@+id/tvDesc"
+            android:paddingLeft="45dp"
+            android:paddingRight="45dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/str_no_photo_to_add"
+            app:fstyle="medium"/>
+    </LinearLayout>
+    <include layout="@layout/fast_scroll_bubble_tv"/>
+</LinearLayout>

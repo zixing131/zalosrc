@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="25dp"
+    android:viewportWidth="25"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@color/zingmp3sdk_colorItemDrawableTint"
+        android:pathData="M14.7,9.752V5.448L21.36,11.775C21.524,11.931 21.524,12.191 21.36,12.347L14.7,18.674V14.315L13.491,14.341C11.501,14.384 9.715,14.561 8.008,15.195C6.573,15.728 5.252,16.561 3.924,17.812C4.477,13.53 8.116,10.227 13.601,9.832L14.7,9.752ZM13.516,8.651V4.988C13.516,4.122 14.554,3.676 15.182,4.273L22.175,10.917C22.83,11.539 22.83,12.583 22.175,13.205L15.182,19.849C14.554,20.446 13.516,20 13.516,19.134V15.525C13.109,15.533 12.715,15.548 12.333,15.571C9.071,15.764 6.679,16.555 3.981,19.431C3.497,19.947 2.667,19.672 2.667,18.965C2.667,13.393 7.057,9.117 13.516,8.651Z"
+        android:fillType="evenOdd"/>
+</vector>

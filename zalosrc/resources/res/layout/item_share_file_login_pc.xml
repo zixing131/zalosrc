@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zalo="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@drawable/stencils_bg_white_with_press_state"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.GroupAvatarView
+        android:id="@+id/img_avt"
+        android:layout_width="@dimen/avt_image_size_default"
+        android:layout_height="@dimen/avt_image_size_default"
+        android:layout_marginLeft="@dimen/msg_item_padding_l_r"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="@dimen/msg_item_padding_l_r"
+        android:layout_marginBottom="6dp"
+        android:src="0x7f080958"
+        zalo:isSmallSize="true"
+        style="@style/myImageView"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f2"
+        android:textColor="@drawable/itemlist_text"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:lines="1"
+        android:singleLine="true"
+        android:layout_weight="1"/>
+</LinearLayout>

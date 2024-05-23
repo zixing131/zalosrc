@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/container"
+    android:background="@drawable/bg_mini_quick_action"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_margin="6dp">
+    <com.androidquery.util.RecyclingImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="11dp"
+        android:textColor="?attr/TextColor1"
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:maxLines="1"
+        android:includeFontPadding="false"/>
+</LinearLayout>

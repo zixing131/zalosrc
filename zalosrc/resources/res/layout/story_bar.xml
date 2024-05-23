@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/story_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:splitMotionEvents="false">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f13"
+        android:textColor="?attr/TextColor1"
+        android:id="@+id/story_bar_title"
+        android:background="@drawable/bg_with_bottom_border"
+        android:paddingLeft="@dimen/feed_padding_left"
+        android:paddingTop="8dp"
+        android:paddingRight="@dimen/feed_padding_right"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_story_add"
+        app:fstyle="medium"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_story_bar"
+        android:background="@drawable/bg_with_bottom_border"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/feed_bottom_divider_height"
+        android:splitMotionEvents="false"/>
+</LinearLayout>

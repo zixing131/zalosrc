@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="?attr/HeaderFormColor"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/action_bar_default_height">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/btn_back"
+        android:background="@drawable/item_background_ripple"
+        android:padding="12dp"
+        android:layout_width="48dp"
+        android:layout_height="@dimen/action_bar_default_height"
+        android:src="@drawable/stencils_ic_head_close_black"
+        android:scaleType="fitCenter"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="16dp"
+        android:textColor="?attr/TextColor1"
+        android:id="@+id/tv_selection_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fstyle="medium"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="8dp"
+        android:right="8dp">
+        <shape android:shape="rectangle">
+            <size
+                android:height="4dp"
+                android:width="36dp"/>
+            <solid android:color="@color/zch_divider"/>
+            <corners android:radius="@dimen/zch_radius_circle"/>
+        </shape>
+    </item>
+</layer-list>

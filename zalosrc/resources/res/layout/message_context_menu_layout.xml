@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.p077ui.chat.contextmenu.ContextMenuScrollView
+        android:id="@+id/scroll_view"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/popup_content_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <view
+                android:id="@+id/chat_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                class="com.zing.zalo.ui.chat.contextmenu.AutoDismissDialogRecyclerView"/>
+            <RelativeLayout
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/reaction_container_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <view
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/menu_list"
+                android:background="@drawable/chat_context_menu_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                class="com.zing.zalo.ui.chat.contextmenu.MessageContextMenuView$MenuRecyclerView"/>
+        </LinearLayout>
+    </com.zing.zalo.p077ui.chat.contextmenu.ContextMenuScrollView>
+</FrameLayout>

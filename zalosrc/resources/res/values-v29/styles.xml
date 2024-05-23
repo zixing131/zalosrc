@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseThemeDefault" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">?attr/backgroundColor</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="buttonDefaultStyle">@style/ButtonLarge.Primary</item>
+        <item name="checkCircleDefaultStyle">@style/CheckCircle.Medium</item>
+        <item name="checkboxDefaultStyle">@style/Checkbox.Medium</item>
+        <item name="chipGroupDefaultStyle">@style/FlexboxZdsGroupChip</item>
+        <item name="dividerDefaultStyle">@style/Divider.Style01</item>
+        <item name="headerDefaultStyle">@style/BlueZdsActionBar.AppType.Default</item>
+        <item name="progressBarDefaultStyle">@style/ProgressBar.Size24</item>
+        <item name="radiobtnDefaultStyle">@style/RadioButton.Medium</item>
+        <item name="sliderDefaultStyle">@style/Slider_NeutralTheme</item>
+        <item name="switchDefaultStyle">@style/Switch.Medium</item>
+    </style>
+    <style name="ThemeDefault" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:buttonStyle">@style/btnNormalStyle</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/ListViewAppTheme</item>
+        <item name="android:listViewWhiteStyle">@style/ListViewAppTheme.White</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:homeAsUpIndicator">@drawable/stencils_ic_head_back_white</item>
+        <item name="android:actionModeCutDrawable">?unknown_ref: 7f080ad5</item>
+        <item name="android:actionModeCopyDrawable">?unknown_ref: 7f080ad4</item>
+        <item name="android:actionModePasteDrawable">?unknown_ref: 7f080ad6</item>
+        <item name="android:actionMenuTextAppearance">@style/TextAppearance.Sherlock.Widget.ActionBar.Menu.Stencils</item>
+        <item name="android:actionMenuTextColor">@color/abs__primary_text_holo_dark_stencils</item>
+        <item name="android:actionModeSelectAllDrawable">?unknown_ref: 7f080c94</item>
+        <item name="android:colorPrimary">@color/task_background_color</item>
+        <item name="android:colorPrimaryDark">#33000000</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="actionBarItemBackground">@drawable/bar_selector</item>
+        <item name="actionBarSize">@dimen/abc_action_bar_default_height_material</item>
+        <item name="actionMenuTextAppearance">@style/TextAppearance.Sherlock.Widget.ActionBar.Menu.Stencils</item>
+        <item name="actionMenuTextColor">@color/abs__primary_text_holo_dark_stencils</item>
+        <item name="actionModeCloseDrawable">@drawable/stencils_ic_head_back</item>
+        <item name="actionModeCopyDrawable">?unknown_ref: 7f080ad4</item>
+        <item name="actionModeCutDrawable">?unknown_ref: 7f080ad5</item>
+        <item name="actionModePasteDrawable">?unknown_ref: 7f080ad6</item>
+        <item name="actionModeSelectAllDrawable">?unknown_ref: 7f080c94</item>
+        <item name="actionOverflowButtonStyle">@style/OverflowButton</item>
+        <item name="backgroundmain">@style/stencils_background_main</item>
+        <item name="bgheader">@style/bgheader_01</item>
+        <item name="bgtitleabout">@style/bg_title_about_01</item>
+        <item name="btnheader">@style/btnheader_01</item>
+        <item name="colorControlHighlight">#ccdedede</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="homeAsUpIndicator">@drawable/stencils_ic_head_back_white</item>
+        <item name="switchStyleZalo">@style/StencilSwitchStyleZalo</item>
+        <item name="useSlideToBack">true</item>
+    </style>
+    <style name="ThemeDefault.Start" parent="@style/Theme.AppCompat">
+        <item name="android:windowBackground">@drawable/splash_window_background</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/ZaloActionBarStyle</item>
+        <item name="android:colorPrimary">@color/task_background_color</item>
+        <item name="android:colorPrimaryDark">#33000000</item>
+        <item name="android:navigationBarColor">@color/bg_splash_screen</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="switchStyleZalo">@style/StencilSwitchStyleZalo</item>
+    </style>
+</resources>

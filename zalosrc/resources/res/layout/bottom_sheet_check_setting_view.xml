@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/TextColor2"
+        android:id="@+id/tvHint"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/setting_hint_show_birthday"
+        style="@style/t_small"/>
+    <com.zing.zalo.p077ui.settings.widget.ListItemSetting
+        android:id="@+id/itemSetting1"
+        android:background="@drawable/bg_list_item_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.zing.zalo.p077ui.settings.widget.ListItemSetting
+        android:id="@+id/itemSetting2"
+        android:background="@drawable/bg_list_item_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.zing.zalo.p077ui.settings.widget.ListItemSetting
+        android:id="@+id/itemSetting3"
+        android:background="@drawable/bg_list_item_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="134dp"
+    android:width="130dp"
+    android:viewportWidth="130"
+    android:viewportHeight="134">
+    <path
+        android:fillColor="@drawable/res_0x7f080455_zillus_block_friend__0"
+        android:pathData="M64,124C30.86,124 4,97.14 4,64C4,30.86 30.86,4 64,4C97.14,4 124,30.86 124,64C124,97.14 97.14,124 64,124Z"
+        android:strokeAlpha="0.2"
+        android:fillAlpha="0.2"
+        android:fillType="evenOdd"/>
+    <group>
+        <clip-path android:pathData="M64,16L64,16A48,48 0,0 1,112 64L112,64A48,48 0,0 1,64 112L64,112A48,48 0,0 1,16 64L16,64A48,48 0,0 1,64 16z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M64,16L64,16A48,48 0,0 1,112 64L112,64A48,48 0,0 1,64 112L64,112A48,48 0,0 1,16 64L16,64A48,48 0,0 1,64 16z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080456_zillus_block_friend__1"
+            android:pathData="M16,16h96v96h-96z"
+            android:strokeAlpha="0.7"
+            android:fillAlpha="0.7"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M64,40L64,40A15,15 0,0 1,79 55L79,58A15,15 0,0 1,64 73L64,73A15,15 0,0 1,49 58L49,55A15,15 0,0 1,64 40z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M34,109C34,92.43 47.43,79 64,79V79C80.57,79 94,92.43 94,109V112H34V109Z"/>
+    </group>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M64,19L64,19A45,45 0,0 1,109 64L109,64A45,45 0,0 1,64 109L64,109A45,45 0,0 1,19 64L19,64A45,45 0,0 1,64 19z"
+        android:strokeColor="#ffffff"
+        android:strokeWidth="6"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M96,70L96,70A26,26 0,0 1,122 96L122,96A26,26 0,0 1,96 122L96,122A26,26 0,0 1,70 96L70,96A26,26 0,0 1,96 70z"/>
+    <path
+        android:fillColor="@drawable/res_0x7f080457_zillus_block_friend__2"
+        android:pathData="M117,96C117,107.6 107.6,117 96,117C84.4,117 75,107.6 75,96C75,84.4 84.4,75 96,75C107.6,75 117,84.4 117,96ZM105.21,109.08C102.61,110.92 99.43,112 96,112C87.16,112 80,104.84 80,96C80,92.57 81.08,89.39 82.92,86.79L105.21,109.08ZM109.08,105.21L86.79,82.92C89.39,81.08 92.57,80 96,80C104.84,80 112,87.16 112,96C112,99.43 110.92,102.61 109.08,105.21Z"
+        android:fillType="evenOdd"/>
+</vector>

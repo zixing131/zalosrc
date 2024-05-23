@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="bottom"
+    android:orientation="horizontal"
+    android:id="@+id/user_details_bottom_bar_container"
+    android:background="@color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f13"
+        android:textColor="?attr/TextColor1"
+        android:gravity="center_vertical"
+        android:id="@+id/imgButtonUpdateStatus"
+        android:background="@drawable/bg_profile_float"
+        android:paddingLeft="25dp"
+        android:paddingRight="23dp"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/func_bottom_bar_profile"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/str_post_feed"
+        android:drawableLeft="@drawable/icn_timeline_newpost"
+        android:drawablePadding="@dimen/padding_ic_text_update_status_function_profile"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        app:fstyle="medium"/>
+</RelativeLayout>

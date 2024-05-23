@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/actionbar_leftview_newchat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="52dp">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="16dp"
+        android:textColor="?attr/TextColor1"
+        android:textColorHint="?attr/TextColor2"
+        android:ellipsize="end"
+        android:id="@+id/group_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="36dp"
+        android:text="@string/str_new_chat_title_bar"
+        android:hint="@string/str_update_group_name_hint"
+        android:maxLines="1"
+        app:fstyle="medium"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/edit_group_name_icn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-30dp"
+        app:srcCompat="@drawable/ic_edit_nickname"/>
+</LinearLayout>

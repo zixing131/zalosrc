@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/zad__crd_v_root"
+    android:background="@android:color/white"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/zad__cancel_reward_dialog_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đóng video?"/>
+    <TextView
+        android:textSize="17sp"
+        android:textColor="@color/zad__cancel_reward_dialog_text_color"
+        android:paddingTop="20dp"
+        android:paddingBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn sẽ bị mất phần thưởng"/>
+    <LinearLayout
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textStyle="bold"
+            android:textColor="@color/zad__cancel_reward_dialog_color"
+            android:id="@+id/zad__crd_btn_cancel"
+            android:background="@android:color/white"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đóng video"
+            android:textAllCaps="true"/>
+        <Button
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:id="@+id/zad__crd_btn_continue"
+            android:background="@drawable/zad__button_corner"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiếp tục video"
+            android:textAllCaps="true"/>
+    </LinearLayout>
+</LinearLayout>

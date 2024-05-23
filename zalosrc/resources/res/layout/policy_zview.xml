@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:id="@+id/root_backgroundmain"
+    android:background="@color/main_root_default_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.zdesign.component.header.ZdsActionBar
+        android:id="@+id/zds_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leadingType="back"
+        app:middleTitleText="@string/str_title_bar_Policy_act"
+        app:middleType="title"
+        app:trailingType="none"
+        style="@style/BlueZdsActionBar.AppType"/>
+    <RelativeLayout
+        android:gravity="center"
+        android:id="@+id/layoutloading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/chat_left_progressbar_image"
+            layout="@layout/holo_circular_progress_bar_mini"/>
+    </RelativeLayout>
+    <ScrollView
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zing.zalo.webview.ZWebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </ScrollView>
+</LinearLayout>

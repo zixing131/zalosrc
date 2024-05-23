@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/feed_audio_popup_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="0x7f0701d8">
+    <include layout="@layout/layout_dialog_header_confirm"/>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:id="@+id/confirm_content"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:id="@+id/stickerContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+            <com.zing.zalo.p077ui.StickerView
+                android:layout_gravity="center"
+                android:id="@+id/sticker_preview_animation"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="110dp"
+                android:minHeight="110dp"/>
+            <ProgressBar
+                android:layout_gravity="center"
+                android:id="@+id/pbLoading"
+                android:visibility="gone"
+                android:layout_width="@dimen/progressbar_sticker_weight"
+                android:layout_height="@dimen/progressbar_sticker_height"
+                style="@style/Widget.AppCompat.ProgressBar"/>
+        </FrameLayout>
+        <com.zing.zalo.uicontrol.AnimImageView
+            android:id="@+id/sticker_preview_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:src="0x7f0804cb"
+            android:layout_toRightOf="@+id/stickerContainer"/>
+    </RelativeLayout>
+    <include layout="@layout/layout_dialog_footer_confirm"/>
+</LinearLayout>

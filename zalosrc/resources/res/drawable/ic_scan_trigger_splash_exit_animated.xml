@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/ic_scan_splash_exit">
+    <target
+        android:name="qrCodePath"
+        android:animation="@drawable/res_0x7f0801bc_ic_scan_trigger_splash_exit_animated__0"/>
+</animated-vector>

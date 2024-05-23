@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_backgroundmain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.zdesign.component.header.ZdsActionBar
+        android:id="@+id/zds_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:idTrailingButton="@+id/id_open_qr_code_scan_in_search"
+        app:leadingType="back"
+        app:middleType="custom"
+        app:trailingIconButton="@drawable/icon_header_qrcode"
+        app:trailingType="icon"
+        style="@style/BlueZdsActionBar.AppType"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="@dimen/f0"
+        android:textColor="@color/transparent"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/dummyMeasuringTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abcd.fghij.klmlo.pqrst.uvw.xyz.abcde.fghij.FGHI .pqrst.uvw.QPT abc def ghi jkl mno pqr xyz abcd ABDR"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_below="@+id/zds_action_bar"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="16dp"/>
+    <FrameLayout
+        android:id="@+id/search_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/zds_action_bar">
+        <com.zing.zalo.p077ui.searchglobal.widget.SearchGlobalPreStateLayout
+            android:id="@+id/preStateLayout"
+            android:background="?attr/PrimaryBackgroundColor"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.zing.zalo.p077ui.searchglobal.widget.SearchGlobalResultLayout
+            android:id="@+id/resultLayout"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+</RelativeLayout>

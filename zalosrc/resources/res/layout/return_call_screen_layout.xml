@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/layout_return_call_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:background="#00b259"
+        android:layout_width="match_parent"
+        android:layout_height="32dp">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="@dimen/f8"
+            android:textColor="@color/white"
+            android:id="@+id/text_return_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_call_incall_banner_text"
+            android:includeFontPadding="false"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+        <ImageView
+            android:id="@+id/icon_return_call"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:src="0x7f080e23"
+            android:layout_toLeftOf="@+id/text_return_call"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <View
+        android:background="#1cae3f"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+</LinearLayout>

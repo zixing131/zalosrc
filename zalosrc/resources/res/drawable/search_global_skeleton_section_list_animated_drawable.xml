@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/search_global_skeleton_section_list_drawable">
+    <target
+        android:name="progressSectionLabel"
+        android:animation="@anim/search_global_skeleton_indeterminate"/>
+    <target
+        android:name="progressItemThumb1"
+        android:animation="@anim/search_global_skeleton_indeterminate"/>
+    <target
+        android:name="progressItemName1"
+        android:animation="@anim/search_global_skeleton_indeterminate"/>
+    <target
+        android:name="progressItemSubName1"
+        android:animation="@anim/search_global_skeleton_indeterminate"/>
+    <target
+        android:name="progressItemThumb2"
+        android:animation="@anim/search_global_skeleton_indeterminate"/>
+    <target
+        android:name="progressItemName2"
+        android:animation="@anim/search_global_skeleton_indeterminate"/>
+    <target
+        android:name="progressItemSubName2"
+        android:animation="@anim/search_global_skeleton_indeterminate"/>
+    <target
+        android:name="progressItemThumb3"
+        android:animation="@anim/search_global_skeleton_indeterminate"/>
+    <target
+        android:name="progressItemName3"
+        android:animation="@anim/search_global_skeleton_indeterminate"/>
+    <target
+        android:name="progressItemSubName3"
+        android:animation="@anim/search_global_skeleton_indeterminate"/>
+</animated-vector>

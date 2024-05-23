@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0">
+    <com.zing.zalo.p077ui.camera.documentscanner.custom.DocumentScanGuidelineView
+        android:id="@+id/guide_crop_polygon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/text_guideline_document_scan"
+        android:background="@drawable/round_corner_border_dark"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/str_scan_document_guideline"/>
+</FrameLayout>

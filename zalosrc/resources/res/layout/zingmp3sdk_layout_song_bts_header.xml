@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/ivBg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/ivThumb"
+        android:background="@color/zingmp3sdk_defaultThumbBg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
+    <ViewStub
+        android:id="@+id/vsIcDefault"
+        android:layout="@layout/zingmp3sdk_item_iv_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:ellipsize="marquee"
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        style="@style/ZingMP3Sdk.TextAppearance.BottomSheet.Title"/>
+    <TextView
+        android:textSize="@dimen/zingmp3sdk_text"
+        android:id="@+id/tvArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ZingMP3Sdk.TextAppearance.BottomSheet"/>
+    <com.zing.mp3.sdk.view.widgets.WaveBar
+        android:id="@+id/waveBar"
+        android:background="@drawable/zingmp3sdk_bg_wavebar"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:zingmp3sdk_wb_color="@color/zingmp3sdk_waveBarColor"
+        app:zingmp3sdk_wb_radius="4dp"/>
+</merge>

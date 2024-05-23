@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/u15"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_snackbar"
+        android:padding="@dimen/u3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.ZAppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompatEx="@drawable/zds_ic_warning_solid_24"
+            app:tint="@color/y60"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/white_100"
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_msg_file_download_error"
+            android:layout_marginStart="@dimen/u2"
+            style="@style/t_normal"/>
+    </LinearLayout>
+</FrameLayout>

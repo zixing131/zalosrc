@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_active_time_passcode">
+        <item>Ngay</item>
+        <item>5 giây</item>
+        <item>10 giây</item>
+        <item>15 giây</item>
+        <item>30 giây</item>
+    </array>
+    <array name="array_active_time_passcode_as_second">
+        <item>0</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>30000</item>
+    </array>
+    <array name="array_codemessagearchive">
+        <item>0</item>
+        <item>10</item>
+        <item>30</item>
+        <item>90</item>
+        <item>120</item>
+    </array>
+    <array name="array_common_default_status">
+        <item>Tìm bạn chat</item>
+        <item>Rãnh quá</item>
+        <item>Bận ghê</item>
+        <item>Đừng làm phiền</item>
+        <item>Đang trên đường</item>
+        <item>Máy hết pin</item>
+    </array>
+    <array name="array_days_of_week_full">
+        <item>Chủ Nhật</item>
+        <item>Thứ Hai</item>
+        <item>Thứ Ba</item>
+        <item>Thứ Tư</item>
+        <item>Thứ Năm</item>
+        <item>Thứ Sáu</item>
+        <item>Thứ Bảy</item>
+    </array>
+    <array name="array_days_of_week_short">
+        <item>CN</item>
+        <item>T2</item>
+        <item>T3</item>
+        <item>T4</item>
+        <item>T5</item>
+        <item>T6</item>
+        <item>T7</item>
+    </array>
+    <array name="array_dob_mode">
+        <item>Không hiện</item>
+        <item>Hiện đầy đủ ngày, tháng, năm</item>
+        <item>Chỉ hiện ngày, tháng</item>
+    </array>
+    <array name="array_font_setting">
+        <item>Phông chữ Zalo</item>
+        <item>Phông chữ hệ thống</item>
+    </array>
+    <array name="array_font_size_setting">
+        <item />
+        <item />
+        <item />
+        <item />
+    </array>
+    <array name="array_language">
+        <item>Tiếng Việt</item>
+        <item>English</item>
+    </array>
+    <array name="array_language_as_code">
+        <item>vi</item>
+        <item>en</item>
+    </array>
+    <array name="array_months_full">
+        <item>tháng 1</item>
+        <item>tháng 2</item>
+        <item>tháng 3</item>
+        <item>tháng 4</item>
+        <item>tháng 5</item>
+        <item>tháng 6</item>
+        <item>tháng 7</item>
+        <item>tháng 8</item>
+        <item>tháng 9</item>
+        <item>tháng 10</item>
+        <item>tháng 11</item>
+        <item>tháng 12</item>
+    </array>
+    <array name="array_months_full_02d">
+        <item>tháng 01</item>
+        <item>tháng 02</item>
+        <item>tháng 03</item>
+        <item>tháng 04</item>
+        <item>tháng 05</item>
+        <item>tháng 06</item>
+        <item>tháng 07</item>
+        <item>tháng 08</item>
+        <item>tháng 09</item>
+        <item>tháng 10</item>
+        <item>tháng 11</item>
+        <item>tháng 12</item>
+    </array>
+    <array name="array_months_lunar_full">
+        <item>tháng Giêng</item>
+        <item>tháng 2</item>
+        <item>tháng 3</item>
+        <item>tháng 4</item>
+        <item>tháng 5</item>
+        <item>tháng 6</item>
+        <item>tháng 7</item>
+        <item>tháng 8</item>
+        <item>tháng 9</item>
+        <item>tháng 10</item>
+        <item>tháng 11</item>
+        <item>tháng Chạp</item>
+    </array>
+    <array name="array_months_lunar_short">
+        <item>thg 1</item>
+        <item>thg 2</item>
+        <item>thg 3</item>
+        <item>thg 4</item>
+        <item>thg 5</item>
+        <item>thg 6</item>
+        <item>thg 7</item>
+        <item>thg 8</item>
+        <item>thg 9</item>
+        <item>thg 10</item>
+        <item>thg 11</item>
+        <item>thg 12</item>
+    </array>
+    <array name="array_months_short">
+        <item>thg 1</item>
+        <item>thg 2</item>
+        <item>thg 3</item>
+        <item>thg 4</item>
+        <item>thg 5</item>
+        <item>thg 6</item>
+        <item>thg 7</item>
+        <item>thg 8</item>
+        <item>thg 9</item>
+        <item>thg 10</item>
+        <item>thg 11</item>
+        <item>thg 12</item>
+    </array>
+    <array name="array_privacy_show_mode">
+        <item>@string/str_privacy_show_only_me</item>
+        <item>@string/str_privacy_show_public</item>
+        <item>@string/str_privacy_show_only_friend</item>
+    </array>
+    <array name="array_radar_background_time">
+        <item>30 phút</item>
+        <item>1 giờ</item>
+        <item>8 giờ</item>
+        <item>24 giờ</item>
+        <item>Không tự động tắt</item>
+        <item>OFF</item>
+    </array>
+    <array name="array_show_active_friend">
+        <item>Tất cả bạn bè</item>
+        <item>Bạn bè đang sử dụng Zalo</item>
+    </array>
+    <array name="array_themes">
+        <item>Xanh</item>
+        <item>Xám</item>
+    </array>
+    <array name="array_title_main_tab">
+        <item>Tin nhắn</item>
+        <item>Danh bạ</item>
+        <item>Nhóm</item>
+        <item>Nhật ký</item>
+        <item>Thêm</item>
+    </array>
+    <array name="array_topic_expire_time">
+        <item>1 giờ</item>
+        <item>8 giờ</item>
+        <item>1 ngày</item>
+        <item>3 ngày</item>
+        <item>1 tuần</item>
+        <item>Cho đến khi đổi thông báo</item>
+    </array>
+    <array name="array_uimode_option">
+        <item>Sáng</item>
+        <item>Tối</item>
+        <item>Hệ thống</item>
+    </array>
+    <array name="array_years_lunar">
+        <item>Giáp Tý</item>
+        <item>Ất Sửu</item>
+        <item>Bính Dần</item>
+        <item>Đinh Mão</item>
+        <item>Mậu Thìn</item>
+        <item>Kỷ Tỵ</item>
+        <item>Canh Ngọ</item>
+        <item>Tân Mùi</item>
+        <item>Nhâm Thân</item>
+        <item>Quý Dậu</item>
+        <item>Giáp Tuất</item>
+        <item>Ất Hợi</item>
+        <item>Bính Tý</item>
+        <item>Đinh Sửu</item>
+        <item>Mậu Dần</item>
+        <item>Kỷ Mão</item>
+        <item>Canh Thìn</item>
+        <item>Tân Tỵ</item>
+        <item>Nhâm Ngọ</item>
+        <item>Quý Mùi</item>
+        <item>Giáp Thân</item>
+        <item>Ất Dậu</item>
+        <item>Bính Tuất</item>
+        <item>Đinh Hợi</item>
+        <item>Mậu Tý</item>
+        <item>Kỷ Sửu</item>
+        <item>Canh Dần</item>
+        <item>Tân Mão</item>
+        <item>Nhâm Thìn</item>
+        <item>Quý Tỵ</item>
+        <item>Giáp Ngọ</item>
+        <item>Ất Mùi</item>
+        <item>Bính Thân</item>
+        <item>Đinh Dậu</item>
+        <item>Mậu Tuất</item>
+        <item>Kỷ Hợi</item>
+        <item>Canh Tý</item>
+        <item>Tân Sửu</item>
+        <item>Nhâm Dần</item>
+        <item>Quý Mão</item>
+        <item>Giáp Thìn</item>
+        <item>Ất Tỵ</item>
+        <item>Bính Ngọ</item>
+        <item>Đinh Mùi</item>
+        <item>Mậu Thân</item>
+        <item>Kỷ Dậu</item>
+        <item>Canh Tuất</item>
+        <item>Tân Hợi</item>
+        <item>Nhâm Tý</item>
+        <item>Quý Sửu</item>
+        <item>Giáp Dần</item>
+        <item>Ất Mão</item>
+        <item>Bính Thìn</item>
+        <item>Đinh Tỵ</item>
+        <item>Mậu Ngọ</item>
+        <item>Kỷ Mùi</item>
+        <item>Canh Thân</item>
+        <item>Tân Dậu</item>
+        <item>Nhâm Tuất</item>
+        <item>Quý Hợi</item>
+    </array>
+    <array name="call_ui_style">
+        <item>Phase 1</item>
+        <item>Phase 2</item>
+        <item>Phase 3</item>
+    </array>
+    <array name="call_voicemail_style">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="color_generator_material">
+        <item>0xffa0de7e</item>
+        <item>0xff72d5fd</item>
+        <item>0xff82b1ff</item>
+        <item>0xff00fcfd</item>
+        <item>0xffffcd6a</item>
+        <item>0xffb5b5f7</item>
+        <item>0xfffcc6a3</item>
+        <item>0xffe0a2f3</item>
+    </array>
+    <array name="color_generator_material_next">
+        <item>0xff54cb68</item>
+        <item>0xff2a9ef1</item>
+        <item>0xff665fff</item>
+        <item>0xff4acccd</item>
+        <item>0xffffa85c</item>
+        <item>0xff9674ec</item>
+        <item>0xffef7434</item>
+        <item>0xffd669ed</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </array>
+    <array name="filter_by_array">
+        <item>A-Z</item>
+        <item>Z-A</item>
+    </array>
+    <array name="nearby_sex_code">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </array>
+    <array name="nearby_sex_text">
+        <item>Chỉ nữ</item>
+        <item>Chỉ nam</item>
+        <item>Cả nam và nữ</item>
+    </array>
+    <array name="privacy_options">
+        <item>Tất cả</item>
+        <item>Riêng tôi</item>
+        <item>Bạn bè</item>
+    </array>
+    <array name="range_slider_value">
+        <item>20</item>
+        <item>60</item>
+    </array>
+    <array name="reply_choices">
+        <item>Yes</item>
+        <item>No</item>
+        <item>Maybe</item>
+    </array>
+    <array name="sex_code">
+        <item>0</item>
+        <item>1</item>
+    </array>
+    <array name="sex_text">
+        <item>Nam</item>
+        <item>Nữ</item>
+        <item>Không chia sẻ</item>
+    </array>
+</resources>

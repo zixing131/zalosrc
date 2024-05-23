@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="123dp"
+    android:width="145dp"
+    android:viewportWidth="290"
+    android:viewportHeight="246">
+    <path
+        android:name="progressSectionLabel"
+        android:fillColor="?attr/ImagePlaceHolderColor"
+        android:pathData="M86,192L269,192A6,6 0,0 1,275 198L275,200A6,6 0,0 1,269 206L86,206A6,6 0,0 1,80 200L80,198A6,6 0,0 1,86 192z"
+        android:strokeWidth="0"/>
+    <path
+        android:name="progressItemThumb1"
+        android:fillColor="?attr/ImagePlaceHolderColor"
+        android:pathData="M86,213L214,213A6,6 0,0 1,220 219L220,221A6,6 0,0 1,214 227L86,227A6,6 0,0 1,80 221L80,219A6,6 0,0 1,86 213z"
+        android:strokeWidth="0"/>
+    <path
+        android:name="progressItemName1"
+        android:fillColor="?attr/ImagePlaceHolderColor"
+        android:pathData="M15.623,210a24,24 0,1 0,48 0a24,24 0,1 0,-48 0z"
+        android:strokeWidth="0"/>
+    <path
+        android:name="progressItemSubName1"
+        android:fillColor="?attr/ImagePlaceHolderColor"
+        android:pathData="M86,48L269,48A6,6 0,0 1,275 54L275,56A6,6 0,0 1,269 62L86,62A6,6 0,0 1,80 56L80,54A6,6 0,0 1,86 48z"
+        android:strokeWidth="0"/>
+    <path
+        android:name="progressItemThumb2"
+        android:fillColor="?attr/ImagePlaceHolderColor"
+        android:pathData="M87.349,69L215.349,69A6,6 0,0 1,221.349 75L221.349,77A6,6 0,0 1,215.349 83L87.349,83A6,6 0,0 1,81.349 77L81.349,75A6,6 0,0 1,87.349 69z"
+        android:strokeWidth="0"/>
+    <path
+        android:name="progressItemName2"
+        android:fillColor="?attr/ImagePlaceHolderColor"
+        android:pathData="M16.377,65.623a24,24 0,1 0,48 0a24,24 0,1 0,-48 0z"
+        android:strokeWidth="0"/>
+    <path
+        android:name="progressItemSubName2"
+        android:fillColor="?attr/ImagePlaceHolderColor"
+        android:pathData="M86,120L269,120A6,6 0,0 1,275 126L275,128A6,6 0,0 1,269 134L86,134A6,6 0,0 1,80 128L80,126A6,6 0,0 1,86 120z"
+        android:strokeWidth="0"/>
+    <path
+        android:name="progressItemThumb3"
+        android:fillColor="?attr/ImagePlaceHolderColor"
+        android:pathData="M86,141L214,141A6,6 0,0 1,220 147L220,149A6,6 0,0 1,214 155L86,155A6,6 0,0 1,80 149L80,147A6,6 0,0 1,86 141z"
+        android:strokeWidth="0"/>
+    <path
+        android:name="progressItemName3"
+        android:fillColor="?attr/ImagePlaceHolderColor"
+        android:pathData="M16,138a24,24 0,1 0,48 0a24,24 0,1 0,-48 0z"
+        android:strokeWidth="0"/>
+    <path
+        android:name="progressItemSubName3"
+        android:fillColor="?attr/ImagePlaceHolderColor"
+        android:pathData="M22,15.623L70,15.623A6,6 0,0 1,76 21.623L76,23.623A6,6 0,0 1,70 29.623L22,29.623A6,6 0,0 1,16 23.623L16,21.623A6,6 0,0 1,22 15.623z"
+        android:strokeWidth="0"/>
+</vector>

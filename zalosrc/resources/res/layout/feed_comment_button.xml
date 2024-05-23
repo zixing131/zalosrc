@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_gravity="center_vertical"
+        android:id="@+id/btn_comment_mini"
+        android:paddingLeft="10dp"
+        android:paddingTop="4dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.androidquery.util.RecyclingImageView
+            android:id="@+id/btn_comment_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_gravity="center_vertical"
+        android:id="@+id/btn_comment_full"
+        android:background="@drawable/bg_rounded_border_comment"
+        android:layout_width="match_parent"
+        android:layout_height="32dp">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="?attr/text_tertiary"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/str_comment_default_text"
+            android:maxLines="1"
+            style="@style/t_small"/>
+    </FrameLayout>
+</FrameLayout>

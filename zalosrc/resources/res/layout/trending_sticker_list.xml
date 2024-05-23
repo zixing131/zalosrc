@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar
+        android:theme="@style/CircularProgress"
+        android:layout_gravity="center"
+        android:id="@+id/loading_progress"
+        android:visibility="gone"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:indeterminate="true"
+        android:indeterminateDuration="1500"
+        android:indeterminateBehavior="repeat"
+        android:layout_centerInParent="true"
+        style="@style/ProgressBarCircleNormal"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/emoticon_selector_grid"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"/>
+</merge>

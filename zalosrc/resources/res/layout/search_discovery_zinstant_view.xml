@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/ui_background"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.zdesign.component.header.ZdsActionBar
+        android:id="@+id/zds_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:idTrailingButton="@+id/id_open_qr_code_scan_in_search"
+        app:leadingType="back"
+        app:middleType="custom"
+        app:trailingIconButton="@drawable/icon_header_qrcode"
+        app:trailingType="icon"
+        style="@style/BlueZdsActionBar.AppType"/>
+    <com.zing.zalo.p077ui.searchdiscovery.widget.TouchMonitorFrameLayout
+        android:id="@+id/fl_multi_state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zing.zalo.p077ui.searchdiscovery.widget.ErrorLoadZInstantView
+            android:id="@+id/error_load_zinstant"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.zing.zalo.p077ui.searchdiscovery.widget.LoadingZInstantView
+            android:id="@+id/loading_zinstant"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.zing.zalo.zinstant.ZaloZinstantCommonLayout
+            android:id="@+id/zinstant_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.zing.zalo.p077ui.searchdiscovery.widget.TouchMonitorFrameLayout>
+</LinearLayout>

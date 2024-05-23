@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/res_0x7f08001d_cc_medium_unchecked_anim_image__0">
+    <target
+        android:name="bg_checkmate_medium"
+        android:animation="@drawable/res_0x7f08001e_cc_medium_unchecked_anim_image__1"/>
+    <target
+        android:name="checkmate_medium"
+        android:animation="@drawable/res_0x7f08001f_cc_medium_unchecked_anim_image__2"/>
+</animated-vector>

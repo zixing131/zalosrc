@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:gravity="center"
+        android:id="@+id/layout_attend_confirm_loading"
+        android:padding="1dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@+id/attend_going_process_loading"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/video_loading_big"
+            android:indeterminateDuration="1000"
+            android:layout_marginEnd="6dp"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="14dp"
+            android:textColor="?attr/TextColor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_change_attend_confirm"
+            android:layout_toEndOf="@+id/attend_going_process_loading"/>
+    </RelativeLayout>
+</merge>

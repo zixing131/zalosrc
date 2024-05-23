@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/bottom_sheet_container"
+    android:paddingLeft="24dp"
+    android:paddingTop="16dp"
+    android:paddingRight="24dp"
+    android:paddingBottom="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="24dp">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/banner_description"
+        android:background="@drawable/background_drive_login_permission"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_zcloud_migration_drive_bts_desc"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/zds_ic_info_circle_solid_24"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="10dp"
+        app:drawableTint="?attr/information_icon"
+        style="@style/t_small"/>
+    <com.zing.zalo.zdesign.component.Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/str_zcloud_log_in"
+        style="@style/ButtonLarge.Primary"/>
+    <com.zing.zalo.zdesign.component.Button
+        android:id="@+id/btn_ignore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/str_zcloud_migration_drive_bts_later_btn"
+        style="@style/ButtonLarge.TertiaryNeutral"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sound_level_view_height_small">60dp</dimen>
+</resources>

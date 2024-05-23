@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="120dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.ZAppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompatEx="@drawable/ic_qm_illus_empty_2x"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="20dp"
+        android:textColor="?attr/TextColor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/str_quick_message_empty_state_title"
+        app:fstyle="medium"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="14dp"
+        android:textColor="?attr/TextColor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/str_quick_message_empty_state_subtitle"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/TextColor6"
+        android:id="@+id/btn_create_empty"
+        android:paddingLeft="30dp"
+        android:paddingTop="12dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/str_quick_message_creating_title"
+        style="@style/btnType1.semibig"/>
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/ll_shadow_lv1"
+        android:background="@drawable/bg_test_snapshot_radius_08"
+        android:padding="@dimen/u4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/u4"
+        style="@style/shadow_level_01">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/wht_a100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/u"
+            android:text="Level 1"
+            style="@style/t_normal_m"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/wht_a100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="x: 0"
+            style="@style/t_normal"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/wht_a100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="y: 2"
+            style="@style/t_normal"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/wht_a100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="blur: 6"
+            style="@style/t_normal"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/wht_a100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="color: #141415, 14%"
+            style="@style/t_normal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/ll_shadow_lv2"
+        android:background="@drawable/bg_test_snapshot_radius_08"
+        android:padding="@dimen/u4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/u4"
+        style="@style/shadow_level_02">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/wht_a100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/u"
+            android:text="Level 2"
+            style="@style/t_normal_m"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/wht_a100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="x: 0"
+            style="@style/t_normal"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/wht_a100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="y: 5"
+            style="@style/t_normal"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/wht_a100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="blur: 14"
+            style="@style/t_normal"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/wht_a100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="color: #141415, 12%"
+            style="@style/t_normal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/ll_shadow_lv3"
+        android:background="@drawable/bg_test_snapshot_radius_08"
+        android:padding="@dimen/u4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/u4"
+        android:layout_marginBottom="@dimen/u8"
+        android:layout_marginStart="@dimen/u4"
+        android:layout_marginEnd="@dimen/u4"
+        style="@style/shadow_level_03">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/wht_a100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/u"
+            android:text="Level 3"
+            style="@style/t_normal_m"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/wht_a100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="x: 0"
+            style="@style/t_normal"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/wht_a100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="y: 10"
+            style="@style/t_normal"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/wht_a100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="blur: 24"
+            style="@style/t_normal"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/wht_a100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="color: #141415, 9%"
+            style="@style/t_normal"/>
+    </LinearLayout>
+</LinearLayout>

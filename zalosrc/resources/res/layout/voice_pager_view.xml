@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.uicontrol.CircleImage
+        android:layout_gravity="center"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:src="@drawable/zds_ic_mic_line_24"
+        android:tint="?attr/icon_02"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:paddingStart="23dp"
+        android:paddingEnd="20dp">
+        <ImageView
+            android:id="@+id/btn_play"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/zds_ic_play_line_24"/>
+        <com.zing.zalo.zdesign.component.slider.ZdsSlider
+            android:layout_gravity="bottom"
+            android:id="@+id/slider_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Slider_NeutralTheme"/>
+    </LinearLayout>
+</FrameLayout>

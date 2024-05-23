@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/layoutBtnDialog"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+    <com.zing.zalo.p077ui.widget.RobotoButton
+        android:textColor="?attr/btn_type_3_text_n"
+        android:gravity="center"
+        android:id="@+id/confirm_btn_no"
+        android:background="@drawable/material_button_dialog_bg"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:minWidth="64dp"
+        android:singleLine="true"
+        android:textAllCaps="true"
+        app:maxScaledTextRatioIndex="4"
+        style="@style/Roboto.f13"/>
+    <com.zing.zalo.p077ui.widget.RobotoButton
+        android:textColor="@drawable/bg_btn_type2_text"
+        android:gravity="center"
+        android:id="@+id/confirm_btn_yes"
+        android:background="@drawable/material_button_dialog_bg"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginLeft="8dp"
+        android:minWidth="64dp"
+        android:singleLine="true"
+        android:layout_alignParentRight="true"
+        android:textAllCaps="true"
+        app:maxScaledTextRatioIndex="4"
+        style="@style/Roboto.f13"/>
+</LinearLayout>

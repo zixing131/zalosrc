@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:orientation="vertical"
+            android:id="@+id/fl_bottom_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/layout_btn_done"
+            android:background="?attr/PopupBackgroundColor"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.zing.zalo.p077ui.widget.RobotoTextView
+                android:textSize="14dp"
+                android:textColor="?attr/AppPrimaryColor"
+                android:layout_gravity="bottom|center_horizontal"
+                android:id="@+id/btn_done"
+                android:paddingLeft="30dp"
+                android:paddingTop="8dp"
+                android:paddingRight="30dp"
+                android:paddingBottom="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/str_btn_createGroup"
+                app:fstyle="medium"
+                style="@style/btnType2.big"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

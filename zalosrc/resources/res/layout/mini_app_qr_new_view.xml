@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.zdesign.component.TrackingFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/backgroundView"
+        android:background="@color/black_70"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.zing.zalo.p077ui.widget.mini.program.MPContainerView
+        android:id="@+id/viewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zing.zalo.uicomponents.framelayout.DragToCloseLayout
+            android:id="@+id/drag_to_close_qr_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.zing.zalo.p077ui.rounedlayout.LinearRoundedLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/ma_content"
+                android:background="?attr/container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:topLeft="12dp"
+                app:topRight="12dp">
+                <com.zing.zalo.p077ui.zviews.MiniAppQRView
+                    android:id="@+id/ma_qr_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </com.zing.zalo.p077ui.rounedlayout.LinearRoundedLayout>
+        </com.zing.zalo.uicomponents.framelayout.DragToCloseLayout>
+    </com.zing.zalo.p077ui.widget.mini.program.MPContainerView>
+</com.zing.zalo.zdesign.component.TrackingFrameLayout>

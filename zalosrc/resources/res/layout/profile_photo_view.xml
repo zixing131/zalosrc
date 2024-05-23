@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.widget.CustomRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fstyle="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:id="@+id/root_backgroundmain"
+    android:background="?attr/ProfileSectionPhotoPrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zing.zalo.uicontrol.SwipeRefreshListView
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/zds_action_bar"
+        fstyle:modeContent="recycleview"/>
+    <include layout="@layout/fast_scroll_bubble_tv"/>
+    <com.zing.zalo.zdesign.component.header.ZdsActionBar
+        android:id="@+id/zds_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fstyle:leadingType="back"
+        fstyle:middleType="title"
+        fstyle:trailingType="none"
+        style="@style/WhiteZdsActionBar.AppType"/>
+    <LinearLayout
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:orientation="vertical"
+        android:id="@+id/profile_photo_sticky_header"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="true">
+        <View
+            android:id="@+id/fake_action_bar_above_header_sticky"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"/>
+        <include layout="@layout/profile_photo_view_header_sticky"/>
+    </LinearLayout>
+    <ViewStub
+        android:id="@+id/stub_user_details_bottom_bar"
+        android:layout="@layout/user_details_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+</com.zing.zalo.p077ui.widget.CustomRelativeLayout>

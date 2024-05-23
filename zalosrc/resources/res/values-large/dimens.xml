@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440dp</dimen>
+    <dimen name="abc_dialog_fixed_height_major">60%</dimen>
+    <dimen name="abc_dialog_fixed_height_minor">90%</dimen>
+    <dimen name="abc_dialog_fixed_width_major">60%</dimen>
+    <dimen name="abc_dialog_fixed_width_minor">90%</dimen>
+    <dimen name="abc_dialog_min_width_major">55%</dimen>
+    <dimen name="abc_dialog_min_width_minor">80%</dimen>
+    <dimen name="feed_photo_size">400dp</dimen>
+    <dimen name="grid_image_hight">190dp</dimen>
+    <dimen name="grid_image_width">190dp</dimen>
+    <dimen name="slidingmenu_offset">300dp</dimen>
+</resources>

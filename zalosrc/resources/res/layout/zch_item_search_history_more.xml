@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:package="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.shortvideo.p072ui.widget.tv.BlinkTextView
+        android:textSize="14dp"
+        android:textColor="@color/zch_text_tertiary"
+        android:layout_gravity="center"
+        android:id="@+id/txtExpand"
+        android:paddingLeft="20dp"
+        android:paddingTop="4dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zch_page_search_history_see_more"
+        android:includeFontPadding="false"
+        android:drawablePadding="4dp"
+        package:zchFontStyle="medium"/>
+</FrameLayout>

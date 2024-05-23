@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/feed_item_header_template"/>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:id="@+id/layoutLinkBig"
+        android:paddingBottom="@dimen/feed_padding_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTranslation">
+        <com.zing.zalo.zmedia.view.ZVideoView
+            android:id="@+id/zaloVideoViewBig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/feed_padding_bottom"
+            app:controller_style="inline"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:ellipsize="end"
+            android:id="@+id/tvLinkTitleBig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/feed_padding_left"
+            android:layout_marginTop="@dimen/feed_content_padding"
+            android:layout_marginRight="90dp"
+            android:maxLines="2"
+            android:layout_below="@+id/zaloVideoViewBig"
+            style="@style/Feed.Body.LinkTitle"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:ellipsize="end"
+            android:id="@+id/tvLinkDescriptionBig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/feed_padding_left"
+            android:layout_marginRight="90dp"
+            android:maxLines="1"
+            android:layout_below="@+id/tvLinkTitleBig"
+            style="@style/Feed.Body.LinkSubTitle"/>
+        <com.zing.zalo.p077ui.widget.RobotoButton
+            android:id="@+id/btnShareLinkBig"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/feed_content_padding"
+            android:layout_marginRight="@dimen/feed_padding_right"
+            android:minWidth="70dp"
+            android:text="@string/str_menu_item_share"
+            android:layout_below="@+id/zaloVideoViewBig"
+            android:layout_alignParentRight="true"
+            style="@style/btnType3.small"/>
+    </RelativeLayout>
+</merge>

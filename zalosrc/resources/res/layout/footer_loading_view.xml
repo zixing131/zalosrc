@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/PrimaryBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <include
+        android:id="@+id/layout_loading"
+        layout="@layout/holo_circular_progress_bar_mili"/>
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/layout_error"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loadmore_failed"
+            android:drawableLeft="@drawable/icn_csc_bubble_error"
+            android:drawablePadding="8dp"
+            style="@style/t_normal"/>
+    </LinearLayout>
+</FrameLayout>

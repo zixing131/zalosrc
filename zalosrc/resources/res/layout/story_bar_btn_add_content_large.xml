@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zing.zalo.uidrawing.ModulesView
+        android:id="@+id/story_bar_btn_add_module_view"
+        android:layout_width="@dimen/story_bar_thumb_large_roundrect_width"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"/>
+    <com.zing.zalo.uidrawing.ModulesView
+        android:id="@+id/story_suggestion_view"
+        android:visibility="gone"
+        android:layout_width="@dimen/story_bar_thumb_large_roundrect_width"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/story_bar_btn_add_module_view"
+        android:layout_centerVertical="true"/>
+</merge>

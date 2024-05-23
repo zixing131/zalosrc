@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/feed_item_header_chat_template"/>
+    <com.zing.zalo.p077ui.widget.AspectRatioImageView
+        android:id="@+id/imvChatMediaThumb"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/tvTagAndLocation"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="0x7f080da1"
+        android:scaleType="center"
+        android:layout_alignLeft="@+id/imvChatMediaThumb"
+        android:layout_alignTop="@+id/imvChatMediaThumb"
+        android:layout_alignRight="@+id/imvChatMediaThumb"
+        android:layout_alignBottom="@+id/imvChatMediaThumb"/>
+    <View
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/imvChatMediaThumb"/>
+</merge>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:descendantFocusability="beforeDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Image"
+            app:srcCompat="@drawable/zds_ic_qr_error_line_24"
+            app:tint="@color/white"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="?attr/text_04"
+            android:gravity="center"
+            android:id="@+id/error_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="40dp"
+            style="@style/t_xsmall"/>
+        <com.zing.zalo.zdesign.component.Button
+            android:id="@+id/btn_refresh"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="8dp"
+            style="@style/ButtonMedium.TertiaryAlpha"/>
+    </LinearLayout>
+</FrameLayout>

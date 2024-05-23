@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:id="@+id/layoutFeedFooterError"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="#828c94"
+        android:id="@+id/tv_profile_footer_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loadmore_failed"
+        android:drawableLeft="@drawable/icn_csc_bubble_error"
+        android:drawablePadding="8dp"
+        style="@style/Roboto.f1s"/>
+</LinearLayout>

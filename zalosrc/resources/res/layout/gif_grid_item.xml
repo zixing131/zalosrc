@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zing.zalo.p077ui.widget.stickerpanel.TrendingGifView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gif_item_element"
+    android:background="@drawable/bg_stickeritem"
+    android:layout_width="188dp"
+    android:layout_height="105dp"/>

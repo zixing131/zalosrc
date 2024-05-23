@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView
+        android:scrollbarStyle="outsideInset"
+        android:id="@+id/emoticon_selector_grid"
+        android:paddingRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageButton
+        android:id="@+id/delete_emoji_button"
+        android:background="@color/clear"
+        android:paddingLeft="3dp"
+        android:paddingTop="10dp"
+        android:paddingRight="3dp"
+        android:paddingBottom="10dp"
+        android:layout_width="43dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/bg_btn_emoji_delete"
+        android:scaleType="centerInside"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"/>
+</merge>

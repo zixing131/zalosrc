@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@+id/album_cover_photo_group"
+        android:background="?attr/SecondaryBackgroundColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:elevation="2dp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/search_item_layout_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@+id/album_cover_photo_group"
+        android:layout_centerVertical="true">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="?attr/TextColor1"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:id="@+id/tv_album_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            style="@style/Roboto.f13b"/>
+    </LinearLayout>
+</merge>

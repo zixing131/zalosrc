@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.ZAppCompatImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="@dimen/u4"
+        android:scaleType="fitCenter"
+        app:srcCompatEx="@drawable/ic_network_error"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/TextColor1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/product_catalog_network_error"
+        android:layout_marginStart="@dimen/u15"
+        android:layout_marginEnd="@dimen/u15"
+        style="@style/t_normal"/>
+    <com.zing.zalo.zdesign.component.Button
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/product_catalog_btn_retry"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/u5"
+        android:text="@string/product_catalog_btn_retry"
+        style="@style/ButtonMedium.Primary"/>
+</LinearLayout>

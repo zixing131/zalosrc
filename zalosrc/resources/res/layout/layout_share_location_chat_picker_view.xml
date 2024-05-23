@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:background="@drawable/chat_reply_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/min_height_input_row">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="?attr/TextColor1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_list_locations"
+            app:fstyle="medium"/>
+        <ImageButton
+            android:layout_gravity="center"
+            android:id="@+id/btn_close_location"
+            android:background="@color/clear"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_ipt_clear"/>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/layout_location_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:id="@+id/layout_container_location_picker_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+</LinearLayout>

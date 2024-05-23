@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:name="vector"
+    android:height="16dp"
+    android:width="16dp"
+    android:viewportWidth="16"
+    android:viewportHeight="16">
+    <path
+        android:name="path"
+        android:fillColor="?attr/checkbox_background"
+        android:pathData="M4,0.75L12,0.75A3.25,3.25 0,0 1,15.25 4L15.25,12A3.25,3.25 0,0 1,12 15.25L4,15.25A3.25,3.25 0,0 1,0.75 12L0.75,4A3.25,3.25 0,0 1,4 0.75z"
+        android:strokeColor="?attr/checkbox_border"
+        android:strokeWidth="1.5"/>
+    <path
+        android:name="bg_checkmate_small"
+        android:fillColor="?attr/checkbox_selected_background"
+        android:pathData="M4,0L12,0A4,4 0,0 1,16 4L16,12A4,4 0,0 1,12 16L4,16A4,4 0,0 1,0 12L0,4A4,4 0,0 1,4 0z"/>
+    <path
+        android:name="checkmate_small"
+        android:fillColor="#00000000"
+        android:pathData="M4.3334,8.3333L6.6667,10.6667L11.6667,5.6667"
+        android:strokeColor="?attr/checkbox_checkmark"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+</vector>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textColor="?attr/text_01"
+        android:id="@+id/tv_title"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="12dp"
+        style="@style/t_xlarge_m"/>
+    <com.zing.zalo.zdesign.component.Divider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Divider.Style01"/>
+    <com.zing.zalo.p077ui.widget.AspectRatioImageView
+        android:layout_width="@dimen/imv_multi_state_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/file_auto_download"/>
+    <com.zing.zalo.zdesign.component.ListItem
+        android:id="@+id/listItem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"/>
+    <com.zing.zalo.zdesign.component.ListItem
+        android:id="@+id/listItem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+    <com.zing.zalo.zdesign.component.Button
+        android:id="@+id/btn_got_it"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="34dp"
+        android:text="@string/str_tip_banner_got_it"
+        style="@style/ButtonMedium.Tertiary"/>
+</LinearLayout>

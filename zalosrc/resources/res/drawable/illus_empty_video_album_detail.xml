@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="120dp"
+    android:width="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <path
+        android:fillColor="#cce6ff"
+        android:pathData="M119.912,60.116C119.912,93.254 93.05,120.116 59.912,120.116C26.775,120.116 -0.088,93.254 -0.088,60.116C-0.088,26.979 26.775,0.116 59.912,0.116C93.05,0.116 119.912,26.979 119.912,60.116"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillAlpha="0.2"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/res_0x7f08029e_illus_empty_video_album_detail__0"
+        android:pathData="M36.695,42.49L63.741,35.243A8,8 92.199,0 1,73.539 40.9L80.786,67.945A8,8 109.464,0 1,75.129 77.743L48.083,84.99A8,8 107.016,0 1,38.285 79.333L31.038,52.288A8,8 47.043,0 1,36.695 42.49z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#cacfd2"
+        android:pathData="M74.774,54.702l0,0l0,0z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M50,42L78,42A8,8 0,0 1,86 50L86,78A8,8 0,0 1,78 86L50,86A8,8 0,0 1,42 78L42,50A8,8 0,0 1,50 42z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/res_0x7f08029f_illus_empty_video_album_detail__1"
+        android:pathData="M72.221,62.558C73.26,63.199 73.26,64.802 72.221,65.443L66.28,69.109L60.338,72.774C59.299,73.415 58,72.614 58,71.332L58,64L58,56.668C58,55.386 59.299,54.585 60.338,55.226L66.28,58.892L72.221,62.558Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

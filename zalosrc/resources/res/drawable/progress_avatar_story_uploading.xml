@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="48dp"
+    android:width="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="@drawable/res_0x7f0802c5_progress_avatar_story_uploading__0"
+        android:pathData="M47.01,24C47.5568,24 48.0021,23.5564 47.9796,23.0101C47.7338,17.0502 45.2751,11.3812 41.064,7.1234C36.6203,2.6303 30.5838,0.0712 24.2649,0.0015C17.9459,-0.0683 11.8545,2.357 7.3127,6.7508C3.0086,10.9147 0.4254,16.5281 0.0481,22.4811C0.0135,23.0267 0.449,23.4801 0.9956,23.4921C1.5422,23.5042 1.9928,23.0705 2.0294,22.5249C2.3939,17.0933 4.76,11.9753 8.6894,8.1739C12.8565,4.1425 18.4454,1.9174 24.243,1.9813C30.0406,2.0453 35.5791,4.3933 39.6562,8.5157C43.5007,12.4028 45.7533,17.5719 45.9978,23.0102C46.0223,23.5564 46.4632,24 47.01,24Z"/>
+</vector>

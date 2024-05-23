@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="134dp"
+    android:width="130dp"
+    android:viewportWidth="130"
+    android:viewportHeight="134">
+    <path
+        android:fillColor="@drawable/res_0x7f080203_ic_zillus_block_call_friend_dark__0"
+        android:pathData="M64,124C30.86,124 4,97.14 4,64C4,30.86 30.86,4 64,4C97.14,4 124,30.86 124,64C124,97.14 97.14,124 64,124Z"
+        android:strokeAlpha="0.2"
+        android:fillAlpha="0.2"
+        android:fillType="evenOdd"/>
+    <group>
+        <clip-path android:pathData="M64,16L64,16A48,48 0,0 1,112 64L112,64A48,48 0,0 1,64 112L64,112A48,48 0,0 1,16 64L16,64A48,48 0,0 1,64 16z"/>
+        <path
+            android:fillColor="#53575a"
+            android:pathData="M64,16L64,16A48,48 0,0 1,112 64L112,64A48,48 0,0 1,64 112L64,112A48,48 0,0 1,16 64L16,64A48,48 0,0 1,64 16z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080204_ic_zillus_block_call_friend_dark__1"
+            android:pathData="M16,16h96v96h-96z"
+            android:strokeAlpha="0.7"
+            android:fillAlpha="0.7"/>
+        <path
+            android:fillColor="#b1bbcc"
+            android:pathData="M64,40L64,40A15,15 0,0 1,79 55L79,58A15,15 0,0 1,64 73L64,73A15,15 0,0 1,49 58L49,55A15,15 0,0 1,64 40z"/>
+        <path
+            android:fillColor="#b1bbcc"
+            android:pathData="M34,109C34,92.43 47.43,79 64,79C80.57,79 94,92.43 94,109V112H34V109Z"/>
+    </group>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M64,19L64,19A45,45 0,0 1,109 64L109,64A45,45 0,0 1,64 109L64,109A45,45 0,0 1,19 64L19,64A45,45 0,0 1,64 19z"
+        android:strokeColor="#b1bbcc"
+        android:strokeWidth="6"/>
+    <path
+        android:fillColor="#c0ccdd"
+        android:pathData="M96,70L96,70A26,26 0,0 1,122 96L122,96A26,26 0,0 1,96 122L96,122A26,26 0,0 1,70 96L70,96A26,26 0,0 1,96 70z"/>
+    <path
+        android:fillColor="@drawable/res_0x7f080205_ic_zillus_block_call_friend_dark__2"
+        android:pathData="M85.76,105.64C84.48,104.37 83.28,103.03 82.25,101.54C79.66,97.8 78,93.65 78,89.01C78,87.79 78.49,86.63 79.34,85.76C80.31,84.79 82.22,84 83.59,84H84.8C85.84,84 86.78,84.57 87.28,85.47L90.55,91.54C90.95,92.29 90.96,93.2 90.58,93.95L90.09,94.92C89.93,95.26 89.71,95.56 89.46,95.81L88.64,96.63C88.3,96.96 88.2,97.48 88.4,97.92C88.77,98.69 89.51,99.95 90.78,101.22C92.05,102.49 93.31,103.21 94.08,103.6C94.52,103.82 95.04,103.71 95.37,103.36L96.19,102.54C96.46,102.28 96.74,102.07 97.08,101.91L98.05,101.42C98.82,101.04 99.71,101.05 100.46,101.45L106.53,104.72C107.43,105.21 108,106.16 108,107.2V108.4C108,109.78 107.21,111.69 106.24,112.66C105.39,113.51 104.21,114 102.99,114C98.37,114 94.2,112.32 90.46,109.75C88.99,108.72 87.63,107.52 86.38,106.25L85.76,105.64Z"/>
+    <path
+        android:fillColor="@drawable/res_0x7f080206_ic_zillus_block_call_friend_dark__3"
+        android:pathData="M111,88.5C111,92.64 107.64,96 103.5,96C99.36,96 96,92.64 96,88.5C96,84.36 99.36,81 103.5,81C107.64,81 111,84.36 111,88.5ZM106.44,92.85C105.61,93.42 104.59,93.75 103.5,93.75C100.6,93.75 98.25,91.4 98.25,88.5C98.25,87.41 98.58,86.39 99.15,85.55L106.44,92.85ZM107.85,91.45L100.56,84.15C101.39,83.58 102.41,83.25 103.5,83.25C106.4,83.25 108.75,85.6 108.75,88.5C108.75,89.59 108.42,90.61 107.85,91.45Z"
+        android:fillType="evenOdd"/>
+</vector>

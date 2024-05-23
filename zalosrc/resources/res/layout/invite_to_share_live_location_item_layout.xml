@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:id="@+id/invite_share_live_location_container"
+    android:paddingLeft="@dimen/msg_item_padding_l_r"
+    android:paddingTop="@dimen/msg_item_padding_t_b"
+    android:paddingRight="@dimen/msg_item_padding_l_r"
+    android:paddingBottom="@dimen/msg_item_padding_t_b"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/avt_image_size_default">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/invite_share_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="12dp"
+        android:scaleType="fitCenter"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/icn_add_item"/>
+    <com.zing.zalo.p077ui.widget.RobotoTextView
+        android:textSize="16dp"
+        android:textColor="?attr/TextColor1"
+        android:id="@+id/invite_share_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:layout_toRightOf="@+id/invite_share_icon"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

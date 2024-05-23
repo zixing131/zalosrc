@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="?attr/bg_fixed_banner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.ZAppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        app:srcCompatEx="@drawable/notification_warning"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp">
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="?attr/TextColor1"
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/t_small"/>
+        <com.zing.zalo.p077ui.widget.RobotoTextView
+            android:textColor="@color/b60"
+            android:id="@+id/txt_action_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/t_small_m"/>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:tint="?attr/icon_02"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="8dp"
+        app:srcCompat="@drawable/zds_ic_close_line_24"/>
+</LinearLayout>
